@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import translations from './json/translations.json';
 
-// let i = Math.floor(Math.random() * translations.length);
+let i = Math.floor(Math.random() * translations.length);
 
 @Component({
   selector: 'app-flashcards',
@@ -9,14 +10,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FlashcardsComponent implements OnInit {
 
-  // prompt = translations[i].english;
-  // answer = translations[i].spanish;
-  prompt = 'i am going';
-  answer = 'voy';
+  prompt = translations[i].english;
+  answer = translations[i].spanish;
+  // prompt = 'i am going';
+  // answer = 'voy';
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit() {
   }
-
 }
