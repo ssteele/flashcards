@@ -1,0 +1,18 @@
+.flashcard {
+  color: #666;
+  font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+  font-size: 5rem;
+  height: 100%;
+  line-height: 7rem;
+
+  div::first-letter {
+    text-transform: uppercase;
+  }
+}
+
+.prompt {
+}
+
+.answer {
+  color: #696;
+}
