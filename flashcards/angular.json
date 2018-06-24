@@ -123,5 +123,10 @@
       }
     }
   },
-  "defaultProject": "flashcards"
+  "defaultProject": "flashcards",
+  "schematics": {
+    "@schematics/angular:component": {
+      "styleext": "scss"
+    }
+  }
 }
