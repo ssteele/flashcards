@@ -3,8 +3,7 @@ import { Component } from '@angular/core';
 
 import * as translations from './json/translations.json';
 
-const word = translations[0].english;
-console.log(word);
+let i = Math.floor(Math.random() * translations.length);
 
 @Component({
   selector: 'app-root',
@@ -12,6 +11,6 @@ console.log(word);
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  prompt = 'i am going';
-  answer = 'yo voy';
+  prompt = translations[i].english;
+  answer = translations[i].spanish;
 }
