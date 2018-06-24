@@ -6,4 +6,4 @@ http://localhost:4200/
 
 ##deploy
 ng build --prod --base-href=/flashcards/
-copy `dist` folder to web server
+copy `dist/flashcards` folder to web server
