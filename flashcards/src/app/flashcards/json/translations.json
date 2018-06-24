@@ -1,10 +1,14 @@
 [
   {
+    "id": 1,
     "english": "i am going",
-    "spanish": "voy"
+    "spanish": "voy",
+    "french": "je vais"
   },
   {
+    "id": 2,
     "english": "you are going",
-    "spanish": "tu vas"
+    "spanish": "tu vas",
+    "french": "tu vas"
   }
 ]
