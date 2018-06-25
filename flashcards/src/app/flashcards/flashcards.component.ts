@@ -1,8 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { Translation } from '../translation';
+import { TRANSLATIONS } from '../mock-translations';
+
 // import translations from './json/translations.json';
 
-// let i = Math.floor(Math.random() * translations.length);
 
 @Component({
   selector: 'app-flashcards',
@@ -10,12 +11,11 @@ import { Translation } from '../translation';
   styleUrls: ['./flashcards.component.scss']
 })
 export class FlashcardsComponent implements OnInit {
-  translation: Translation = {
-    id: 1,
-    english: 'i am going',
-    spanish: 'voy',
-    french: 'je vais'
-  };
+  translations = TRANSLATIONS;
+  currentTranslation: Translation;
+
+  length = this.translations.length;
+  index = 0;
 
   // prompt = translations[i].english;
   // answer = translations[i].spanish;
@@ -26,5 +26,14 @@ export class FlashcardsComponent implements OnInit {
   }
 
   ngOnInit() {
+    this.currentTranslation = this.translations[this.index];
+  }
+
+  onAdvance(index: number): void {
+    this.index = index + 1;
+    if (this.index >= this.length) {
+      this.index = 0;
+    }
+    this.currentTranslation = this.translations[this.index];
   }
 }

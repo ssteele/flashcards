@@ -1,9 +1,11 @@
-<div class="flashcard">
-  <div class="prompt">
-    {{ translation.english }}
-  </div>
+<div class="flashcard" (click)=onAdvance(index)>
+  <div class="content">
+    <div class="prompt">
+      {{ currentTranslation.english }}
+    </div>
 
-  <div class="answer">
-    {{ translation.spanish }}
+    <div class="answer">
+      {{ currentTranslation.spanish }}
+    </div>
   </div>
 </div>

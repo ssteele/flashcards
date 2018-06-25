@@ -1,8 +1,20 @@
 .flashcard {
+}
+
+.content {
+  bottom: 0;
+  height: 14rem;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: 100%;
+
   color: #666;
   font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
   font-size: 5rem;
-  height: 100%;
   line-height: 7rem;
 
   div::first-letter {
