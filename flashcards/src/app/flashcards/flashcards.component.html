@@ -1,11 +1,17 @@
 <div class="flashcard" (click)=onAdvance(index)>
   <div class="content">
-    <div class="prompt">
-      {{ currentTranslation.english }}
+    <div class="index">
+      {{ index + 1 }} of {{ length }}
     </div>
 
-    <div class="answer">
-      {{ currentTranslation.spanish }}
+    <div class="translations">
+      <div class="prompt">
+        {{ currentTranslation.english }}
+      </div>
+
+      <div class="answer" [@answerState]="answerState">
+        {{ currentTranslation.spanish }}
+      </div>
     </div>
   </div>
 </div>

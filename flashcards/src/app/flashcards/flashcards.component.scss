@@ -5,12 +5,13 @@
 .content {
   color: #666;
   font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
-  font-size: 5rem;
-  line-height: 4rem;
 
-  div {
+  .translations {
+    font-size: 5rem;
+    line-height: 4rem;
     position: absolute;
     text-align: center;
+    top: 40%;
     width: 100%;
   }
 
@@ -19,11 +20,10 @@
   }
 
   .prompt {
-    top: 40%;
+    margin-bottom: 7rem;
   }
 
   .answer {
     color: #696;
-    bottom: 40%;
   }
 }
