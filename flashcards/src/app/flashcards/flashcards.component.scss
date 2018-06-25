@@ -1,30 +1,29 @@
 .flashcard {
+  height: 100vh;
 }
 
 .content {
-  bottom: 0;
-  height: 14rem;
-  left: 0;
-  margin: auto;
-  position: absolute;
-  right: 0;
-  text-align: center;
-  top: 0;
-  width: 100%;
-
   color: #666;
   font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
   font-size: 5rem;
-  line-height: 7rem;
+  line-height: 4rem;
+
+  div {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+  }
 
   div::first-letter {
     text-transform: uppercase;
   }
-}
 
-.prompt {
-}
+  .prompt {
+    top: 40%;
+  }
 
-.answer {
-  color: #696;
+  .answer {
+    color: #696;
+    bottom: 40%;
+  }
 }
