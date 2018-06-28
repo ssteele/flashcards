@@ -27,20 +27,20 @@ export class FlashcardsComponent implements OnInit {
   translations;
   currentTranslation: Translation;
 
-  answerState = 'hidden';
-  length = TRANSLATIONS.length;
   index = 0;
+  maxFlashcards = 30;
+  answerState = 'hidden';
 
   constructor() {
   }
 
   ngOnInit() {
-    this.translations = this.shuffle(TRANSLATIONS);
+    this.translations = this.fetch(TRANSLATIONS);
     this.currentTranslation = this.translations[this.index];
   }
 
-  shuffle(array) {
-    var currentIndex = array.length, temporaryValue, randomIndex;
+  shuffle(translations: string[]): string[] {
+    let currentIndex = translations.length, temporaryValue, randomIndex;
 
     // while there remain elements to shuffle...
     while (0 !== currentIndex) {
@@ -50,12 +50,25 @@ export class FlashcardsComponent implements OnInit {
       currentIndex -= 1;
 
       // and swap it with the current element
-      temporaryValue = array[currentIndex];
-      array[currentIndex] = array[randomIndex];
-      array[randomIndex] = temporaryValue;
+      temporaryValue = translations[currentIndex];
+      translations[currentIndex] = translations[randomIndex];
+      translations[randomIndex] = temporaryValue;
     }
 
-    return array;
+    return translations;
+  }
+
+  reduce(translations: string[]): string[] {
+    if (this.maxFlashcards < translations.length) {
+      translations = translations.slice(0, this.maxFlashcards);
+    }
+    return translations;
+  }
+
+  fetch(translations): string[] {
+    // translations = this.shuffle(translations);
+    translations = this.reduce(translations);
+    return translations;
   }
 
   onAdvance(): void {
@@ -73,7 +86,7 @@ export class FlashcardsComponent implements OnInit {
   advanceCard(index: number): void {
     this.answerState = 'hidden';
     this.index = index + 1;
-    if (this.index >= this.length) {
+    if (this.index >= this.translations.length) {
       this.index = 0;
     }
     this.currentTranslation = this.translations[this.index];

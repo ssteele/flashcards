@@ -14,6 +14,24 @@ export const TRANSLATIONS: Translation[] = [
     french: 'tu vas'
   },
   {
+    tags: ['he', 'go', 'present'],
+    english: 'he goes',
+    spanish: 'el va',
+    french: 'el va'
+  },
+  {
+    tags: ['we', 'go', 'present'],
+    english: 'we go',
+    spanish: 'nosotros vamos',
+    french: 'nous allons'
+  },
+  {
+    tags: ['they', 'go', 'present'],
+    english: 'they go',
+    spanish: 'ellos van',
+    french: 'ils vont'
+  },
+  {
     tags: ['i', 'go', 'past'],
     english: 'i went',
     spanish: 'yo fuí',

@@ -1,5 +1,5 @@
 export class Translation {
-  tags: object;
+  tags: string[];
   english: string;
   spanish: string;
   french: string;
