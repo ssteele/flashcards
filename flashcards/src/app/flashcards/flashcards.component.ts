@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, HostListener } from '@angular/core';
 import { trigger, state, style, animate, transition } from '@angular/animations';
 import { Translation } from '../translation';
 import { TRANSLATIONS } from '../mock-translations';
@@ -58,11 +58,11 @@ export class FlashcardsComponent implements OnInit {
     return array;
   }
 
-  onAdvance(index: number): void {
+  onAdvance(): void {
     if ('hidden' === this.answerState) {
       this.revealAnswer();
     } else {
-      this.advanceCard(index);
+      this.advanceCard(this.index);
     }
   }
 
@@ -77,5 +77,16 @@ export class FlashcardsComponent implements OnInit {
       this.index = 0;
     }
     this.currentTranslation = this.translations[this.index];
+  }
+
+  // events
+  @HostListener('document:click', ['$event'])
+  clickout(event) {
+    this.onAdvance();
+  }
+
+  @HostListener('document:keypress', ['$event'])
+  handleKeyboardEvent(event: KeyboardEvent) {
+    this.onAdvance();
   }
 }
