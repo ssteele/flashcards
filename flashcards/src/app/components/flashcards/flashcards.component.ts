@@ -1,7 +1,7 @@
 import { Component, OnInit, HostListener } from '@angular/core';
 import { trigger, state, style, animate, transition } from '@angular/animations';
-import { Translation } from '../translation';
-import { TRANSLATIONS } from '../mock-translations';
+import { Conjugation } from '../../models/conjugation';
+import { conjugations } from '../../data/conjugations';
 
 @Component({
   selector: 'app-flashcards',
@@ -24,8 +24,8 @@ import { TRANSLATIONS } from '../mock-translations';
 })
 
 export class FlashcardsComponent implements OnInit {
-  translations;
-  currentTranslation: Translation;
+  cards;
+  currentCard: Conjugation;
 
   index = 0;
   maxFlashcards = 30;
@@ -35,12 +35,12 @@ export class FlashcardsComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.translations = this.fetch(TRANSLATIONS);
-    this.currentTranslation = this.translations[this.index];
+    this.cards = this.fetch(conjugations);
+    this.currentCard = this.cards[this.index];
   }
 
-  shuffle(translations: string[]): string[] {
-    let currentIndex = translations.length, temporaryValue, randomIndex;
+  shuffle(cards: string[]): string[] {
+    let currentIndex = cards.length, temporaryValue, randomIndex;
 
     // while there remain elements to shuffle...
     while (0 !== currentIndex) {
@@ -50,25 +50,25 @@ export class FlashcardsComponent implements OnInit {
       currentIndex -= 1;
 
       // and swap it with the current element
-      temporaryValue = translations[currentIndex];
-      translations[currentIndex] = translations[randomIndex];
-      translations[randomIndex] = temporaryValue;
+      temporaryValue = cards[currentIndex];
+      cards[currentIndex] = cards[randomIndex];
+      cards[randomIndex] = temporaryValue;
     }
 
-    return translations;
+    return cards;
   }
 
-  reduce(translations: string[]): string[] {
-    if (this.maxFlashcards < translations.length) {
-      translations = translations.slice(0, this.maxFlashcards);
+  reduce(cards: string[]): string[] {
+    if (this.maxFlashcards < cards.length) {
+      cards = cards.slice(0, this.maxFlashcards);
     }
-    return translations;
+    return cards;
   }
 
-  fetch(translations): string[] {
-    // translations = this.shuffle(translations);
-    translations = this.reduce(translations);
-    return translations;
+  fetch(cards): string[] {
+    cards = this.shuffle(cards);
+    cards = this.reduce(cards);
+    return cards;
   }
 
   onAdvance(): void {
@@ -86,10 +86,10 @@ export class FlashcardsComponent implements OnInit {
   advanceCard(index: number): void {
     this.answerState = 'hidden';
     this.index = index + 1;
-    if (this.index >= this.translations.length) {
+    if (this.index >= this.cards.length) {
       this.index = 0;
     }
-    this.currentTranslation = this.translations[this.index];
+    this.currentCard = this.cards[this.index];
   }
 
   // events

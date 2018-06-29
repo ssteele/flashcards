@@ -1,6 +1,6 @@
-import { Translation } from './translation';
+import { Conjugation } from '../models/conjugation';
 
-export const TRANSLATIONS: Translation[] = [
+export const conjugations: Conjugation[] = [
   {
     tags: ['i', 'go', 'present'],
     english: 'i go',

@@ -1,16 +1,16 @@
 <div class="flashcard">
   <div class="content">
     <div class="index">
-      {{ index + 1 }} of {{ translations.length }}
+      {{ index + 1 }} of {{ cards.length }}
     </div>
 
     <div class="translations">
       <div class="prompt">
-        {{ currentTranslation.english }}
+        {{ currentCard.english }}
       </div>
 
       <div class="answer" [@answerState]="answerState">
-        {{ currentTranslation.spanish }}
+        {{ currentCard.spanish }}
       </div>
     </div>
   </div>
