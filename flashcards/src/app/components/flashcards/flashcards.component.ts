@@ -1,7 +1,7 @@
 import { Component, OnInit, HostListener } from '@angular/core';
 import { trigger, state, style, animate, transition } from '@angular/animations';
 import { Conjugation } from '../../models/conjugation';
-import { conjugations } from '../../data/conjugations';
+import { CONJUGATIONS } from '../../data/conjugations';
 
 @Component({
   selector: 'app-flashcards',
@@ -24,8 +24,10 @@ import { conjugations } from '../../data/conjugations';
 })
 
 export class FlashcardsComponent implements OnInit {
-  cards;
-  currentCard: Conjugation;
+  tagList: string[];
+  tags: string[];
+  cards: Conjugation[];
+  card: Conjugation;
 
   index = 0;
   maxFlashcards = 30;
@@ -35,11 +37,35 @@ export class FlashcardsComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.cards = this.fetch(conjugations);
-    this.currentCard = this.cards[this.index];
+    this.tagList = this.getTags(CONJUGATIONS);
+    this.tags = [];
+
+    this.cards = this.deal(CONJUGATIONS, this.tags);
+    this.card = this.cards[this.index];
   }
 
-  shuffle(cards: string[]): string[] {
+  getTags(conjugations) {
+    // collect all tags
+    let tags = [];
+    conjugations.forEach((conjugation) => {
+      tags = tags.concat(conjugation.tags);
+    });
+
+    // filter unique tags
+    return tags.filter((tag, i, array) => {
+      return array.indexOf(tag) === i;
+    });
+  }
+
+  filter(cards: Conjugation[], filters: string[]): Conjugation[] {
+    return cards.filter(function (card) {
+      return filters.every((filter) => {                           // use `some` if inclusive filtering is desired
+        return -1 !== card.tags.indexOf(filter);
+      });
+    });
+  }
+
+  shuffle(cards: Conjugation[]): Conjugation[] {
     let currentIndex = cards.length, temporaryValue, randomIndex;
 
     // while there remain elements to shuffle...
@@ -58,14 +84,15 @@ export class FlashcardsComponent implements OnInit {
     return cards;
   }
 
-  reduce(cards: string[]): string[] {
+  reduce(cards: Conjugation[]): Conjugation[] {
     if (this.maxFlashcards < cards.length) {
       cards = cards.slice(0, this.maxFlashcards);
     }
     return cards;
   }
 
-  fetch(cards): string[] {
+  deal(cards, filters?: string[]): Conjugation[] {
+    cards = this.filter(cards, filters);
     cards = this.shuffle(cards);
     cards = this.reduce(cards);
     return cards;
@@ -89,7 +116,7 @@ export class FlashcardsComponent implements OnInit {
     if (this.index >= this.cards.length) {
       this.index = 0;
     }
-    this.currentCard = this.cards[this.index];
+    this.card = this.cards[this.index];
   }
 
   // events

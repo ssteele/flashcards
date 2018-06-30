@@ -1,16 +1,24 @@
 <div class="flashcard">
-  <div class="content">
+  <div *ngIf="cards.length" class="content">
     <div class="index">
       {{ index + 1 }} of {{ cards.length }}
     </div>
 
     <div class="translations">
       <div class="prompt">
-        {{ currentCard.english }}
+        {{ card.english }}
       </div>
 
       <div class="answer" [@answerState]="answerState">
-        {{ currentCard.spanish }}
+        {{ card.spanish }}
+      </div>
+    </div>
+  </div>
+
+  <div *ngIf="!cards.length" class="content">
+    <div class="translations">
+      <div class="prompt">
+        Nope
       </div>
     </div>
   </div>
