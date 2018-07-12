@@ -99,6 +99,7 @@ export class FlashcardsComponent implements OnInit {
   }
 
   onAdvance(): void {
+    return;
     if ('hidden' === this.answerState) {
       this.revealAnswer();
     } else {
