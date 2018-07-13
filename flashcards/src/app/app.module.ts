@@ -24,7 +24,7 @@ import { UserOptionsComponent } from './components/user-options/user-options.com
     MatButtonModule,
     MatDialogModule
   ],
-  entryComponents: [UserOptionsComponent]
+  entryComponents: [UserOptionsComponent],
   providers: [],
   bootstrap: [AppComponent]
 })
