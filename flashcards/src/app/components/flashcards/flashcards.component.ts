@@ -1,7 +1,7 @@
 import { Component, OnInit, HostListener } from '@angular/core';
 import { trigger, state, style, animate, transition } from '@angular/animations';
 import { Conjugation } from '../../models/conjugation';
-import { CONJUGATIONS } from '../../data/conjugations';
+import { ConjugationService } from '../../services/conjugation.service';
 
 @Component({
   selector: 'app-flashcards',
@@ -33,69 +33,14 @@ export class FlashcardsComponent implements OnInit {
   maxFlashcards = 30;
   answerState = 'hidden';
 
-  constructor() {
-  }
+  constructor(private conjugationService: ConjugationService) {}
 
   ngOnInit() {
-    this.tagList = this.getTags(CONJUGATIONS);
+    this.tagList = this.conjugationService.getTags();
     this.tags = [];
 
-    this.cards = this.deal(CONJUGATIONS, this.tags);
+    this.cards = this.conjugationService.get(this.maxFlashcards, this.tags);
     this.card = this.cards[this.index];
-  }
-
-  getTags(conjugations) {
-    // collect all tags
-    let tags = [];
-    conjugations.forEach((conjugation) => {
-      tags = tags.concat(conjugation.tags);
-    });
-
-    // filter unique tags
-    return tags.filter((tag, i, array) => {
-      return array.indexOf(tag) === i;
-    });
-  }
-
-  filter(cards: Conjugation[], filters: string[]): Conjugation[] {
-    return cards.filter(function (card) {
-      return filters.every((filter) => {                           // use `some` if inclusive filtering is desired
-        return -1 !== card.tags.indexOf(filter);
-      });
-    });
-  }
-
-  shuffle(cards: Conjugation[]): Conjugation[] {
-    let currentIndex = cards.length, temporaryValue, randomIndex;
-
-    // while there remain elements to shuffle...
-    while (0 !== currentIndex) {
-
-      // pick a remaining element
-      randomIndex = Math.floor(Math.random() * currentIndex);
-      currentIndex -= 1;
-
-      // and swap it with the current element
-      temporaryValue = cards[currentIndex];
-      cards[currentIndex] = cards[randomIndex];
-      cards[randomIndex] = temporaryValue;
-    }
-
-    return cards;
-  }
-
-  reduce(cards: Conjugation[]): Conjugation[] {
-    if (this.maxFlashcards < cards.length) {
-      cards = cards.slice(0, this.maxFlashcards);
-    }
-    return cards;
-  }
-
-  deal(cards, filters?: string[]): Conjugation[] {
-    cards = this.filter(cards, filters);
-    cards = this.shuffle(cards);
-    cards = this.reduce(cards);
-    return cards;
   }
 
   onAdvance(): void {
