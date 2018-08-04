@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
-import { UserOptionsComponent } from '../user-options/user-options.component';
+import { UserOptionsFormComponent } from '../user-options-form/user-options-form.component';
 
 @Component({
   selector: 'app-dialog',
@@ -14,7 +14,7 @@ export class DialogComponent implements OnInit {
   ngOnInit() {}
 
   openDialog() {
-    let dialogRef = this.dialog.open(UserOptionsComponent, {
+    let dialogRef = this.dialog.open(UserOptionsFormComponent, {
       width: '600px',
       data: 'This text is passed into the dialog!'
     });

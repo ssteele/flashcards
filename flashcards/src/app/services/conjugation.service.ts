@@ -6,7 +6,6 @@ import { CONJUGATIONS } from '../data/conjugations';
   providedIn: 'root'
 })
 export class ConjugationService {
-  tagList: string[];
   tags: string[];
   conjugations: Conjugation[];
   conjugation: Conjugation;
@@ -28,7 +27,8 @@ export class ConjugationService {
 
   filter(conjugations: Conjugation[], filters: string[]): Conjugation[] {
     return conjugations.filter(function (conjugation) {
-      return filters.every((filter) => {                           // use `some` if inclusive filtering is desired
+      // return filters.every((filter) => {                           // use `some` if inclusive filtering is desired
+      return filters.some((filter) => {                            // use `every` if exclusive filtering is desired
         return -1 !== conjugation.tags.indexOf(filter);
       });
     });

@@ -2,6 +2,7 @@ import { Component, OnInit, HostListener } from '@angular/core';
 import { trigger, state, style, animate, transition } from '@angular/animations';
 import { Conjugation } from '../../models/conjugation';
 import { ConjugationService } from '../../services/conjugation.service';
+import { FilterService } from '../../services/filter.service';
 
 @Component({
   selector: 'app-flashcards',
@@ -24,8 +25,7 @@ import { ConjugationService } from '../../services/conjugation.service';
 })
 
 export class FlashcardsComponent implements OnInit {
-  tagList: string[];
-  tags: string[];
+  filters: string[];
   cards: Conjugation[];
   card: Conjugation;
 
@@ -33,23 +33,23 @@ export class FlashcardsComponent implements OnInit {
   maxFlashcards = 30;
   answerState = 'hidden';
 
-  constructor(private conjugationService: ConjugationService) {}
+  constructor(
+    private conjugationService: ConjugationService,
+    private filterService: FilterService
+  ) {}
 
   ngOnInit() {
-    this.tagList = this.conjugationService.getTags();
-    this.tags = [];
-
-    this.cards = this.conjugationService.get(this.maxFlashcards, this.tags);
+    this.filters = this.filterService.get();
+    this.cards = this.conjugationService.get(this.maxFlashcards, this.filters);
     this.card = this.cards[this.index];
   }
 
   onAdvance(): void {
-    return;
-    if ('hidden' === this.answerState) {
-      this.revealAnswer();
-    } else {
-      this.advanceCard(this.index);
-    }
+    // if ('hidden' === this.answerState) {
+    //   this.revealAnswer();
+    // } else {
+    //   this.advanceCard(this.index);
+    // }
   }
 
   revealAnswer(): void {

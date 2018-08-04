@@ -10,14 +10,14 @@ import { MatCheckboxModule } from '@angular/material/checkbox';
 import { AppComponent } from './components/app.component';
 import { FlashcardsComponent } from './components/flashcards/flashcards.component';
 import { DialogComponent } from './components/dialog/dialog.component';
-import { UserOptionsComponent } from './components/user-options/user-options.component';
+import { UserOptionsFormComponent } from './components/user-options-form/user-options-form.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FlashcardsComponent,
     DialogComponent,
-    UserOptionsComponent
+    UserOptionsFormComponent
   ],
   imports: [
     BrowserModule,
@@ -28,7 +28,7 @@ import { UserOptionsComponent } from './components/user-options/user-options.com
     MatIconModule,
     MatCheckboxModule
   ],
-  entryComponents: [UserOptionsComponent],
+  entryComponents: [UserOptionsFormComponent],
   providers: [],
   bootstrap: [AppComponent]
 })

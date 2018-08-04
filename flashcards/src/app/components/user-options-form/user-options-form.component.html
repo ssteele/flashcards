@@ -1,0 +1,10 @@
+<h1>Filter</h1>
+
+<form #userOptionsForm="ngForm">
+  <ul>
+    <li *ngFor="let filter of filterOptions">
+      {{ filter.isChecked }}
+      <mat-checkbox class="example-margin" name="filter-options" [(ngModel)]="filter.isChecked">{{ filter.value }}</mat-checkbox>
+    </li>
+  </ul>
+</form>
