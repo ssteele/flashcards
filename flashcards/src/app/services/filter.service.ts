@@ -13,7 +13,7 @@ export class FilterService {
     // this.filters = ['present', 'imperfect'];
   }
 
-  get() {
+  public get() {
     return this.filters;
   }
 }

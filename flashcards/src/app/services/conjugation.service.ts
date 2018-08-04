@@ -12,7 +12,7 @@ export class ConjugationService {
 
   constructor() {}
 
-  getTags() {
+  public getTags() {
     // collect all tags
     let tags = [];
     CONJUGATIONS.forEach((conjugation) => {
@@ -25,7 +25,7 @@ export class ConjugationService {
     });
   }
 
-  filter(conjugations: Conjugation[], filters: string[]): Conjugation[] {
+  private filter(conjugations: Conjugation[], filters: string[]): Conjugation[] {
     return conjugations.filter(function (conjugation) {
       // return filters.every((filter) => {                           // use `some` if inclusive filtering is desired
       return filters.some((filter) => {                            // use `every` if exclusive filtering is desired
@@ -34,7 +34,7 @@ export class ConjugationService {
     });
   }
 
-  shuffle(conjugations: Conjugation[]): Conjugation[] {
+  private shuffle(conjugations: Conjugation[]): Conjugation[] {
     let currentIndex = conjugations.length, temporaryValue, randomIndex;
 
     // while there remain elements to shuffle...
@@ -53,14 +53,14 @@ export class ConjugationService {
     return conjugations;
   }
 
-  reduce(conjugations: Conjugation[], maxCount: number): Conjugation[] {
+  private reduce(conjugations: Conjugation[], maxCount: number): Conjugation[] {
     if (maxCount < conjugations.length) {
       conjugations = conjugations.slice(0, maxCount);
     }
     return conjugations;
   }
 
-  get(maxCount: number, filters?: string[]): Conjugation[] {
+  public get(maxCount: number, filters?: string[]): Conjugation[] {
     let conjugations = CONJUGATIONS;
 
     conjugations = this.filter(conjugations, filters);

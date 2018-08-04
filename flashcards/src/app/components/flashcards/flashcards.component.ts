@@ -44,7 +44,7 @@ export class FlashcardsComponent implements OnInit {
     this.card = this.cards[this.index];
   }
 
-  onAdvance(): void {
+  private onAdvance(): void {
     // if ('hidden' === this.answerState) {
     //   this.revealAnswer();
     // } else {
@@ -52,11 +52,11 @@ export class FlashcardsComponent implements OnInit {
     // }
   }
 
-  revealAnswer(): void {
+  private revealAnswer(): void {
     this.answerState = 'visible';
   }
 
-  advanceCard(index: number): void {
+  private advanceCard(index: number): void {
     this.answerState = 'hidden';
     this.index = index + 1;
     if (this.index >= this.cards.length) {

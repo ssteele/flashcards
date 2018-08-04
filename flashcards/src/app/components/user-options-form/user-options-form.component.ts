@@ -21,17 +21,17 @@ export class UserOptionsFormComponent implements OnInit {
   ngOnInit() {
     this.tags = this.conjugationService.getTags();
     this.filters = this.filterService.get();
-    this.filterOptions = this.composeFilterOptions(this.tags, this.filters);
+    this.filterOptions = this.generateFilterOptions(this.tags, this.filters);
     console.log('this.filterOptions:', this.filterOptions);
   }
 
   ngOnChanges() {
     console.log('this.filters:', this.filters);
-    this.filterOptions = this.composeFilterOptions(this.tags, this.filters);
+    this.filterOptions = this.generateFilterOptions(this.tags, this.filters);
     console.log('this.filterOptions:', this.filterOptions);
   }
 
-  composeFilterOptions(tags, filters): FilterOptions[] {
+  private generateFilterOptions(tags, filters): FilterOptions[] {
     let options = [];
     for (let tag of tags) {
       options.push({
