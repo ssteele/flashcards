@@ -27,8 +27,8 @@ export class ConjugationService {
 
   private filter(conjugations: Conjugation[], filters: string[]): Conjugation[] {
     return conjugations.filter(function (conjugation) {
-      // return filters.every((filter) => {                           // use `some` if inclusive filtering is desired
-      return filters.some((filter) => {                            // use `every` if exclusive filtering is desired
+      // return filters.every((filter) => {                            // exclusive
+      return filters.some((filter) => {                             // inclusive
         return -1 !== conjugation.tags.indexOf(filter);
       });
     });

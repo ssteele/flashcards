@@ -5,14 +5,23 @@ import { Injectable } from '@angular/core';
 })
 export class FilterService {
   filters: string[];
+  defaultFilters: string[] = ['present'];
 
   constructor() {
-    this.filters = this.fetch() || [];
+    this.filters = this.fetch() || this.defaultFilters;
   }
 
   public fetch() {
-    const filters = localStorage.getItem('filters');
-    return JSON.parse(filters) || [];
+    let response = null;
+
+    const filtersString = localStorage.getItem('filters');
+    const filtersArray = JSON.parse(filtersString);
+
+    if (filtersArray && filtersArray.length > 0) {
+      response = filtersArray;
+    }
+
+    return response;
   }
 
   public persist(filters) {
