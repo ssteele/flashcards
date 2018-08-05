@@ -34,6 +34,7 @@ export class FlashcardsComponent implements OnInit {
   index = 0;
   maxFlashcards = 30;
   answerState = 'hidden';
+  isDialogOpen = false;
 
   constructor(
     private conjugationService: ConjugationService,
@@ -52,11 +53,11 @@ export class FlashcardsComponent implements OnInit {
   }
 
   private onAdvance(): void {
-    // if ('hidden' === this.answerState) {
-    //   this.revealAnswer();
-    // } else {
-    //   this.advanceCard(this.index);
-    // }
+    if ('hidden' === this.answerState) {
+      this.revealAnswer();
+    } else {
+      this.advanceCard(this.index);
+    }
   }
 
   private revealAnswer(): void {
@@ -73,20 +74,29 @@ export class FlashcardsComponent implements OnInit {
   }
 
   openDialog() {
+    this.answerState = 'hidden';
+
     let dialogRef = this.dialog.open(UserOptionsFormComponent, {});
+    this.isDialogOpen = true;
+
     dialogRef.afterClosed().subscribe((result) => {
       this.getFlashcards();
+      this.isDialogOpen = false;
     });
   }
 
   // events
   @HostListener('document:click', ['$event'])
   clickout(event) {
-    this.onAdvance();
+    if (!this.isDialogOpen) {
+      this.onAdvance();
+    }
   }
 
   @HostListener('document:keypress', ['$event'])
   handleKeyboardEvent(event: KeyboardEvent) {
-    this.onAdvance();
+    if (!this.isDialogOpen) {
+      this.onAdvance();
+    }
   }
 }
