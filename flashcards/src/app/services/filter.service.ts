@@ -16,4 +16,14 @@ export class FilterService {
   public get() {
     return this.filters;
   }
+
+  public setFilter(filter, isChecked) {
+    const index = this.filters.indexOf(filter);
+    if (isChecked && -1 === index) {
+      this.filters.push(filter);
+    } else if (!isChecked && -1 !== index) {
+      this.filters.splice(index, 1);
+    }
+    return this.filters;
+  }
 }

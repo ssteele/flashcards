@@ -1,4 +1,4 @@
-import { Component, OnInit, OnChanges, Input } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { FilterOptions } from '../../models/filter-options';
 import { ConjugationService } from '../../services/conjugation.service';
 import { FilterService } from '../../services/filter.service';
@@ -11,7 +11,7 @@ import { FilterService } from '../../services/filter.service';
 export class UserOptionsFormComponent implements OnInit {
   tags: string[];
   filters: string[];
-  @Input() filterOptions: FilterOptions[];
+  filterOptions: FilterOptions[];
 
   constructor(
     private conjugationService: ConjugationService,
@@ -22,13 +22,11 @@ export class UserOptionsFormComponent implements OnInit {
     this.tags = this.conjugationService.getTags();
     this.filters = this.filterService.get();
     this.filterOptions = this.generateFilterOptions(this.tags, this.filters);
-    console.log('this.filterOptions:', this.filterOptions);
   }
 
-  ngOnChanges() {
-    console.log('this.filters:', this.filters);
+  public onChange(value, isChecked) {
+    this.filters = this.filterService.setFilter(value, isChecked);
     this.filterOptions = this.generateFilterOptions(this.tags, this.filters);
-    console.log('this.filterOptions:', this.filterOptions);
   }
 
   private generateFilterOptions(tags, filters): FilterOptions[] {
