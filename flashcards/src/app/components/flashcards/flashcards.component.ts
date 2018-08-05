@@ -39,6 +39,10 @@ export class FlashcardsComponent implements OnInit {
   ) {}
 
   ngOnInit() {
+    this.getFlashcards();
+  }
+
+  public getFlashcards() {
     this.filters = this.filterService.get();
     this.cards = this.conjugationService.get(this.maxFlashcards, this.filters);
     this.card = this.cards[this.index];
