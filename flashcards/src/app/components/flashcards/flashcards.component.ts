@@ -3,6 +3,8 @@ import { trigger, state, style, animate, transition } from '@angular/animations'
 import { Conjugation } from '../../models/conjugation';
 import { ConjugationService } from '../../services/conjugation.service';
 import { FilterService } from '../../services/filter.service';
+import { MatDialog } from '@angular/material/dialog';
+import { UserOptionsFormComponent } from '../user-options-form/user-options-form.component';
 
 @Component({
   selector: 'app-flashcards',
@@ -35,7 +37,8 @@ export class FlashcardsComponent implements OnInit {
 
   constructor(
     private conjugationService: ConjugationService,
-    private filterService: FilterService
+    private filterService: FilterService,
+    public dialog: MatDialog
   ) {}
 
   ngOnInit() {
@@ -67,6 +70,13 @@ export class FlashcardsComponent implements OnInit {
       this.index = 0;
     }
     this.card = this.cards[this.index];
+  }
+
+  openDialog() {
+    let dialogRef = this.dialog.open(UserOptionsFormComponent, {});
+    dialogRef.afterClosed().subscribe((result) => {
+      this.getFlashcards();
+    });
   }
 
   // events
