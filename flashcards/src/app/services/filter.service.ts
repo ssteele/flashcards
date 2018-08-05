@@ -7,10 +7,16 @@ export class FilterService {
   filters: string[];
 
   constructor() {
-    // @TODO: fetch stored filters
-    // this.filters = [];
-    this.filters = ['present'];
-    // this.filters = ['present', 'imperfect'];
+    this.filters = this.fetch() || [];
+  }
+
+  public fetch() {
+    const filters = localStorage.getItem('filters');
+    return JSON.parse(filters) || [];
+  }
+
+  public persist(filters) {
+    localStorage.setItem('filters', JSON.stringify(filters));
   }
 
   public get() {
@@ -19,11 +25,14 @@ export class FilterService {
 
   public setFilter(filter, isChecked) {
     const index = this.filters.indexOf(filter);
+
     if (isChecked && -1 === index) {
       this.filters.push(filter);
     } else if (!isChecked && -1 !== index) {
       this.filters.splice(index, 1);
     }
+    this.persist(this.filters);
+
     return this.filters;
   }
 }
