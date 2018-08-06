@@ -1,16 +1,22 @@
-<h1>Filter</h1>
+<h2 mat-dialog-title>Filters</h2>
 
 <form>
-  <ul>
-    <li *ngFor="let filter of filterOptions">
-      <mat-checkbox
-        class="example-margin"
-        name="{{ filter.value }}"
-        [ngModel]="filter.isChecked"
-        (ngModelChange)="onChange(filter.value, $event)"
-      >
-        {{ filter.value }}
-      </mat-checkbox>
-    </li>
-  </ul>
+  <mat-dialog-content>
+    <ul>
+      <li *ngFor="let filter of filterOptions">
+        <mat-checkbox
+          class="example-margin"
+          name="{{ filter.value }}"
+          [ngModel]="filter.isChecked"
+          (ngModelChange)="onFilterChange(filter.value, $event)"
+        >
+          {{ filter.value }}
+        </mat-checkbox>
+      </li>
+    </ul>
+  </mat-dialog-content>
+
+  <mat-dialog-actions>
+    <button mat-button [mat-dialog-close]="isFormDirty">Save</button>
+  </mat-dialog-actions>
 </form>

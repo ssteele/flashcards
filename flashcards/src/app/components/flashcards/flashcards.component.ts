@@ -47,6 +47,7 @@ export class FlashcardsComponent implements OnInit {
   }
 
   public getFlashcards() {
+    this.index = 0;
     this.filters = this.filterService.get();
     this.cards = this.conjugationService.get(this.maxFlashcards, this.filters);
     this.card = this.cards[this.index];
@@ -76,11 +77,13 @@ export class FlashcardsComponent implements OnInit {
   openDialog() {
     this.answerState = 'hidden';
 
-    let dialogRef = this.dialog.open(UserOptionsFormComponent, {});
+    let dialogRef = this.dialog.open(UserOptionsFormComponent, {disableClose: true});
     this.isDialogOpen = true;
 
-    dialogRef.afterClosed().subscribe((result) => {
-      this.getFlashcards();
+    dialogRef.afterClosed().subscribe((isFormDirty) => {
+      if (isFormDirty) {
+        this.getFlashcards();
+      }
       this.isDialogOpen = false;
     });
   }

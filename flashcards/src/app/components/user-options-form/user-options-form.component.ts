@@ -12,6 +12,7 @@ export class UserOptionsFormComponent implements OnInit {
   tags: string[];
   filters: string[];
   filterOptions: FilterOptions[];
+  isFormDirty: boolean = false;
 
   constructor(
     private conjugationService: ConjugationService,
@@ -24,9 +25,10 @@ export class UserOptionsFormComponent implements OnInit {
     this.filterOptions = this.generateFilterOptions(this.tags, this.filters);
   }
 
-  public onChange(value, isChecked) {
+  public onFilterChange(value, isChecked) {
     this.filters = this.filterService.setFilter(value, isChecked);
     this.filterOptions = this.generateFilterOptions(this.tags, this.filters);
+    this.isFormDirty = true;
   }
 
   private generateFilterOptions(tags, filters): FilterOptions[] {
