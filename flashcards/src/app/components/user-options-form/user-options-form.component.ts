@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { FilterOptions } from '../../models/filter-options';
 import { ConjugationService } from '../../services/conjugation.service';
 import { FilterService } from '../../services/filter.service';
+import { SettingsService } from '../../services/settings.service';
 
 @Component({
   selector: 'app-user-options-form',
@@ -12,23 +13,30 @@ export class UserOptionsFormComponent implements OnInit {
   tags: string[];
   filters: string[];
   filterOptions: FilterOptions[];
+  isNightMode: boolean;
   isFormDirty: boolean = false;
 
   constructor(
     private conjugationService: ConjugationService,
-    private filterService: FilterService
+    private filterService: FilterService,
+    private settingsService: SettingsService
   ) {}
 
   ngOnInit() {
     this.tags = this.conjugationService.getTags();
     this.filters = this.filterService.get();
     this.filterOptions = this.generateFilterOptions(this.tags, this.filters);
+    this.isNightMode = this.settingsService.getNightMode();
   }
 
   public onFilterChange(value, isChecked) {
     this.filters = this.filterService.setFilter(value, isChecked);
     this.filterOptions = this.generateFilterOptions(this.tags, this.filters);
     this.isFormDirty = true;
+  }
+
+  public onNightModeChange(isChecked) {
+    this.isNightMode = this.settingsService.setNightMode(isChecked);
   }
 
   private generateFilterOptions(tags, filters): FilterOptions[] {

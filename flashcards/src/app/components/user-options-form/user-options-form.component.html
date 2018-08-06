@@ -1,11 +1,10 @@
-<h2 mat-dialog-title>Filters</h2>
-
 <form>
   <mat-dialog-content>
+    <h3 mat-dialog-title>Filters</h3>
+
     <ul>
       <li *ngFor="let filter of filterOptions">
         <mat-checkbox
-          class="example-margin"
           name="{{ filter.value }}"
           [ngModel]="filter.isChecked"
           (ngModelChange)="onFilterChange(filter.value, $event)"
@@ -14,9 +13,25 @@
         </mat-checkbox>
       </li>
     </ul>
+
+    <h3 mat-dialog-title>Other</h3>
+
+    <mat-slide-toggle
+      name="isNightMode"
+      [ngModel]="isNightMode"
+      (ngModelChange)="onNightModeChange($event)"
+    >
+      Night mode
+    </mat-slide-toggle>
   </mat-dialog-content>
 
   <mat-dialog-actions>
-    <button mat-button [mat-dialog-close]="isFormDirty">Save</button>
+    <button
+      mat-raised-button
+      color="accent"
+      [mat-dialog-close]="isFormDirty"
+    >
+      Save
+    </button>
   </mat-dialog-actions>
 </form>

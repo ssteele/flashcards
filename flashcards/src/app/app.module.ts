@@ -5,7 +5,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatCardModule } from '@angular/material/card';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatIconModule } from '@angular/material/icon';
+import { MatButtonModule } from '@angular/material/button';
 import { MatCheckboxModule } from '@angular/material/checkbox';
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 
 import { AppComponent } from './components/app.component';
 import { FlashcardsComponent } from './components/flashcards/flashcards.component';
@@ -24,7 +26,9 @@ import { UserOptionsFormComponent } from './components/user-options-form/user-op
     MatCardModule,
     MatDialogModule,
     MatIconModule,
-    MatCheckboxModule
+    MatButtonModule,
+    MatCheckboxModule,
+    MatSlideToggleModule
   ],
   entryComponents: [UserOptionsFormComponent],
   providers: [],
