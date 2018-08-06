@@ -1,4 +1,5 @@
 import { Injectable } from '@angular/core';
+import { StoreService } from '../services/store.service';
 
 @Injectable({
   providedIn: 'root'
@@ -6,21 +7,15 @@ import { Injectable } from '@angular/core';
 export class SettingsService {
   private isNightMode: boolean;
 
-  constructor() {
-    this.isNightMode = this.fetch('isNightMode') || false;
-  }
-
-  private fetch(setting) {
-    return JSON.parse(localStorage.getItem(setting));
-  }
-
-  private persist(setting, value) {
-    localStorage.setItem(setting, JSON.stringify(value));
+  constructor(
+    private storeService: StoreService
+  ) {
+    this.isNightMode = this.storeService.fetch('isNightMode') || false;
   }
 
   public setNightMode(isChecked) {
     this.isNightMode = isChecked;
-    this.persist('isNightMode', this.isNightMode);
+    this.storeService.persist('isNightMode', this.isNightMode);
 
     return this.isNightMode;
   }

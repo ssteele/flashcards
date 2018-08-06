@@ -1,4 +1,5 @@
 import { Injectable } from '@angular/core';
+import { StoreService } from '../services/store.service';
 
 @Injectable({
   providedIn: 'root'
@@ -9,21 +10,23 @@ export class VersionService {
     'filters',
   ];
 
-  constructor() {}
+  constructor(
+    private storeService: StoreService
+  ) {}
 
   public initialize() {
-    const storedVersion = JSON.parse(localStorage.getItem('version'));
+    const storedVersion = this.storeService.fetch('version');
 
     if (storedVersion !== this.version) {
       this.clearStoredFields(this.resetFields);
     }
 
-    localStorage.setItem('version', JSON.stringify(this.version));
+    this.storeService.persist('version', this.version);
   }
 
   private clearStoredFields(fields) {
     for (let field of fields) {
-      localStorage.removeItem(field);
+      this.storeService.delete(field);
     }
   }
 }

@@ -1,4 +1,5 @@
 import { Injectable } from '@angular/core';
+import { StoreService } from '../services/store.service';
 
 @Injectable({
   providedIn: 'root'
@@ -7,14 +8,16 @@ export class FilterService {
   filters: string[];
   defaultFilters: string[] = ['present'];
 
-  constructor() {
+  constructor(
+    private storeService: StoreService
+  ) {
     this.filters = this.fetch() || this.defaultFilters;
   }
 
   public fetch() {
     let response = null;
 
-    const filtersString = localStorage.getItem('filters');
+    const filtersString = this.storeService.fetch('filters');
     const filtersArray = JSON.parse(filtersString);
 
     if (filtersArray && filtersArray.length > 0) {
@@ -25,7 +28,7 @@ export class FilterService {
   }
 
   public persist(filters) {
-    localStorage.setItem('filters', JSON.stringify(filters));
+    this.storeService.persist('filters', filters);
   }
 
   public get() {
