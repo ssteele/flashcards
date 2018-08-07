@@ -5,6 +5,7 @@ import { ConjugationService } from '../../services/conjugation.service';
 import { FilterService } from '../../services/filter.service';
 import { MatDialog } from '@angular/material/dialog';
 import { UserOptionsFormComponent } from '../user-options-form/user-options-form.component';
+import { StoreService } from '../../services/store.service';
 
 @Component({
   selector: 'app-flashcards',
@@ -39,17 +40,33 @@ export class FlashcardsComponent implements OnInit {
   constructor(
     private conjugationService: ConjugationService,
     private filterService: FilterService,
+    private storeService: StoreService,
     public dialog: MatDialog
   ) {}
 
   ngOnInit() {
-    this.getFlashcards();
+    this.renderFlashcards();
   }
 
-  public getFlashcards() {
-    this.index = 0;
+  private getFlashcards() {
     this.filters = this.filterService.get();
+    this.index = 0;
+
     this.cards = this.conjugationService.get(this.maxFlashcards, this.filters);
+    this.storeService.persist('cards', this.cards);
+
+    this.card = this.cards[this.index];
+    this.storeService.persist('cardIndex', this.index);
+
+    return this.cards;
+  }
+
+  public async renderFlashcards() {
+    this.index = this.storeService.fetch('cardIndex') || 0;
+    this.cards = this.storeService.fetch('cards');
+    if (!this.cards) {
+      this.cards = await this.getFlashcards();
+    }
     this.card = this.cards[this.index];
   }
 
@@ -71,6 +88,7 @@ export class FlashcardsComponent implements OnInit {
     if (this.index >= this.cards.length) {
       this.index = 0;
     }
+    this.storeService.persist('cardIndex', this.index);
     this.card = this.cards[this.index];
   }
 
