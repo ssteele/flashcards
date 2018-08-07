@@ -17,11 +17,10 @@ export class FilterService {
   public fetch() {
     let response = null;
 
-    const filtersString = this.storeService.fetch('filters');
-    const filtersArray = JSON.parse(filtersString);
+    const filters = this.storeService.fetch('filters');
 
-    if (filtersArray && filtersArray.length > 0) {
-      response = filtersArray;
+    if (filters && filters.length > 0) {
+      response = filters;
     }
 
     return response;
