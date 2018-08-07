@@ -31,3 +31,24 @@ body {
     cursor: pointer;
   }
 }
+
+// temporary
+body {
+  background: #000;
+
+  #container.night-mode {
+    background: #000;
+
+    .gear {
+      color: #333;
+    }
+
+    .content {
+      color: #333;
+
+      .answer {
+        color: #600;
+      }
+    }
+  }
+}

@@ -8,7 +8,7 @@ import { SettingsService } from '../services/settings.service';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
-  private isNightMode: boolean;
+  public isNightMode: boolean;
 
   constructor(
     private versionService: VersionService,
