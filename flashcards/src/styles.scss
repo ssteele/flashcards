@@ -2,11 +2,18 @@
 
 html,
 body {
-  background: #000;;
   font-size: 16px;
   height: 100%;
   margin: 0;
   padding: 0;
+}
+
+html {
+  background: #000;;
+}
+
+body {
+  background: #eee;
 }
 
 ul {
@@ -46,6 +53,10 @@ ul {
   justify-content: center;
 }
 
-#container.night-mode .content .answer {
-  color: #900;
+#container.night-mode {
+  background: #000;
+
+  .content .answer {
+    color: #900;
+  }
 }
