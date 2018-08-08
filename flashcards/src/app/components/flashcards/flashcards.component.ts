@@ -107,15 +107,15 @@ export class FlashcardsComponent implements OnInit {
   }
 
   // events
-  @HostListener('document:click', ['$event'])
-  clickout(event) {
+  @HostListener('document:tap', ['$event'])
+  onTap(event) {
     if (!this.isDialogOpen) {
       this.onAdvance();
     }
   }
 
   @HostListener('document:keypress', ['$event'])
-  handleKeyboardEvent(event: KeyboardEvent) {
+  onKeypress(event: KeyboardEvent) {
     if (!this.isDialogOpen) {
       this.onAdvance();
     }
