@@ -16,19 +16,23 @@
 
     <h3 mat-dialog-title>Other</h3>
 
-    <mat-slide-toggle
-      name="isNightMode"
-      [ngModel]="isNightMode"
-      (ngModelChange)="onNightModeChange($event)"
-    >
-      Night mode
-    </mat-slide-toggle>
+    <ul>
+      <li>
+        <mat-slide-toggle
+          name="isNightMode"
+          [ngModel]="isNightMode"
+          (ngModelChange)="onNightModeChange($event)"
+        >
+          Night mode
+        </mat-slide-toggle>
+      </li>
+    </ul>
   </mat-dialog-content>
 
-  <mat-dialog-actions>
+  <mat-dialog-actions class="centered">
     <button
       mat-raised-button
-      color="accent"
+      color="primary"
       [mat-dialog-close]="isFormDirty"
     >
       Save

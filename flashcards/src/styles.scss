@@ -1,8 +1,18 @@
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
 
+html,
 body {
-  background: #eee;
+  background: #000;;
   font-size: 16px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 1rem 1rem;
 }
 
 .material-icons {
@@ -32,15 +42,10 @@ body {
   }
 }
 
-// temporary
-body {
-  background: #000;
+.centered {
+  justify-content: center;
+}
 
-  #container.night-mode {
-    background: #000;
-
-    .content .answer {
-        color: #900;
-    }
-  }
+#container.night-mode .content .answer {
+  color: #900;
 }

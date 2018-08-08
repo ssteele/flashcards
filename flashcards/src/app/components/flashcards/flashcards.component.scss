@@ -1,5 +1,17 @@
-.flashcard {
-  // height: 100vh;
+.flashcard {}
+
+.icons > div {
+  position: absolute;
+}
+
+.settings {
+  left: 18px;
+  top: 18px;
+}
+
+.refresh {
+  right: 18px;
+  top: 18px;
 }
 
 .icon {
@@ -9,13 +21,11 @@
 .content {
   color: #666;
   font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+  margin-top: 40%;
 
   .translations {
-    font-size: 5rem;
-    line-height: 4rem;
-    // position: absolute;
+    font-size: 3rem;
     text-align: center;
-    // top: 40%;
     width: 100%;
   }
 
@@ -24,10 +34,16 @@
   }
 
   .prompt {
-    margin-bottom: 7rem;
+    margin-bottom: 2rem;
   }
 
   .answer {
     color: #696;
+  }
+
+  .index {
+    bottom: 18px;
+    position: absolute;
+    right: 18px;
   }
 }
