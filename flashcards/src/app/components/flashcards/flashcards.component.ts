@@ -48,7 +48,7 @@ export class FlashcardsComponent implements OnInit {
     this.renderFlashcards();
   }
 
-  private getFlashcards() {
+  public getFlashcards() {
     this.answerState = 'hidden';
 
     this.filters = this.filterService.get();
