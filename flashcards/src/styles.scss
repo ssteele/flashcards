@@ -39,16 +39,8 @@ body {
   #container.night-mode {
     background: #000;
 
-    .gear {
-      color: #333;
-    }
-
-    .content {
-      color: #333;
-
-      .answer {
-        color: #600;
-      }
+    .content .answer {
+        color: #900;
     }
   }
 }

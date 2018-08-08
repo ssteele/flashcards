@@ -1,13 +1,15 @@
-<div class="modal">
-  <i class="material-icons md-48 md-clickable gear" (click)="openDialog()">settings</i>
+<div class="icons">
+  <div class="settings">
+    <i class="material-icons md-48 md-clickable icon" (click)="openDialog()">settings</i>
+  </div>
+
+  <div class="refresh">
+    <i class="material-icons md-48 md-clickable icon" (click)="getFlashcards()">filter_none</i>
+  </div>
 </div>
 
 <div class="flashcard">
   <div *ngIf="cards.length" class="content">
-    <div class="index">
-      {{ index + 1 }} of {{ cards.length }}
-    </div>
-
     <div class="translations">
       <div class="prompt">
         {{ card.english }}
@@ -16,6 +18,10 @@
       <div class="answer" [@answerState]="answerState">
         {{ card.spanish }}
       </div>
+    </div>
+
+    <div class="index">
+      {{ index + 1 }} of {{ cards.length }}
     </div>
   </div>
 

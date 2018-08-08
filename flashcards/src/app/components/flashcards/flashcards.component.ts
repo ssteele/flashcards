@@ -35,7 +35,7 @@ export class FlashcardsComponent implements OnInit {
   index = 0;
   maxFlashcards = 30;
   answerState = 'hidden';
-  isDialogOpen = false;
+  suppressAnswer = false;
 
   constructor(
     private conjugationService: ConjugationService,
@@ -49,6 +49,8 @@ export class FlashcardsComponent implements OnInit {
   }
 
   private getFlashcards() {
+    this.answerState = 'hidden';
+
     this.filters = this.filterService.get();
     this.index = 0;
 
@@ -62,6 +64,8 @@ export class FlashcardsComponent implements OnInit {
   }
 
   public async renderFlashcards() {
+    this.answerState = 'hidden';
+
     this.index = this.storeService.fetch('cardIndex') || 0;
     this.cards = this.storeService.fetch('cards');
     if (!this.cards) {
@@ -96,27 +100,27 @@ export class FlashcardsComponent implements OnInit {
     this.answerState = 'hidden';
 
     let dialogRef = this.dialog.open(UserOptionsFormComponent, {disableClose: true});
-    this.isDialogOpen = true;
+    this.suppressAnswer = true;
 
     dialogRef.afterClosed().subscribe((isFormDirty) => {
       if (isFormDirty) {
         this.getFlashcards();
       }
-      this.isDialogOpen = false;
+      this.suppressAnswer = false;
     });
   }
 
   // events
   @HostListener('document:tap', ['$event'])
   onTap(event) {
-    if (!this.isDialogOpen) {
+    if (!this.suppressAnswer) {
       this.onAdvance();
     }
   }
 
   @HostListener('document:keypress', ['$event'])
   onKeypress(event: KeyboardEvent) {
-    if (!this.isDialogOpen) {
+    if (!this.suppressAnswer) {
       this.onAdvance();
     }
   }
