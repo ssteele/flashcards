@@ -5,6 +5,7 @@ import { ConjugationService } from '../../services/conjugation.service';
 import { FilterService } from '../../services/filter.service';
 import { MatDialog } from '@angular/material/dialog';
 import { UserOptionsFormComponent } from '../user-options-form/user-options-form.component';
+import { SettingsService } from '../../services/settings.service';
 import { StoreService } from '../../services/store.service';
 
 @Component({
@@ -32,19 +33,21 @@ export class FlashcardsComponent implements OnInit {
   cards: Conjugation[];
   card: Conjugation;
 
-  index = 0;
-  maxFlashcards = 30;
-  answerState = 'hidden';
-  suppressAnswer = false;
+  index: number = 0;
+  maxFlashcards: number;
+  answerState: string = 'hidden';
+  suppressAnswer: boolean = false;
 
   constructor(
+    private storeService: StoreService,
+    private settingsService: SettingsService,
     private conjugationService: ConjugationService,
     private filterService: FilterService,
-    private storeService: StoreService,
     public dialog: MatDialog
   ) {}
 
   ngOnInit() {
+    this.maxFlashcards = this.settingsService.getMaxFlashcards();
     this.renderFlashcards();
   }
 

@@ -13,6 +13,8 @@ export class UserOptionsFormComponent implements OnInit {
   tags: string[];
   filters: string[];
   filterOptions: FilterOptions[];
+  maxFlashcards: number;
+  maxFlashcardsOptions: number[];
   isNightMode: boolean;
   isFormDirty: boolean = false;
 
@@ -26,6 +28,8 @@ export class UserOptionsFormComponent implements OnInit {
     this.tags = this.conjugationService.getTags();
     this.filters = this.filterService.get();
     this.filterOptions = this.generateFilterOptions(this.tags, this.filters);
+    this.maxFlashcards = this.settingsService.getMaxFlashcards();
+    this.maxFlashcardsOptions = this.settingsService.getMaxFlashcardsOptions();
     this.isNightMode = this.settingsService.getNightMode();
   }
 
@@ -33,6 +37,10 @@ export class UserOptionsFormComponent implements OnInit {
     this.filters = this.filterService.setFilter(value, isChecked);
     this.filterOptions = this.generateFilterOptions(this.tags, this.filters);
     this.isFormDirty = true;
+  }
+
+  public onMaxFlashcardsChange(count) {
+    this.maxFlashcards = this.settingsService.setMaxFlashcards(count);
   }
 
   public onNightModeChange(isChecked) {

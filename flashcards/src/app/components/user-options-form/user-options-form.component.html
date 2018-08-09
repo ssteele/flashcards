@@ -17,7 +17,24 @@
     <h3 mat-dialog-title>Other</h3>
 
     <ul>
-      <li>
+      <li class="individual-option">
+        <mat-select
+          [(value)]="maxFlashcards"
+          placeholder="Cards per deck"
+          name="maxFlashcards"
+          [ngModel]="maxFlashcards"
+          (ngModelChange)="onMaxFlashcardsChange($event)"
+        >
+          <mat-option
+            *ngFor="let option of maxFlashcardsOptions"
+            [value]="option"
+          >
+            {{ option }} cards per deck
+          </mat-option>
+        </mat-select>
+      </li>
+
+      <li class="individual-option">
         <mat-slide-toggle
           name="isNightMode"
           [ngModel]="isNightMode"
