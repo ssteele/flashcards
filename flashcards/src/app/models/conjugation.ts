@@ -2,6 +2,7 @@ export class Conjugation {
   verb: string;
   tense: string;
   subject: string;
+  level: string;
   tags: string[];
   english: string;
   spanish: string;

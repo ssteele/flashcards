@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FilterOptions } from '../../models/filter-options';
+import { FormFilterOptions } from '../../models/form-filter-options';
 import { ConjugationService } from '../../services/conjugation.service';
 import { FilterService } from '../../services/filter.service';
 import { SettingsService } from '../../services/settings.service';
@@ -10,9 +10,9 @@ import { SettingsService } from '../../services/settings.service';
   styleUrls: ['./user-options-form.component.scss']
 })
 export class UserOptionsFormComponent implements OnInit {
-  tags: string[];
-  filters: string[];
-  filterOptions: FilterOptions[];
+  availableFilters: string[];
+  selectedFilters: string[];
+  formFilterOptions: FormFilterOptions[];
   maxFlashcards: number;
   maxFlashcardsOptions: number[];
   isNightMode: boolean;
@@ -25,17 +25,17 @@ export class UserOptionsFormComponent implements OnInit {
   ) {}
 
   ngOnInit() {
-    this.tags = this.conjugationService.getTags();
-    this.filters = this.filterService.get();
-    this.filterOptions = this.generateFilterOptions(this.tags, this.filters);
+    this.availableFilters = this.conjugationService.getFilters();
+    this.selectedFilters = this.filterService.get();
+    this.formFilterOptions = this.generateFormFilterOptions(this.availableFilters, this.selectedFilters);
     this.maxFlashcards = this.settingsService.getMaxFlashcards();
     this.maxFlashcardsOptions = this.settingsService.getMaxFlashcardsOptions();
     this.isNightMode = this.settingsService.getNightMode();
   }
 
   public onFilterChange(value, isChecked) {
-    this.filters = this.filterService.setFilter(value, isChecked);
-    this.filterOptions = this.generateFilterOptions(this.tags, this.filters);
+    this.selectedFilters = this.filterService.setFilter(value, isChecked);
+    this.formFilterOptions = this.generateFormFilterOptions(this.availableFilters, this.selectedFilters);
     this.isFormDirty = true;
   }
 
@@ -47,12 +47,12 @@ export class UserOptionsFormComponent implements OnInit {
     this.isNightMode = this.settingsService.setNightMode(isChecked);
   }
 
-  private generateFilterOptions(tags, filters): FilterOptions[] {
+  private generateFormFilterOptions(availableFilters, selectedFilters): FormFilterOptions[] {
     let options = [];
-    for (let tag of tags) {
+    for (let availableFilter of availableFilters) {
       options.push({
-        'value': tag,
-        'isChecked': (-1 !== filters.indexOf(tag)) ? true : false
+        'value': availableFilter,
+        'isChecked': (-1 !== selectedFilters.indexOf(availableFilter)) ? true : false
       });
     }
     return options;

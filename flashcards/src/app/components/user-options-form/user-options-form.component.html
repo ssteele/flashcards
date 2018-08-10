@@ -3,7 +3,7 @@
     <h3 mat-dialog-title>Filters</h3>
 
     <ul>
-      <li *ngFor="let filter of filterOptions">
+      <li *ngFor="let filter of formFilterOptions">
         <mat-checkbox
           name="{{ filter.value }}"
           [ngModel]="filter.isChecked"

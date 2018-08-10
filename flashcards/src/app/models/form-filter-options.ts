@@ -1,4 +1,4 @@
-export class FilterOptions {
+export class FormFilterOptions {
   value: string;
   isChecked: boolean;
 }

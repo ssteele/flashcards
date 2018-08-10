@@ -2,4623 +2,5043 @@ import { Conjugation } from '../models/conjugation';
 
 export const CONJUGATIONS: Conjugation[] = [
   {
+    "spanish": "soy", 
+    "level": "1", 
+    "verb": "be", 
+    "tense": "present", 
     "tags": [
       "present"
-    ],
-    "spanish": "soy",
-    "french": ".",
-    "verb": "be",
-    "tense": "present",
-    "english": "i am",
+    ], 
+    "english": "i am", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "eres", 
+    "level": "1", 
+    "verb": "be", 
+    "tense": "present", 
     "tags": [
       "present"
-    ],
-    "spanish": "eres",
-    "french": ".",
-    "verb": "be",
-    "tense": "present",
-    "english": "you are",
+    ], 
+    "english": "you are", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "es", 
+    "level": "1", 
+    "verb": "be", 
+    "tense": "present", 
     "tags": [
       "present"
-    ],
-    "spanish": "es",
-    "french": ".",
-    "verb": "be",
-    "tense": "present",
-    "english": "he is",
+    ], 
+    "english": "he is", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "somos", 
+    "level": "1", 
+    "verb": "be", 
+    "tense": "present", 
     "tags": [
       "present"
-    ],
-    "spanish": "somos",
-    "french": ".",
-    "verb": "be",
-    "tense": "present",
-    "english": "we are",
+    ], 
+    "english": "we are", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "son", 
+    "level": "1", 
+    "verb": "be", 
+    "tense": "present", 
     "tags": [
       "present"
-    ],
-    "spanish": "son",
-    "french": ".",
-    "verb": "be",
-    "tense": "present",
-    "english": "they are",
+    ], 
+    "english": "they are", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "seré", 
+    "level": "1", 
+    "verb": "be", 
+    "tense": "future", 
     "tags": [
       "future"
-    ],
-    "spanish": "seré",
-    "french": ".",
-    "verb": "be",
-    "tense": "future",
-    "english": "i will be",
+    ], 
+    "english": "i will be", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "serás", 
+    "level": "1", 
+    "verb": "be", 
+    "tense": "future", 
     "tags": [
       "future"
-    ],
-    "spanish": "serás",
-    "french": ".",
-    "verb": "be",
-    "tense": "future",
-    "english": "you will be",
+    ], 
+    "english": "you will be", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "será", 
+    "level": "1", 
+    "verb": "be", 
+    "tense": "future", 
     "tags": [
       "future"
-    ],
-    "spanish": "será",
-    "french": ".",
-    "verb": "be",
-    "tense": "future",
-    "english": "he will be",
+    ], 
+    "english": "he will be", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "seremos", 
+    "level": "1", 
+    "verb": "be", 
+    "tense": "future", 
     "tags": [
       "future"
-    ],
-    "spanish": "seremos",
-    "french": ".",
-    "verb": "be",
-    "tense": "future",
-    "english": "we will be",
+    ], 
+    "english": "we will be", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "serán", 
+    "level": "1", 
+    "verb": "be", 
+    "tense": "future", 
     "tags": [
       "future"
-    ],
-    "spanish": "serán",
-    "french": ".",
-    "verb": "be",
-    "tense": "future",
-    "english": "they will be",
+    ], 
+    "english": "they will be", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "era", 
+    "level": "1", 
+    "verb": "be", 
+    "tense": "imperfect", 
     "tags": [
       "imperfect"
-    ],
-    "spanish": "era",
-    "french": ".",
-    "verb": "be",
-    "tense": "imperfect",
-    "english": "i used to be",
+    ], 
+    "english": "i used to be", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "eras", 
+    "level": "1", 
+    "verb": "be", 
+    "tense": "imperfect", 
     "tags": [
       "imperfect"
-    ],
-    "spanish": "eras",
-    "french": ".",
-    "verb": "be",
-    "tense": "imperfect",
-    "english": "you used to be",
+    ], 
+    "english": "you used to be", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "era", 
+    "level": "1", 
+    "verb": "be", 
+    "tense": "imperfect", 
     "tags": [
       "imperfect"
-    ],
-    "spanish": "era",
-    "french": ".",
-    "verb": "be",
-    "tense": "imperfect",
-    "english": "he used to be",
+    ], 
+    "english": "he used to be", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "éramos", 
+    "level": "1", 
+    "verb": "be", 
+    "tense": "imperfect", 
     "tags": [
       "imperfect"
-    ],
-    "spanish": "éramos",
-    "french": ".",
-    "verb": "be",
-    "tense": "imperfect",
-    "english": "we used to be",
+    ], 
+    "english": "we used to be", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "eran", 
+    "level": "1", 
+    "verb": "be", 
+    "tense": "imperfect", 
     "tags": [
       "imperfect"
-    ],
-    "spanish": "eran",
-    "french": ".",
-    "verb": "be",
-    "tense": "imperfect",
-    "english": "they used to be",
+    ], 
+    "english": "they used to be", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "fui", 
+    "level": "1", 
+    "verb": "be", 
+    "tense": "preterite", 
     "tags": [
       "preterite"
-    ],
-    "spanish": "fui",
-    "french": ".",
-    "verb": "be",
-    "tense": "preterite",
-    "english": "i was",
+    ], 
+    "english": "i was", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "fuiste", 
+    "level": "1", 
+    "verb": "be", 
+    "tense": "preterite", 
     "tags": [
       "preterite"
-    ],
-    "spanish": "fuiste",
-    "french": ".",
-    "verb": "be",
-    "tense": "preterite",
-    "english": "you were",
+    ], 
+    "english": "you were", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "fue", 
+    "level": "1", 
+    "verb": "be", 
+    "tense": "preterite", 
     "tags": [
       "preterite"
-    ],
-    "spanish": "fue",
-    "french": ".",
-    "verb": "be",
-    "tense": "preterite",
-    "english": "he was",
+    ], 
+    "english": "he was", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "fuimos", 
+    "level": "1", 
+    "verb": "be", 
+    "tense": "preterite", 
     "tags": [
       "preterite"
-    ],
-    "spanish": "fuimos",
-    "french": ".",
-    "verb": "be",
-    "tense": "preterite",
-    "english": "we were",
+    ], 
+    "english": "we were", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "fueron", 
+    "level": "1", 
+    "verb": "be", 
+    "tense": "preterite", 
     "tags": [
       "preterite"
-    ],
-    "spanish": "fueron",
-    "french": ".",
-    "verb": "be",
-    "tense": "preterite",
-    "english": "they were",
+    ], 
+    "english": "they were", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "sería", 
+    "level": "1", 
+    "verb": "be", 
+    "tense": "conditional", 
     "tags": [
       "conditional"
-    ],
-    "spanish": "sería",
-    "french": ".",
-    "verb": "be",
-    "tense": "conditional",
-    "english": "i would be",
+    ], 
+    "english": "i would be", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "serías", 
+    "level": "1", 
+    "verb": "be", 
+    "tense": "conditional", 
     "tags": [
       "conditional"
-    ],
-    "spanish": "serías",
-    "french": ".",
-    "verb": "be",
-    "tense": "conditional",
-    "english": "you would be",
+    ], 
+    "english": "you would be", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "sería", 
+    "level": "1", 
+    "verb": "be", 
+    "tense": "conditional", 
     "tags": [
       "conditional"
-    ],
-    "spanish": "sería",
-    "french": ".",
-    "verb": "be",
-    "tense": "conditional",
-    "english": "he would be",
+    ], 
+    "english": "he would be", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "seríamos", 
+    "level": "1", 
+    "verb": "be", 
+    "tense": "conditional", 
     "tags": [
       "conditional"
-    ],
-    "spanish": "seríamos",
-    "french": ".",
-    "verb": "be",
-    "tense": "conditional",
-    "english": "we would be",
+    ], 
+    "english": "we would be", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "serían", 
+    "level": "1", 
+    "verb": "be", 
+    "tense": "conditional", 
     "tags": [
       "conditional"
-    ],
-    "spanish": "serían",
-    "french": ".",
-    "verb": "be",
-    "tense": "conditional",
-    "english": "they would be",
+    ], 
+    "english": "they would be", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "he sido", 
+    "level": "1", 
+    "verb": "be", 
+    "tense": "present perfect", 
     "tags": [
       "present perfect"
-    ],
-    "spanish": "he sido",
-    "french": ".",
-    "verb": "be",
-    "tense": "present perfect",
-    "english": "i have been",
+    ], 
+    "english": "i have been", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "has sido", 
+    "level": "1", 
+    "verb": "be", 
+    "tense": "present perfect", 
     "tags": [
       "present perfect"
-    ],
-    "spanish": "has sido",
-    "french": ".",
-    "verb": "be",
-    "tense": "present perfect",
-    "english": "you have been",
+    ], 
+    "english": "you have been", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "ha sido", 
+    "level": "1", 
+    "verb": "be", 
+    "tense": "present perfect", 
     "tags": [
       "present perfect"
-    ],
-    "spanish": "ha sido",
-    "french": ".",
-    "verb": "be",
-    "tense": "present perfect",
-    "english": "he has been",
+    ], 
+    "english": "he has been", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "hemos sido", 
+    "level": "1", 
+    "verb": "be", 
+    "tense": "present perfect", 
     "tags": [
       "present perfect"
-    ],
-    "spanish": "hemos sido",
-    "french": ".",
-    "verb": "be",
-    "tense": "present perfect",
-    "english": "we have been",
+    ], 
+    "english": "we have been", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "han sido", 
+    "level": "1", 
+    "verb": "be", 
+    "tense": "present perfect", 
     "tags": [
       "present perfect"
-    ],
-    "spanish": "han sido",
-    "french": ".",
-    "verb": "be",
-    "tense": "present perfect",
-    "english": "they have been",
+    ], 
+    "english": "they have been", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "debería ser", 
+    "level": "1", 
+    "verb": "be", 
+    "tense": "conditional (should)", 
     "tags": [
       "conditional (should)"
-    ],
-    "spanish": "debería ser",
-    "french": ".",
-    "verb": "be",
-    "tense": "conditional (should)",
-    "english": "i should be",
+    ], 
+    "english": "i should be", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "deberías ser", 
+    "level": "1", 
+    "verb": "be", 
+    "tense": "conditional (should)", 
     "tags": [
       "conditional (should)"
-    ],
-    "spanish": "deberías ser",
-    "french": ".",
-    "verb": "be",
-    "tense": "conditional (should)",
-    "english": "you should be",
+    ], 
+    "english": "you should be", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "debería ser", 
+    "level": "1", 
+    "verb": "be", 
+    "tense": "conditional (should)", 
     "tags": [
       "conditional (should)"
-    ],
-    "spanish": "debería ser",
-    "french": ".",
-    "verb": "be",
-    "tense": "conditional (should)",
-    "english": "he should be",
+    ], 
+    "english": "he should be", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "deberíamos ser", 
+    "level": "1", 
+    "verb": "be", 
+    "tense": "conditional (should)", 
     "tags": [
       "conditional (should)"
-    ],
-    "spanish": "deberíamos ser",
-    "french": ".",
-    "verb": "be",
-    "tense": "conditional (should)",
-    "english": "we should be",
+    ], 
+    "english": "we should be", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "deberían ser", 
+    "level": "1", 
+    "verb": "be", 
+    "tense": "conditional (should)", 
     "tags": [
       "conditional (should)"
-    ],
-    "spanish": "deberían ser",
-    "french": ".",
-    "verb": "be",
-    "tense": "conditional (should)",
-    "english": "they should be",
+    ], 
+    "english": "they should be", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "podría ser", 
+    "level": "1", 
+    "verb": "be", 
+    "tense": "conditional (could)", 
     "tags": [
       "conditional (could)"
-    ],
-    "spanish": "podría ser",
-    "french": ".",
-    "verb": "be",
-    "tense": "conditional (could)",
-    "english": "i could be",
+    ], 
+    "english": "i could be", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "podrías ser", 
+    "level": "1", 
+    "verb": "be", 
+    "tense": "conditional (could)", 
     "tags": [
       "conditional (could)"
-    ],
-    "spanish": "podrías ser",
-    "french": ".",
-    "verb": "be",
-    "tense": "conditional (could)",
-    "english": "you could be",
+    ], 
+    "english": "you could be", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "podría ser", 
+    "level": "1", 
+    "verb": "be", 
+    "tense": "conditional (could)", 
     "tags": [
       "conditional (could)"
-    ],
-    "spanish": "podría ser",
-    "french": ".",
-    "verb": "be",
-    "tense": "conditional (could)",
-    "english": "he could be",
+    ], 
+    "english": "he could be", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "podríamos ser", 
+    "level": "1", 
+    "verb": "be", 
+    "tense": "conditional (could)", 
     "tags": [
       "conditional (could)"
-    ],
-    "spanish": "podríamos ser",
-    "french": ".",
-    "verb": "be",
-    "tense": "conditional (could)",
-    "english": "we could be",
+    ], 
+    "english": "we could be", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "podrían ser", 
+    "level": "1", 
+    "verb": "be", 
+    "tense": "conditional (could)", 
     "tags": [
       "conditional (could)"
-    ],
-    "spanish": "podrían ser",
-    "french": ".",
-    "verb": "be",
-    "tense": "conditional (could)",
-    "english": "they could be",
+    ], 
+    "english": "they could be", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "estoy", 
+    "level": "1", 
+    "verb": "be", 
+    "tense": "present", 
     "tags": [
       "present"
-    ],
-    "spanish": "estoy",
-    "french": ".",
-    "verb": "be",
-    "tense": "present",
-    "english": "i am",
+    ], 
+    "english": "i am", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "estás", 
+    "level": "1", 
+    "verb": "be", 
+    "tense": "present", 
     "tags": [
       "present"
-    ],
-    "spanish": "estás",
-    "french": ".",
-    "verb": "be",
-    "tense": "present",
-    "english": "you are",
+    ], 
+    "english": "you are", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "está", 
+    "level": "1", 
+    "verb": "be", 
+    "tense": "present", 
     "tags": [
       "present"
-    ],
-    "spanish": "está",
-    "french": ".",
-    "verb": "be",
-    "tense": "present",
-    "english": "he is",
+    ], 
+    "english": "he is", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "estamos", 
+    "level": "1", 
+    "verb": "be", 
+    "tense": "present", 
     "tags": [
       "present"
-    ],
-    "spanish": "estamos",
-    "french": ".",
-    "verb": "be",
-    "tense": "present",
-    "english": "we are",
+    ], 
+    "english": "we are", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "están", 
+    "level": "1", 
+    "verb": "be", 
+    "tense": "present", 
     "tags": [
       "present"
-    ],
-    "spanish": "están",
-    "french": ".",
-    "verb": "be",
-    "tense": "present",
-    "english": "they are",
+    ], 
+    "english": "they are", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "estaré", 
+    "level": "1", 
+    "verb": "be", 
+    "tense": "future", 
     "tags": [
       "future"
-    ],
-    "spanish": "estaré",
-    "french": ".",
-    "verb": "be",
-    "tense": "future",
-    "english": "i will be",
+    ], 
+    "english": "i will be", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "estarás", 
+    "level": "1", 
+    "verb": "be", 
+    "tense": "future", 
     "tags": [
       "future"
-    ],
-    "spanish": "estarás",
-    "french": ".",
-    "verb": "be",
-    "tense": "future",
-    "english": "you will be",
+    ], 
+    "english": "you will be", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "estará", 
+    "level": "1", 
+    "verb": "be", 
+    "tense": "future", 
     "tags": [
       "future"
-    ],
-    "spanish": "estará",
-    "french": ".",
-    "verb": "be",
-    "tense": "future",
-    "english": "he will be",
+    ], 
+    "english": "he will be", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "estaremos", 
+    "level": "1", 
+    "verb": "be", 
+    "tense": "future", 
     "tags": [
       "future"
-    ],
-    "spanish": "estaremos",
-    "french": ".",
-    "verb": "be",
-    "tense": "future",
-    "english": "we will be",
+    ], 
+    "english": "we will be", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "estarán", 
+    "level": "1", 
+    "verb": "be", 
+    "tense": "future", 
     "tags": [
       "future"
-    ],
-    "spanish": "estarán",
-    "french": ".",
-    "verb": "be",
-    "tense": "future",
-    "english": "they will be",
+    ], 
+    "english": "they will be", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "estaba", 
+    "level": "1", 
+    "verb": "be", 
+    "tense": "imperfect", 
     "tags": [
       "imperfect"
-    ],
-    "spanish": "estaba",
-    "french": ".",
-    "verb": "be",
-    "tense": "imperfect",
-    "english": "i used to be",
+    ], 
+    "english": "i used to be", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "estabas", 
+    "level": "1", 
+    "verb": "be", 
+    "tense": "imperfect", 
     "tags": [
       "imperfect"
-    ],
-    "spanish": "estabas",
-    "french": ".",
-    "verb": "be",
-    "tense": "imperfect",
-    "english": "you used to be",
+    ], 
+    "english": "you used to be", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "estaba", 
+    "level": "1", 
+    "verb": "be", 
+    "tense": "imperfect", 
     "tags": [
       "imperfect"
-    ],
-    "spanish": "estaba",
-    "french": ".",
-    "verb": "be",
-    "tense": "imperfect",
-    "english": "he used to be",
+    ], 
+    "english": "he used to be", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "estábamos", 
+    "level": "1", 
+    "verb": "be", 
+    "tense": "imperfect", 
     "tags": [
       "imperfect"
-    ],
-    "spanish": "estábamos",
-    "french": ".",
-    "verb": "be",
-    "tense": "imperfect",
-    "english": "we used to be",
+    ], 
+    "english": "we used to be", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "estaban", 
+    "level": "1", 
+    "verb": "be", 
+    "tense": "imperfect", 
     "tags": [
       "imperfect"
-    ],
-    "spanish": "estaban",
-    "french": ".",
-    "verb": "be",
-    "tense": "imperfect",
-    "english": "they used to be",
+    ], 
+    "english": "they used to be", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "estuve", 
+    "level": "1", 
+    "verb": "be", 
+    "tense": "preterite", 
     "tags": [
       "preterite"
-    ],
-    "spanish": "estuve",
-    "french": ".",
-    "verb": "be",
-    "tense": "preterite",
-    "english": "i was",
+    ], 
+    "english": "i was", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "estuviste", 
+    "level": "1", 
+    "verb": "be", 
+    "tense": "preterite", 
     "tags": [
       "preterite"
-    ],
-    "spanish": "estuviste",
-    "french": ".",
-    "verb": "be",
-    "tense": "preterite",
-    "english": "you were",
+    ], 
+    "english": "you were", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "estuvo", 
+    "level": "1", 
+    "verb": "be", 
+    "tense": "preterite", 
     "tags": [
       "preterite"
-    ],
-    "spanish": "estuvo",
-    "french": ".",
-    "verb": "be",
-    "tense": "preterite",
-    "english": "he was",
+    ], 
+    "english": "he was", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "estuvimos", 
+    "level": "1", 
+    "verb": "be", 
+    "tense": "preterite", 
     "tags": [
       "preterite"
-    ],
-    "spanish": "estuvimos",
-    "french": ".",
-    "verb": "be",
-    "tense": "preterite",
-    "english": "we were",
+    ], 
+    "english": "we were", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "estuvieron", 
+    "level": "1", 
+    "verb": "be", 
+    "tense": "preterite", 
     "tags": [
       "preterite"
-    ],
-    "spanish": "estuvieron",
-    "french": ".",
-    "verb": "be",
-    "tense": "preterite",
-    "english": "they were",
+    ], 
+    "english": "they were", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "estaría", 
+    "level": "1", 
+    "verb": "be", 
+    "tense": "conditional", 
     "tags": [
       "conditional"
-    ],
-    "spanish": "estaría",
-    "french": ".",
-    "verb": "be",
-    "tense": "conditional",
-    "english": "i would be",
+    ], 
+    "english": "i would be", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "estarías", 
+    "level": "1", 
+    "verb": "be", 
+    "tense": "conditional", 
     "tags": [
       "conditional"
-    ],
-    "spanish": "estarías",
-    "french": ".",
-    "verb": "be",
-    "tense": "conditional",
-    "english": "you would be",
+    ], 
+    "english": "you would be", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "estaría", 
+    "level": "1", 
+    "verb": "be", 
+    "tense": "conditional", 
     "tags": [
       "conditional"
-    ],
-    "spanish": "estaría",
-    "french": ".",
-    "verb": "be",
-    "tense": "conditional",
-    "english": "he would be",
+    ], 
+    "english": "he would be", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "estaríamos", 
+    "level": "1", 
+    "verb": "be", 
+    "tense": "conditional", 
     "tags": [
       "conditional"
-    ],
-    "spanish": "estaríamos",
-    "french": ".",
-    "verb": "be",
-    "tense": "conditional",
-    "english": "we would be",
+    ], 
+    "english": "we would be", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "estarían", 
+    "level": "1", 
+    "verb": "be", 
+    "tense": "conditional", 
     "tags": [
       "conditional"
-    ],
-    "spanish": "estarían",
-    "french": ".",
-    "verb": "be",
-    "tense": "conditional",
-    "english": "they would be",
+    ], 
+    "english": "they would be", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "he estado", 
+    "level": "1", 
+    "verb": "be", 
+    "tense": "present perfect", 
     "tags": [
       "present perfect"
-    ],
-    "spanish": "he estado",
-    "french": ".",
-    "verb": "be",
-    "tense": "present perfect",
-    "english": "i have been",
+    ], 
+    "english": "i have been", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "has estado", 
+    "level": "1", 
+    "verb": "be", 
+    "tense": "present perfect", 
     "tags": [
       "present perfect"
-    ],
-    "spanish": "has estado",
-    "french": ".",
-    "verb": "be",
-    "tense": "present perfect",
-    "english": "you have been",
+    ], 
+    "english": "you have been", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "ha estado", 
+    "level": "1", 
+    "verb": "be", 
+    "tense": "present perfect", 
     "tags": [
       "present perfect"
-    ],
-    "spanish": "ha estado",
-    "french": ".",
-    "verb": "be",
-    "tense": "present perfect",
-    "english": "he has been",
+    ], 
+    "english": "he has been", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "hemos estado", 
+    "level": "1", 
+    "verb": "be", 
+    "tense": "present perfect", 
     "tags": [
       "present perfect"
-    ],
-    "spanish": "hemos estado",
-    "french": ".",
-    "verb": "be",
-    "tense": "present perfect",
-    "english": "we have been",
+    ], 
+    "english": "we have been", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "han estado", 
+    "level": "1", 
+    "verb": "be", 
+    "tense": "present perfect", 
     "tags": [
       "present perfect"
-    ],
-    "spanish": "han estado",
-    "french": ".",
-    "verb": "be",
-    "tense": "present perfect",
-    "english": "they have been",
+    ], 
+    "english": "they have been", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "tengo", 
+    "level": "1", 
+    "verb": "have", 
+    "tense": "present", 
     "tags": [
       "present"
-    ],
-    "spanish": "tengo",
-    "french": ".",
-    "verb": "have",
-    "tense": "present",
-    "english": "i have",
+    ], 
+    "english": "i have", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "tienes", 
+    "level": "1", 
+    "verb": "have", 
+    "tense": "present", 
     "tags": [
       "present"
-    ],
-    "spanish": "tienes",
-    "french": ".",
-    "verb": "have",
-    "tense": "present",
-    "english": "you have",
+    ], 
+    "english": "you have", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "tiene", 
+    "level": "1", 
+    "verb": "have", 
+    "tense": "present", 
     "tags": [
       "present"
-    ],
-    "spanish": "tiene",
-    "french": ".",
-    "verb": "have",
-    "tense": "present",
-    "english": "he has",
+    ], 
+    "english": "he has", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "tenemos", 
+    "level": "1", 
+    "verb": "have", 
+    "tense": "present", 
     "tags": [
       "present"
-    ],
-    "spanish": "tenemos",
-    "french": ".",
-    "verb": "have",
-    "tense": "present",
-    "english": "we have",
+    ], 
+    "english": "we have", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "tienen", 
+    "level": "1", 
+    "verb": "have", 
+    "tense": "present", 
     "tags": [
       "present"
-    ],
-    "spanish": "tienen",
-    "french": ".",
-    "verb": "have",
-    "tense": "present",
-    "english": "they have",
+    ], 
+    "english": "they have", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "tendré", 
+    "level": "1", 
+    "verb": "have", 
+    "tense": "future", 
     "tags": [
       "future"
-    ],
-    "spanish": "tendré",
-    "french": ".",
-    "verb": "have",
-    "tense": "future",
-    "english": "i will have",
+    ], 
+    "english": "i will have", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "tendrás", 
+    "level": "1", 
+    "verb": "have", 
+    "tense": "future", 
     "tags": [
       "future"
-    ],
-    "spanish": "tendrás",
-    "french": ".",
-    "verb": "have",
-    "tense": "future",
-    "english": "you will have",
+    ], 
+    "english": "you will have", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "tendrá", 
+    "level": "1", 
+    "verb": "have", 
+    "tense": "future", 
     "tags": [
       "future"
-    ],
-    "spanish": "tendrá",
-    "french": ".",
-    "verb": "have",
-    "tense": "future",
-    "english": "he will have",
+    ], 
+    "english": "he will have", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "tendremos", 
+    "level": "1", 
+    "verb": "have", 
+    "tense": "future", 
     "tags": [
       "future"
-    ],
-    "spanish": "tendremos",
-    "french": ".",
-    "verb": "have",
-    "tense": "future",
-    "english": "we will have",
+    ], 
+    "english": "we will have", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "tendrán", 
+    "level": "1", 
+    "verb": "have", 
+    "tense": "future", 
     "tags": [
       "future"
-    ],
-    "spanish": "tendrán",
-    "french": ".",
-    "verb": "have",
-    "tense": "future",
-    "english": "they will have",
+    ], 
+    "english": "they will have", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "tenía", 
+    "level": "1", 
+    "verb": "have", 
+    "tense": "imperfect", 
     "tags": [
       "imperfect"
-    ],
-    "spanish": "tenía",
-    "french": ".",
-    "verb": "have",
-    "tense": "imperfect",
-    "english": "i used to have",
+    ], 
+    "english": "i used to have", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "tenías", 
+    "level": "1", 
+    "verb": "have", 
+    "tense": "imperfect", 
     "tags": [
       "imperfect"
-    ],
-    "spanish": "tenías",
-    "french": ".",
-    "verb": "have",
-    "tense": "imperfect",
-    "english": "you used to have",
+    ], 
+    "english": "you used to have", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "tenía", 
+    "level": "1", 
+    "verb": "have", 
+    "tense": "imperfect", 
     "tags": [
       "imperfect"
-    ],
-    "spanish": "tenía",
-    "french": ".",
-    "verb": "have",
-    "tense": "imperfect",
-    "english": "he used to have",
+    ], 
+    "english": "he used to have", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "teníamos", 
+    "level": "1", 
+    "verb": "have", 
+    "tense": "imperfect", 
     "tags": [
       "imperfect"
-    ],
-    "spanish": "teníamos",
-    "french": ".",
-    "verb": "have",
-    "tense": "imperfect",
-    "english": "we used to have",
+    ], 
+    "english": "we used to have", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "tenían", 
+    "level": "1", 
+    "verb": "have", 
+    "tense": "imperfect", 
     "tags": [
       "imperfect"
-    ],
-    "spanish": "tenían",
-    "french": ".",
-    "verb": "have",
-    "tense": "imperfect",
-    "english": "they used to have",
+    ], 
+    "english": "they used to have", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "tuve", 
+    "level": "1", 
+    "verb": "have", 
+    "tense": "preterite", 
     "tags": [
       "preterite"
-    ],
-    "spanish": "tuve",
-    "french": ".",
-    "verb": "have",
-    "tense": "preterite",
-    "english": "i had",
+    ], 
+    "english": "i had", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "tuviste", 
+    "level": "1", 
+    "verb": "have", 
+    "tense": "preterite", 
     "tags": [
       "preterite"
-    ],
-    "spanish": "tuviste",
-    "french": ".",
-    "verb": "have",
-    "tense": "preterite",
-    "english": "you had",
+    ], 
+    "english": "you had", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "tuvo", 
+    "level": "1", 
+    "verb": "have", 
+    "tense": "preterite", 
     "tags": [
       "preterite"
-    ],
-    "spanish": "tuvo",
-    "french": ".",
-    "verb": "have",
-    "tense": "preterite",
-    "english": "he had",
+    ], 
+    "english": "he had", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "tuvimos", 
+    "level": "1", 
+    "verb": "have", 
+    "tense": "preterite", 
     "tags": [
       "preterite"
-    ],
-    "spanish": "tuvimos",
-    "french": ".",
-    "verb": "have",
-    "tense": "preterite",
-    "english": "we had",
+    ], 
+    "english": "we had", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "tuvieron", 
+    "level": "1", 
+    "verb": "have", 
+    "tense": "preterite", 
     "tags": [
       "preterite"
-    ],
-    "spanish": "tuvieron",
-    "french": ".",
-    "verb": "have",
-    "tense": "preterite",
-    "english": "they had",
+    ], 
+    "english": "they had", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "tendría", 
+    "level": "1", 
+    "verb": "have", 
+    "tense": "conditional", 
     "tags": [
       "conditional"
-    ],
-    "spanish": "tendría",
-    "french": ".",
-    "verb": "have",
-    "tense": "conditional",
-    "english": "i would have",
+    ], 
+    "english": "i would have", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "tendrías", 
+    "level": "1", 
+    "verb": "have", 
+    "tense": "conditional", 
     "tags": [
       "conditional"
-    ],
-    "spanish": "tendrías",
-    "french": ".",
-    "verb": "have",
-    "tense": "conditional",
-    "english": "you would have",
+    ], 
+    "english": "you would have", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "tendría", 
+    "level": "1", 
+    "verb": "have", 
+    "tense": "conditional", 
     "tags": [
       "conditional"
-    ],
-    "spanish": "tendría",
-    "french": ".",
-    "verb": "have",
-    "tense": "conditional",
-    "english": "he would have",
+    ], 
+    "english": "he would have", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "tendríamos", 
+    "level": "1", 
+    "verb": "have", 
+    "tense": "conditional", 
     "tags": [
       "conditional"
-    ],
-    "spanish": "tendríamos",
-    "french": ".",
-    "verb": "have",
-    "tense": "conditional",
-    "english": "we would have",
+    ], 
+    "english": "we would have", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "tendrían", 
+    "level": "1", 
+    "verb": "have", 
+    "tense": "conditional", 
     "tags": [
       "conditional"
-    ],
-    "spanish": "tendrían",
-    "french": ".",
-    "verb": "have",
-    "tense": "conditional",
-    "english": "they would have",
+    ], 
+    "english": "they would have", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "he tenido", 
+    "level": "1", 
+    "verb": "have", 
+    "tense": "present perfect", 
     "tags": [
       "present perfect"
-    ],
-    "spanish": "he tenido",
-    "french": ".",
-    "verb": "have",
-    "tense": "present perfect",
-    "english": "i have had",
+    ], 
+    "english": "i have had", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "has tenido", 
+    "level": "1", 
+    "verb": "have", 
+    "tense": "present perfect", 
     "tags": [
       "present perfect"
-    ],
-    "spanish": "has tenido",
-    "french": ".",
-    "verb": "have",
-    "tense": "present perfect",
-    "english": "you have had",
+    ], 
+    "english": "you have had", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "ha tenido", 
+    "level": "1", 
+    "verb": "have", 
+    "tense": "present perfect", 
     "tags": [
       "present perfect"
-    ],
-    "spanish": "ha tenido",
-    "french": ".",
-    "verb": "have",
-    "tense": "present perfect",
-    "english": "he has had",
+    ], 
+    "english": "he has had", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "hemos tenido", 
+    "level": "1", 
+    "verb": "have", 
+    "tense": "present perfect", 
     "tags": [
       "present perfect"
-    ],
-    "spanish": "hemos tenido",
-    "french": ".",
-    "verb": "have",
-    "tense": "present perfect",
-    "english": "we have had",
+    ], 
+    "english": "we have had", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "han tenido", 
+    "level": "1", 
+    "verb": "have", 
+    "tense": "present perfect", 
     "tags": [
       "present perfect"
-    ],
-    "spanish": "han tenido",
-    "french": ".",
-    "verb": "have",
-    "tense": "present perfect",
-    "english": "they have had",
+    ], 
+    "english": "they have had", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "debería tener", 
+    "level": "1", 
+    "verb": "have", 
+    "tense": "conditional (should)", 
     "tags": [
       "conditional (should)"
-    ],
-    "spanish": "debería tener",
-    "french": ".",
-    "verb": "have",
-    "tense": "conditional (should)",
-    "english": "i should have",
+    ], 
+    "english": "i should have", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "deberías tener", 
+    "level": "1", 
+    "verb": "have", 
+    "tense": "conditional (should)", 
     "tags": [
       "conditional (should)"
-    ],
-    "spanish": "deberías tener",
-    "french": ".",
-    "verb": "have",
-    "tense": "conditional (should)",
-    "english": "you should have",
+    ], 
+    "english": "you should have", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "debería tener", 
+    "level": "1", 
+    "verb": "have", 
+    "tense": "conditional (should)", 
     "tags": [
       "conditional (should)"
-    ],
-    "spanish": "debería tener",
-    "french": ".",
-    "verb": "have",
-    "tense": "conditional (should)",
-    "english": "he should have",
+    ], 
+    "english": "he should have", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "deberíamos tener", 
+    "level": "1", 
+    "verb": "have", 
+    "tense": "conditional (should)", 
     "tags": [
       "conditional (should)"
-    ],
-    "spanish": "deberíamos tener",
-    "french": ".",
-    "verb": "have",
-    "tense": "conditional (should)",
-    "english": "we should have",
+    ], 
+    "english": "we should have", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "deberían tener", 
+    "level": "1", 
+    "verb": "have", 
+    "tense": "conditional (should)", 
     "tags": [
       "conditional (should)"
-    ],
-    "spanish": "deberían tener",
-    "french": ".",
-    "verb": "have",
-    "tense": "conditional (should)",
-    "english": "they should have",
+    ], 
+    "english": "they should have", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "podría tener", 
+    "level": "1", 
+    "verb": "have", 
+    "tense": "conditional (could)", 
     "tags": [
       "conditional (could)"
-    ],
-    "spanish": "podría tener",
-    "french": ".",
-    "verb": "have",
-    "tense": "conditional (could)",
-    "english": "i could have",
+    ], 
+    "english": "i could have", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "podrías tener", 
+    "level": "1", 
+    "verb": "have", 
+    "tense": "conditional (could)", 
     "tags": [
       "conditional (could)"
-    ],
-    "spanish": "podrías tener",
-    "french": ".",
-    "verb": "have",
-    "tense": "conditional (could)",
-    "english": "you could have",
+    ], 
+    "english": "you could have", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "podría tener", 
+    "level": "1", 
+    "verb": "have", 
+    "tense": "conditional (could)", 
     "tags": [
       "conditional (could)"
-    ],
-    "spanish": "podría tener",
-    "french": ".",
-    "verb": "have",
-    "tense": "conditional (could)",
-    "english": "he could have",
+    ], 
+    "english": "he could have", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "podríamos tener", 
+    "level": "1", 
+    "verb": "have", 
+    "tense": "conditional (could)", 
     "tags": [
       "conditional (could)"
-    ],
-    "spanish": "podríamos tener",
-    "french": ".",
-    "verb": "have",
-    "tense": "conditional (could)",
-    "english": "we could have",
+    ], 
+    "english": "we could have", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "podrían tener", 
+    "level": "1", 
+    "verb": "have", 
+    "tense": "conditional (could)", 
     "tags": [
       "conditional (could)"
-    ],
-    "spanish": "podrían tener",
-    "french": ".",
-    "verb": "have",
-    "tense": "conditional (could)",
-    "english": "they could have",
+    ], 
+    "english": "they could have", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "hago", 
+    "level": "1", 
+    "verb": "do", 
+    "tense": "present", 
     "tags": [
       "present"
-    ],
-    "spanish": "hago",
-    "french": ".",
-    "verb": "do",
-    "tense": "present",
-    "english": "i do",
+    ], 
+    "english": "i do", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "haces", 
+    "level": "1", 
+    "verb": "do", 
+    "tense": "present", 
     "tags": [
       "present"
-    ],
-    "spanish": "haces",
-    "french": ".",
-    "verb": "do",
-    "tense": "present",
-    "english": "you do",
+    ], 
+    "english": "you do", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "hace", 
+    "level": "1", 
+    "verb": "do", 
+    "tense": "present", 
     "tags": [
       "present"
-    ],
-    "spanish": "hace",
-    "french": ".",
-    "verb": "do",
-    "tense": "present",
-    "english": "he does",
+    ], 
+    "english": "he does", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "hacemos", 
+    "level": "1", 
+    "verb": "do", 
+    "tense": "present", 
     "tags": [
       "present"
-    ],
-    "spanish": "hacemos",
-    "french": ".",
-    "verb": "do",
-    "tense": "present",
-    "english": "we do",
+    ], 
+    "english": "we do", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "hacen", 
+    "level": "1", 
+    "verb": "do", 
+    "tense": "present", 
     "tags": [
       "present"
-    ],
-    "spanish": "hacen",
-    "french": ".",
-    "verb": "do",
-    "tense": "present",
-    "english": "they do",
+    ], 
+    "english": "they do", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "haré", 
+    "level": "1", 
+    "verb": "do", 
+    "tense": "future", 
     "tags": [
       "future"
-    ],
-    "spanish": "haré",
-    "french": ".",
-    "verb": "do",
-    "tense": "future",
-    "english": "i will do",
+    ], 
+    "english": "i will do", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "harás", 
+    "level": "1", 
+    "verb": "do", 
+    "tense": "future", 
     "tags": [
       "future"
-    ],
-    "spanish": "harás",
-    "french": ".",
-    "verb": "do",
-    "tense": "future",
-    "english": "you will do",
+    ], 
+    "english": "you will do", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "hará", 
+    "level": "1", 
+    "verb": "do", 
+    "tense": "future", 
     "tags": [
       "future"
-    ],
-    "spanish": "hará",
-    "french": ".",
-    "verb": "do",
-    "tense": "future",
-    "english": "he will do",
+    ], 
+    "english": "he will do", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "haremos", 
+    "level": "1", 
+    "verb": "do", 
+    "tense": "future", 
     "tags": [
       "future"
-    ],
-    "spanish": "haremos",
-    "french": ".",
-    "verb": "do",
-    "tense": "future",
-    "english": "we will do",
+    ], 
+    "english": "we will do", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "harán", 
+    "level": "1", 
+    "verb": "do", 
+    "tense": "future", 
     "tags": [
       "future"
-    ],
-    "spanish": "harán",
-    "french": ".",
-    "verb": "do",
-    "tense": "future",
-    "english": "they will do",
+    ], 
+    "english": "they will do", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "hacía", 
+    "level": "1", 
+    "verb": "do", 
+    "tense": "imperfect", 
     "tags": [
       "imperfect"
-    ],
-    "spanish": "hacía",
-    "french": ".",
-    "verb": "do",
-    "tense": "imperfect",
-    "english": "i used to do",
+    ], 
+    "english": "i used to do", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "hacías", 
+    "level": "1", 
+    "verb": "do", 
+    "tense": "imperfect", 
     "tags": [
       "imperfect"
-    ],
-    "spanish": "hacías",
-    "french": ".",
-    "verb": "do",
-    "tense": "imperfect",
-    "english": "you used to do",
+    ], 
+    "english": "you used to do", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "hacía", 
+    "level": "1", 
+    "verb": "do", 
+    "tense": "imperfect", 
     "tags": [
       "imperfect"
-    ],
-    "spanish": "hacía",
-    "french": ".",
-    "verb": "do",
-    "tense": "imperfect",
-    "english": "he used to do",
+    ], 
+    "english": "he used to do", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "hacíamos", 
+    "level": "1", 
+    "verb": "do", 
+    "tense": "imperfect", 
     "tags": [
       "imperfect"
-    ],
-    "spanish": "hacíamos",
-    "french": ".",
-    "verb": "do",
-    "tense": "imperfect",
-    "english": "we used to do",
+    ], 
+    "english": "we used to do", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "hacían", 
+    "level": "1", 
+    "verb": "do", 
+    "tense": "imperfect", 
     "tags": [
       "imperfect"
-    ],
-    "spanish": "hacían",
-    "french": ".",
-    "verb": "do",
-    "tense": "imperfect",
-    "english": "they used to do",
+    ], 
+    "english": "they used to do", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "hice", 
+    "level": "1", 
+    "verb": "do", 
+    "tense": "preterite", 
     "tags": [
       "preterite"
-    ],
-    "spanish": "hice",
-    "french": ".",
-    "verb": "do",
-    "tense": "preterite",
-    "english": "i did",
+    ], 
+    "english": "i did", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "hiciste", 
+    "level": "1", 
+    "verb": "do", 
+    "tense": "preterite", 
     "tags": [
       "preterite"
-    ],
-    "spanish": "hiciste",
-    "french": ".",
-    "verb": "do",
-    "tense": "preterite",
-    "english": "you did",
+    ], 
+    "english": "you did", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "hizo", 
+    "level": "1", 
+    "verb": "do", 
+    "tense": "preterite", 
     "tags": [
       "preterite"
-    ],
-    "spanish": "hizo",
-    "french": ".",
-    "verb": "do",
-    "tense": "preterite",
-    "english": "he did",
+    ], 
+    "english": "he did", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "hicimos", 
+    "level": "1", 
+    "verb": "do", 
+    "tense": "preterite", 
     "tags": [
       "preterite"
-    ],
-    "spanish": "hicimos",
-    "french": ".",
-    "verb": "do",
-    "tense": "preterite",
-    "english": "we did",
+    ], 
+    "english": "we did", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "hicieron", 
+    "level": "1", 
+    "verb": "do", 
+    "tense": "preterite", 
     "tags": [
       "preterite"
-    ],
-    "spanish": "hicieron",
-    "french": ".",
-    "verb": "do",
-    "tense": "preterite",
-    "english": "they did",
+    ], 
+    "english": "they did", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "haría", 
+    "level": "1", 
+    "verb": "do", 
+    "tense": "conditional", 
     "tags": [
       "conditional"
-    ],
-    "spanish": "haría",
-    "french": ".",
-    "verb": "do",
-    "tense": "conditional",
-    "english": "i would do",
+    ], 
+    "english": "i would do", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "harías", 
+    "level": "1", 
+    "verb": "do", 
+    "tense": "conditional", 
     "tags": [
       "conditional"
-    ],
-    "spanish": "harías",
-    "french": ".",
-    "verb": "do",
-    "tense": "conditional",
-    "english": "you would do",
+    ], 
+    "english": "you would do", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "haría", 
+    "level": "1", 
+    "verb": "do", 
+    "tense": "conditional", 
     "tags": [
       "conditional"
-    ],
-    "spanish": "haría",
-    "french": ".",
-    "verb": "do",
-    "tense": "conditional",
-    "english": "he would do",
+    ], 
+    "english": "he would do", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "haríamos", 
+    "level": "1", 
+    "verb": "do", 
+    "tense": "conditional", 
     "tags": [
       "conditional"
-    ],
-    "spanish": "haríamos",
-    "french": ".",
-    "verb": "do",
-    "tense": "conditional",
-    "english": "we would do",
+    ], 
+    "english": "we would do", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "harían", 
+    "level": "1", 
+    "verb": "do", 
+    "tense": "conditional", 
     "tags": [
       "conditional"
-    ],
-    "spanish": "harían",
-    "french": ".",
-    "verb": "do",
-    "tense": "conditional",
-    "english": "they would do",
+    ], 
+    "english": "they would do", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "he hecho", 
+    "level": "1", 
+    "verb": "do", 
+    "tense": "present perfect", 
     "tags": [
       "present perfect"
-    ],
-    "spanish": "he hecho",
-    "french": ".",
-    "verb": "do",
-    "tense": "present perfect",
-    "english": "i have done",
+    ], 
+    "english": "i have done", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "has hecho", 
+    "level": "1", 
+    "verb": "do", 
+    "tense": "present perfect", 
     "tags": [
       "present perfect"
-    ],
-    "spanish": "has hecho",
-    "french": ".",
-    "verb": "do",
-    "tense": "present perfect",
-    "english": "you have done",
+    ], 
+    "english": "you have done", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "ha hecho", 
+    "level": "1", 
+    "verb": "do", 
+    "tense": "present perfect", 
     "tags": [
       "present perfect"
-    ],
-    "spanish": "ha hecho",
-    "french": ".",
-    "verb": "do",
-    "tense": "present perfect",
-    "english": "he has done",
+    ], 
+    "english": "he has done", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "hemos hecho", 
+    "level": "1", 
+    "verb": "do", 
+    "tense": "present perfect", 
     "tags": [
       "present perfect"
-    ],
-    "spanish": "hemos hecho",
-    "french": ".",
-    "verb": "do",
-    "tense": "present perfect",
-    "english": "we have done",
+    ], 
+    "english": "we have done", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "han hecho", 
+    "level": "1", 
+    "verb": "do", 
+    "tense": "present perfect", 
     "tags": [
       "present perfect"
-    ],
-    "spanish": "han hecho",
-    "french": ".",
-    "verb": "do",
-    "tense": "present perfect",
-    "english": "they have done",
+    ], 
+    "english": "they have done", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "debería hacer", 
+    "level": "1", 
+    "verb": "do", 
+    "tense": "conditional (should)", 
     "tags": [
       "conditional (should)"
-    ],
-    "spanish": "debería hacer",
-    "french": ".",
-    "verb": "do",
-    "tense": "conditional (should)",
-    "english": "i should do",
+    ], 
+    "english": "i should do", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "deberías hacer", 
+    "level": "1", 
+    "verb": "do", 
+    "tense": "conditional (should)", 
     "tags": [
       "conditional (should)"
-    ],
-    "spanish": "deberías hacer",
-    "french": ".",
-    "verb": "do",
-    "tense": "conditional (should)",
-    "english": "you should do",
+    ], 
+    "english": "you should do", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "debería hacer", 
+    "level": "1", 
+    "verb": "do", 
+    "tense": "conditional (should)", 
     "tags": [
       "conditional (should)"
-    ],
-    "spanish": "debería hacer",
-    "french": ".",
-    "verb": "do",
-    "tense": "conditional (should)",
-    "english": "he should do",
+    ], 
+    "english": "he should do", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "deberíamos hacer", 
+    "level": "1", 
+    "verb": "do", 
+    "tense": "conditional (should)", 
     "tags": [
       "conditional (should)"
-    ],
-    "spanish": "deberíamos hacer",
-    "french": ".",
-    "verb": "do",
-    "tense": "conditional (should)",
-    "english": "we should do",
+    ], 
+    "english": "we should do", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "deberían hacer", 
+    "level": "1", 
+    "verb": "do", 
+    "tense": "conditional (should)", 
     "tags": [
       "conditional (should)"
-    ],
-    "spanish": "deberían hacer",
-    "french": ".",
-    "verb": "do",
-    "tense": "conditional (should)",
-    "english": "they should do",
+    ], 
+    "english": "they should do", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "podría hacer", 
+    "level": "1", 
+    "verb": "do", 
+    "tense": "conditional (could)", 
     "tags": [
       "conditional (could)"
-    ],
-    "spanish": "podría hacer",
-    "french": ".",
-    "verb": "do",
-    "tense": "conditional (could)",
-    "english": "i could do",
+    ], 
+    "english": "i could do", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "podrías hacer", 
+    "level": "1", 
+    "verb": "do", 
+    "tense": "conditional (could)", 
     "tags": [
       "conditional (could)"
-    ],
-    "spanish": "podrías hacer",
-    "french": ".",
-    "verb": "do",
-    "tense": "conditional (could)",
-    "english": "you could do",
+    ], 
+    "english": "you could do", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "podría hacer", 
+    "level": "1", 
+    "verb": "do", 
+    "tense": "conditional (could)", 
     "tags": [
       "conditional (could)"
-    ],
-    "spanish": "podría hacer",
-    "french": ".",
-    "verb": "do",
-    "tense": "conditional (could)",
-    "english": "he could do",
+    ], 
+    "english": "he could do", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "podríamos hacer", 
+    "level": "1", 
+    "verb": "do", 
+    "tense": "conditional (could)", 
     "tags": [
       "conditional (could)"
-    ],
-    "spanish": "podríamos hacer",
-    "french": ".",
-    "verb": "do",
-    "tense": "conditional (could)",
-    "english": "we could do",
+    ], 
+    "english": "we could do", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "podrían hacer", 
+    "level": "1", 
+    "verb": "do", 
+    "tense": "conditional (could)", 
     "tags": [
       "conditional (could)"
-    ],
-    "spanish": "podrían hacer",
-    "french": ".",
-    "verb": "do",
-    "tense": "conditional (could)",
-    "english": "they could do",
+    ], 
+    "english": "they could do", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "voy", 
+    "level": "1", 
+    "verb": "go", 
+    "tense": "present", 
     "tags": [
       "present"
-    ],
-    "spanish": "voy",
-    "french": ".",
-    "verb": "go",
-    "tense": "present",
-    "english": "i go",
+    ], 
+    "english": "i go", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "vas", 
+    "level": "1", 
+    "verb": "go", 
+    "tense": "present", 
     "tags": [
       "present"
-    ],
-    "spanish": "vas",
-    "french": ".",
-    "verb": "go",
-    "tense": "present",
-    "english": "you go",
+    ], 
+    "english": "you go", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "va", 
+    "level": "1", 
+    "verb": "go", 
+    "tense": "present", 
     "tags": [
       "present"
-    ],
-    "spanish": "va",
-    "french": ".",
-    "verb": "go",
-    "tense": "present",
-    "english": "he goes",
+    ], 
+    "english": "he goes", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "vamos", 
+    "level": "1", 
+    "verb": "go", 
+    "tense": "present", 
     "tags": [
       "present"
-    ],
-    "spanish": "vamos",
-    "french": ".",
-    "verb": "go",
-    "tense": "present",
-    "english": "we go",
+    ], 
+    "english": "we go", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "van", 
+    "level": "1", 
+    "verb": "go", 
+    "tense": "present", 
     "tags": [
       "present"
-    ],
-    "spanish": "van",
-    "french": ".",
-    "verb": "go",
-    "tense": "present",
-    "english": "they go",
+    ], 
+    "english": "they go", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "iré", 
+    "level": "1", 
+    "verb": "go", 
+    "tense": "future", 
     "tags": [
       "future"
-    ],
-    "spanish": "iré",
-    "french": ".",
-    "verb": "go",
-    "tense": "future",
-    "english": "i will go",
+    ], 
+    "english": "i will go", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "irás", 
+    "level": "1", 
+    "verb": "go", 
+    "tense": "future", 
     "tags": [
       "future"
-    ],
-    "spanish": "irás",
-    "french": ".",
-    "verb": "go",
-    "tense": "future",
-    "english": "you will go",
+    ], 
+    "english": "you will go", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "irá", 
+    "level": "1", 
+    "verb": "go", 
+    "tense": "future", 
     "tags": [
       "future"
-    ],
-    "spanish": "irá",
-    "french": ".",
-    "verb": "go",
-    "tense": "future",
-    "english": "he will go",
+    ], 
+    "english": "he will go", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "iremos", 
+    "level": "1", 
+    "verb": "go", 
+    "tense": "future", 
     "tags": [
       "future"
-    ],
-    "spanish": "iremos",
-    "french": ".",
-    "verb": "go",
-    "tense": "future",
-    "english": "we will go",
+    ], 
+    "english": "we will go", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "irán", 
+    "level": "1", 
+    "verb": "go", 
+    "tense": "future", 
     "tags": [
       "future"
-    ],
-    "spanish": "irán",
-    "french": ".",
-    "verb": "go",
-    "tense": "future",
-    "english": "they will go",
+    ], 
+    "english": "they will go", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "iba", 
+    "level": "1", 
+    "verb": "go", 
+    "tense": "imperfect", 
     "tags": [
       "imperfect"
-    ],
-    "spanish": "iba",
-    "french": ".",
-    "verb": "go",
-    "tense": "imperfect",
-    "english": "i used to go",
+    ], 
+    "english": "i used to go", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "ibas", 
+    "level": "1", 
+    "verb": "go", 
+    "tense": "imperfect", 
     "tags": [
       "imperfect"
-    ],
-    "spanish": "ibas",
-    "french": ".",
-    "verb": "go",
-    "tense": "imperfect",
-    "english": "you used to go",
+    ], 
+    "english": "you used to go", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "iba", 
+    "level": "1", 
+    "verb": "go", 
+    "tense": "imperfect", 
     "tags": [
       "imperfect"
-    ],
-    "spanish": "iba",
-    "french": ".",
-    "verb": "go",
-    "tense": "imperfect",
-    "english": "he used to go",
+    ], 
+    "english": "he used to go", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "íbamos", 
+    "level": "1", 
+    "verb": "go", 
+    "tense": "imperfect", 
     "tags": [
       "imperfect"
-    ],
-    "spanish": "íbamos",
-    "french": ".",
-    "verb": "go",
-    "tense": "imperfect",
-    "english": "we used to go",
+    ], 
+    "english": "we used to go", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "iban", 
+    "level": "1", 
+    "verb": "go", 
+    "tense": "imperfect", 
     "tags": [
       "imperfect"
-    ],
-    "spanish": "iban",
-    "french": ".",
-    "verb": "go",
-    "tense": "imperfect",
-    "english": "they used to go",
+    ], 
+    "english": "they used to go", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "fui", 
+    "level": "1", 
+    "verb": "go", 
+    "tense": "preterite", 
     "tags": [
       "preterite"
-    ],
-    "spanish": "fui",
-    "french": ".",
-    "verb": "go",
-    "tense": "preterite",
-    "english": "i went",
+    ], 
+    "english": "i went", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "fuiste", 
+    "level": "1", 
+    "verb": "go", 
+    "tense": "preterite", 
     "tags": [
       "preterite"
-    ],
-    "spanish": "fuiste",
-    "french": ".",
-    "verb": "go",
-    "tense": "preterite",
-    "english": "you went",
+    ], 
+    "english": "you went", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "fue", 
+    "level": "1", 
+    "verb": "go", 
+    "tense": "preterite", 
     "tags": [
       "preterite"
-    ],
-    "spanish": "fue",
-    "french": ".",
-    "verb": "go",
-    "tense": "preterite",
-    "english": "he went",
+    ], 
+    "english": "he went", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "fuimos", 
+    "level": "1", 
+    "verb": "go", 
+    "tense": "preterite", 
     "tags": [
       "preterite"
-    ],
-    "spanish": "fuimos",
-    "french": ".",
-    "verb": "go",
-    "tense": "preterite",
-    "english": "we went",
+    ], 
+    "english": "we went", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "fueron", 
+    "level": "1", 
+    "verb": "go", 
+    "tense": "preterite", 
     "tags": [
       "preterite"
-    ],
-    "spanish": "fueron",
-    "french": ".",
-    "verb": "go",
-    "tense": "preterite",
-    "english": "they went",
+    ], 
+    "english": "they went", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "iría", 
+    "level": "1", 
+    "verb": "go", 
+    "tense": "conditional", 
     "tags": [
       "conditional"
-    ],
-    "spanish": "iría",
-    "french": ".",
-    "verb": "go",
-    "tense": "conditional",
-    "english": "i would go",
+    ], 
+    "english": "i would go", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "irías", 
+    "level": "1", 
+    "verb": "go", 
+    "tense": "conditional", 
     "tags": [
       "conditional"
-    ],
-    "spanish": "irías",
-    "french": ".",
-    "verb": "go",
-    "tense": "conditional",
-    "english": "you would go",
+    ], 
+    "english": "you would go", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "iría", 
+    "level": "1", 
+    "verb": "go", 
+    "tense": "conditional", 
     "tags": [
       "conditional"
-    ],
-    "spanish": "iría",
-    "french": ".",
-    "verb": "go",
-    "tense": "conditional",
-    "english": "he would go",
+    ], 
+    "english": "he would go", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "iríamos", 
+    "level": "1", 
+    "verb": "go", 
+    "tense": "conditional", 
     "tags": [
       "conditional"
-    ],
-    "spanish": "iríamos",
-    "french": ".",
-    "verb": "go",
-    "tense": "conditional",
-    "english": "we would go",
+    ], 
+    "english": "we would go", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "irían", 
+    "level": "1", 
+    "verb": "go", 
+    "tense": "conditional", 
     "tags": [
       "conditional"
-    ],
-    "spanish": "irían",
-    "french": ".",
-    "verb": "go",
-    "tense": "conditional",
-    "english": "they would go",
+    ], 
+    "english": "they would go", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "he ido", 
+    "level": "1", 
+    "verb": "go", 
+    "tense": "present perfect", 
     "tags": [
       "present perfect"
-    ],
-    "spanish": "he ido",
-    "french": ".",
-    "verb": "go",
-    "tense": "present perfect",
-    "english": "i have gone",
+    ], 
+    "english": "i have gone", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "has ido", 
+    "level": "1", 
+    "verb": "go", 
+    "tense": "present perfect", 
     "tags": [
       "present perfect"
-    ],
-    "spanish": "has ido",
-    "french": ".",
-    "verb": "go",
-    "tense": "present perfect",
-    "english": "you have gone",
+    ], 
+    "english": "you have gone", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "ha ido", 
+    "level": "1", 
+    "verb": "go", 
+    "tense": "present perfect", 
     "tags": [
       "present perfect"
-    ],
-    "spanish": "ha ido",
-    "french": ".",
-    "verb": "go",
-    "tense": "present perfect",
-    "english": "he has gone",
+    ], 
+    "english": "he has gone", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "hemos ido", 
+    "level": "1", 
+    "verb": "go", 
+    "tense": "present perfect", 
     "tags": [
       "present perfect"
-    ],
-    "spanish": "hemos ido",
-    "french": ".",
-    "verb": "go",
-    "tense": "present perfect",
-    "english": "we have gone",
+    ], 
+    "english": "we have gone", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "han ido", 
+    "level": "1", 
+    "verb": "go", 
+    "tense": "present perfect", 
     "tags": [
       "present perfect"
-    ],
-    "spanish": "han ido",
-    "french": ".",
-    "verb": "go",
-    "tense": "present perfect",
-    "english": "they have gone",
+    ], 
+    "english": "they have gone", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "debería ir", 
+    "level": "1", 
+    "verb": "go", 
+    "tense": "conditional (should)", 
     "tags": [
       "conditional (should)"
-    ],
-    "spanish": "debería ir",
-    "french": ".",
-    "verb": "go",
-    "tense": "conditional (should)",
-    "english": "i should go",
+    ], 
+    "english": "i should go", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "deberías ir", 
+    "level": "1", 
+    "verb": "go", 
+    "tense": "conditional (should)", 
     "tags": [
       "conditional (should)"
-    ],
-    "spanish": "deberías ir",
-    "french": ".",
-    "verb": "go",
-    "tense": "conditional (should)",
-    "english": "you should go",
+    ], 
+    "english": "you should go", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "debería ir", 
+    "level": "1", 
+    "verb": "go", 
+    "tense": "conditional (should)", 
     "tags": [
       "conditional (should)"
-    ],
-    "spanish": "debería ir",
-    "french": ".",
-    "verb": "go",
-    "tense": "conditional (should)",
-    "english": "he should go",
+    ], 
+    "english": "he should go", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "deberíamos ir", 
+    "level": "1", 
+    "verb": "go", 
+    "tense": "conditional (should)", 
     "tags": [
       "conditional (should)"
-    ],
-    "spanish": "deberíamos ir",
-    "french": ".",
-    "verb": "go",
-    "tense": "conditional (should)",
-    "english": "we should go",
+    ], 
+    "english": "we should go", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "deberían ir", 
+    "level": "1", 
+    "verb": "go", 
+    "tense": "conditional (should)", 
     "tags": [
       "conditional (should)"
-    ],
-    "spanish": "deberían ir",
-    "french": ".",
-    "verb": "go",
-    "tense": "conditional (should)",
-    "english": "they should go",
+    ], 
+    "english": "they should go", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "podría ir", 
+    "level": "1", 
+    "verb": "go", 
+    "tense": "conditional (could)", 
     "tags": [
       "conditional (could)"
-    ],
-    "spanish": "podría ir",
-    "french": ".",
-    "verb": "go",
-    "tense": "conditional (could)",
-    "english": "i could go",
+    ], 
+    "english": "i could go", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "podrías ir", 
+    "level": "1", 
+    "verb": "go", 
+    "tense": "conditional (could)", 
     "tags": [
       "conditional (could)"
-    ],
-    "spanish": "podrías ir",
-    "french": ".",
-    "verb": "go",
-    "tense": "conditional (could)",
-    "english": "you could go",
+    ], 
+    "english": "you could go", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "podría ir", 
+    "level": "1", 
+    "verb": "go", 
+    "tense": "conditional (could)", 
     "tags": [
       "conditional (could)"
-    ],
-    "spanish": "podría ir",
-    "french": ".",
-    "verb": "go",
-    "tense": "conditional (could)",
-    "english": "he could go",
+    ], 
+    "english": "he could go", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "podríamos ir", 
+    "level": "1", 
+    "verb": "go", 
+    "tense": "conditional (could)", 
     "tags": [
       "conditional (could)"
-    ],
-    "spanish": "podríamos ir",
-    "french": ".",
-    "verb": "go",
-    "tense": "conditional (could)",
-    "english": "we could go",
+    ], 
+    "english": "we could go", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "podrían ir", 
+    "level": "1", 
+    "verb": "go", 
+    "tense": "conditional (could)", 
     "tags": [
       "conditional (could)"
-    ],
-    "spanish": "podrían ir",
-    "french": ".",
-    "verb": "go",
-    "tense": "conditional (could)",
-    "english": "they could go",
+    ], 
+    "english": "they could go", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "puedo", 
+    "level": "2", 
+    "verb": "can", 
+    "tense": "present", 
     "tags": [
       "present"
-    ],
-    "spanish": "puedo",
-    "french": ".",
-    "verb": "can",
-    "tense": "present",
-    "english": "i can",
+    ], 
+    "english": "i can", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "puedes", 
+    "level": "2", 
+    "verb": "can", 
+    "tense": "present", 
     "tags": [
       "present"
-    ],
-    "spanish": "puedes",
-    "french": ".",
-    "verb": "can",
-    "tense": "present",
-    "english": "you can",
+    ], 
+    "english": "you can", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "puede", 
+    "level": "2", 
+    "verb": "can", 
+    "tense": "present", 
     "tags": [
       "present"
-    ],
-    "spanish": "puede",
-    "french": ".",
-    "verb": "can",
-    "tense": "present",
-    "english": "he can",
+    ], 
+    "english": "he can", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "podemos", 
+    "level": "2", 
+    "verb": "can", 
+    "tense": "present", 
     "tags": [
       "present"
-    ],
-    "spanish": "podemos",
-    "french": ".",
-    "verb": "can",
-    "tense": "present",
-    "english": "we can",
+    ], 
+    "english": "we can", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "pueden", 
+    "level": "2", 
+    "verb": "can", 
+    "tense": "present", 
     "tags": [
       "present"
-    ],
-    "spanish": "pueden",
-    "french": ".",
-    "verb": "can",
-    "tense": "present",
-    "english": "they can",
+    ], 
+    "english": "they can", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "podré", 
+    "level": "2", 
+    "verb": "can", 
+    "tense": "future", 
     "tags": [
       "future"
-    ],
-    "spanish": "podré",
-    "french": ".",
-    "verb": "can",
-    "tense": "future",
-    "english": "i will be able",
+    ], 
+    "english": "i will be able", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "podrás", 
+    "level": "2", 
+    "verb": "can", 
+    "tense": "future", 
     "tags": [
       "future"
-    ],
-    "spanish": "podrás",
-    "french": ".",
-    "verb": "can",
-    "tense": "future",
-    "english": "you will be able",
+    ], 
+    "english": "you will be able", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "podrá", 
+    "level": "2", 
+    "verb": "can", 
+    "tense": "future", 
     "tags": [
       "future"
-    ],
-    "spanish": "podrá",
-    "french": ".",
-    "verb": "can",
-    "tense": "future",
-    "english": "he will be able",
+    ], 
+    "english": "he will be able", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "podremos", 
+    "level": "2", 
+    "verb": "can", 
+    "tense": "future", 
     "tags": [
       "future"
-    ],
-    "spanish": "podremos",
-    "french": ".",
-    "verb": "can",
-    "tense": "future",
-    "english": "we will be able",
+    ], 
+    "english": "we will be able", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "podrán", 
+    "level": "2", 
+    "verb": "can", 
+    "tense": "future", 
     "tags": [
       "future"
-    ],
-    "spanish": "podrán",
-    "french": ".",
-    "verb": "can",
-    "tense": "future",
-    "english": "they will be able",
+    ], 
+    "english": "they will be able", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "podía", 
+    "level": "2", 
+    "verb": "can", 
+    "tense": "imperfect", 
     "tags": [
       "imperfect"
-    ],
-    "spanish": "podía",
-    "french": ".",
-    "verb": "can",
-    "tense": "imperfect",
-    "english": "i used to be able",
+    ], 
+    "english": "i used to be able", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "podías", 
+    "level": "2", 
+    "verb": "can", 
+    "tense": "imperfect", 
     "tags": [
       "imperfect"
-    ],
-    "spanish": "podías",
-    "french": ".",
-    "verb": "can",
-    "tense": "imperfect",
-    "english": "you used to be able",
+    ], 
+    "english": "you used to be able", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "podía", 
+    "level": "2", 
+    "verb": "can", 
+    "tense": "imperfect", 
     "tags": [
       "imperfect"
-    ],
-    "spanish": "podía",
-    "french": ".",
-    "verb": "can",
-    "tense": "imperfect",
-    "english": "he used to be able",
+    ], 
+    "english": "he used to be able", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "podíamos", 
+    "level": "2", 
+    "verb": "can", 
+    "tense": "imperfect", 
     "tags": [
       "imperfect"
-    ],
-    "spanish": "podíamos",
-    "french": ".",
-    "verb": "can",
-    "tense": "imperfect",
-    "english": "we used to be able",
+    ], 
+    "english": "we used to be able", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "podían", 
+    "level": "2", 
+    "verb": "can", 
+    "tense": "imperfect", 
     "tags": [
       "imperfect"
-    ],
-    "spanish": "podían",
-    "french": ".",
-    "verb": "can",
-    "tense": "imperfect",
-    "english": "they used to be able",
+    ], 
+    "english": "they used to be able", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "pude", 
+    "level": "2", 
+    "verb": "can", 
+    "tense": "preterite", 
     "tags": [
       "preterite"
-    ],
-    "spanish": "pude",
-    "french": ".",
-    "verb": "can",
-    "tense": "preterite",
-    "english": "i could",
+    ], 
+    "english": "i could", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "pudiste", 
+    "level": "2", 
+    "verb": "can", 
+    "tense": "preterite", 
     "tags": [
       "preterite"
-    ],
-    "spanish": "pudiste",
-    "french": ".",
-    "verb": "can",
-    "tense": "preterite",
-    "english": "you could",
+    ], 
+    "english": "you could", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "pudo", 
+    "level": "2", 
+    "verb": "can", 
+    "tense": "preterite", 
     "tags": [
       "preterite"
-    ],
-    "spanish": "pudo",
-    "french": ".",
-    "verb": "can",
-    "tense": "preterite",
-    "english": "he could",
+    ], 
+    "english": "he could", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "pudimos", 
+    "level": "2", 
+    "verb": "can", 
+    "tense": "preterite", 
     "tags": [
       "preterite"
-    ],
-    "spanish": "pudimos",
-    "french": ".",
-    "verb": "can",
-    "tense": "preterite",
-    "english": "we could",
+    ], 
+    "english": "we could", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "pudieron", 
+    "level": "2", 
+    "verb": "can", 
+    "tense": "preterite", 
     "tags": [
       "preterite"
-    ],
-    "spanish": "pudieron",
-    "french": ".",
-    "verb": "can",
-    "tense": "preterite",
-    "english": "they could",
+    ], 
+    "english": "they could", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "podría", 
+    "level": "2", 
+    "verb": "can", 
+    "tense": "conditional", 
     "tags": [
       "conditional"
-    ],
-    "spanish": "podría",
-    "french": ".",
-    "verb": "can",
-    "tense": "conditional",
-    "english": "i would be able",
+    ], 
+    "english": "i would be able", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "podrías", 
+    "level": "2", 
+    "verb": "can", 
+    "tense": "conditional", 
     "tags": [
       "conditional"
-    ],
-    "spanish": "podrías",
-    "french": ".",
-    "verb": "can",
-    "tense": "conditional",
-    "english": "you would be able",
+    ], 
+    "english": "you would be able", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "podría", 
+    "level": "2", 
+    "verb": "can", 
+    "tense": "conditional", 
     "tags": [
       "conditional"
-    ],
-    "spanish": "podría",
-    "french": ".",
-    "verb": "can",
-    "tense": "conditional",
-    "english": "he would be able",
+    ], 
+    "english": "he would be able", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "podríamos", 
+    "level": "2", 
+    "verb": "can", 
+    "tense": "conditional", 
     "tags": [
       "conditional"
-    ],
-    "spanish": "podríamos",
-    "french": ".",
-    "verb": "can",
-    "tense": "conditional",
-    "english": "we would be able",
+    ], 
+    "english": "we would be able", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "podrían", 
+    "level": "2", 
+    "verb": "can", 
+    "tense": "conditional", 
     "tags": [
       "conditional"
-    ],
-    "spanish": "podrían",
-    "french": ".",
-    "verb": "can",
-    "tense": "conditional",
-    "english": "they would be able",
+    ], 
+    "english": "they would be able", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "he podido", 
+    "level": "2", 
+    "verb": "can", 
+    "tense": "present perfect", 
     "tags": [
       "present perfect"
-    ],
-    "spanish": "he podido",
-    "french": ".",
-    "verb": "can",
-    "tense": "present perfect",
-    "english": "i have been able",
+    ], 
+    "english": "i have been able", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "has podido", 
+    "level": "2", 
+    "verb": "can", 
+    "tense": "present perfect", 
     "tags": [
       "present perfect"
-    ],
-    "spanish": "has podido",
-    "french": ".",
-    "verb": "can",
-    "tense": "present perfect",
-    "english": "you have been able",
+    ], 
+    "english": "you have been able", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "ha podido", 
+    "level": "2", 
+    "verb": "can", 
+    "tense": "present perfect", 
     "tags": [
       "present perfect"
-    ],
-    "spanish": "ha podido",
-    "french": ".",
-    "verb": "can",
-    "tense": "present perfect",
-    "english": "he has been able",
+    ], 
+    "english": "he has been able", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "hemos podido", 
+    "level": "2", 
+    "verb": "can", 
+    "tense": "present perfect", 
     "tags": [
       "present perfect"
-    ],
-    "spanish": "hemos podido",
-    "french": ".",
-    "verb": "can",
-    "tense": "present perfect",
-    "english": "we have been able",
+    ], 
+    "english": "we have been able", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "han podido", 
+    "level": "2", 
+    "verb": "can", 
+    "tense": "present perfect", 
     "tags": [
       "present perfect"
-    ],
-    "spanish": "han podido",
-    "french": ".",
-    "verb": "can",
-    "tense": "present perfect",
-    "english": "they have been able",
+    ], 
+    "english": "they have been able", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "debería poder", 
+    "level": "2", 
+    "verb": "can", 
+    "tense": "conditional (should)", 
     "tags": [
       "conditional (should)"
-    ],
-    "spanish": "debería poder",
-    "french": ".",
-    "verb": "can",
-    "tense": "conditional (should)",
-    "english": "i should  be able",
+    ], 
+    "english": "i should  be able", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "deberías poder", 
+    "level": "2", 
+    "verb": "can", 
+    "tense": "conditional (should)", 
     "tags": [
       "conditional (should)"
-    ],
-    "spanish": "deberías poder",
-    "french": ".",
-    "verb": "can",
-    "tense": "conditional (should)",
-    "english": "you should  be able",
+    ], 
+    "english": "you should  be able", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "debería poder", 
+    "level": "2", 
+    "verb": "can", 
+    "tense": "conditional (should)", 
     "tags": [
       "conditional (should)"
-    ],
-    "spanish": "debería poder",
-    "french": ".",
-    "verb": "can",
-    "tense": "conditional (should)",
-    "english": "he should  be able",
+    ], 
+    "english": "he should  be able", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "deberíamos poder", 
+    "level": "2", 
+    "verb": "can", 
+    "tense": "conditional (should)", 
     "tags": [
       "conditional (should)"
-    ],
-    "spanish": "deberíamos poder",
-    "french": ".",
-    "verb": "can",
-    "tense": "conditional (should)",
-    "english": "we should  be able",
+    ], 
+    "english": "we should  be able", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "deberían poder", 
+    "level": "2", 
+    "verb": "can", 
+    "tense": "conditional (should)", 
     "tags": [
       "conditional (should)"
-    ],
-    "spanish": "deberían poder",
-    "french": ".",
-    "verb": "can",
-    "tense": "conditional (should)",
-    "english": "they should  be able",
+    ], 
+    "english": "they should  be able", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "debo", 
+    "level": "2", 
+    "verb": "must", 
+    "tense": "present", 
     "tags": [
       "present"
-    ],
-    "spanish": "debo",
-    "french": ".",
-    "verb": "must",
-    "tense": "present",
-    "english": "i must",
+    ], 
+    "english": "i must", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "debes", 
+    "level": "2", 
+    "verb": "must", 
+    "tense": "present", 
     "tags": [
       "present"
-    ],
-    "spanish": "debes",
-    "french": ".",
-    "verb": "must",
-    "tense": "present",
-    "english": "you must",
+    ], 
+    "english": "you must", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "debe", 
+    "level": "2", 
+    "verb": "must", 
+    "tense": "present", 
     "tags": [
       "present"
-    ],
-    "spanish": "debe",
-    "french": ".",
-    "verb": "must",
-    "tense": "present",
-    "english": "he must",
+    ], 
+    "english": "he must", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "debemos", 
+    "level": "2", 
+    "verb": "must", 
+    "tense": "present", 
     "tags": [
       "present"
-    ],
-    "spanish": "debemos",
-    "french": ".",
-    "verb": "must",
-    "tense": "present",
-    "english": "we must",
+    ], 
+    "english": "we must", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "deben", 
+    "level": "2", 
+    "verb": "must", 
+    "tense": "present", 
     "tags": [
       "present"
-    ],
-    "spanish": "deben",
-    "french": ".",
-    "verb": "must",
-    "tense": "present",
-    "english": "they must",
+    ], 
+    "english": "they must", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "deberé", 
+    "level": "2", 
+    "verb": "must", 
+    "tense": "future", 
     "tags": [
       "future"
-    ],
-    "spanish": "deberé",
-    "french": ".",
-    "verb": "must",
-    "tense": "future",
-    "english": "i will have to",
+    ], 
+    "english": "i will have to", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "deberás", 
+    "level": "2", 
+    "verb": "must", 
+    "tense": "future", 
     "tags": [
       "future"
-    ],
-    "spanish": "deberás",
-    "french": ".",
-    "verb": "must",
-    "tense": "future",
-    "english": "you will have to",
+    ], 
+    "english": "you will have to", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "deberá", 
+    "level": "2", 
+    "verb": "must", 
+    "tense": "future", 
     "tags": [
       "future"
-    ],
-    "spanish": "deberá",
-    "french": ".",
-    "verb": "must",
-    "tense": "future",
-    "english": "he will have to",
+    ], 
+    "english": "he will have to", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "deberemos", 
+    "level": "2", 
+    "verb": "must", 
+    "tense": "future", 
     "tags": [
       "future"
-    ],
-    "spanish": "deberemos",
-    "french": ".",
-    "verb": "must",
-    "tense": "future",
-    "english": "we will have to",
+    ], 
+    "english": "we will have to", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "deberán", 
+    "level": "2", 
+    "verb": "must", 
+    "tense": "future", 
     "tags": [
       "future"
-    ],
-    "spanish": "deberán",
-    "french": ".",
-    "verb": "must",
-    "tense": "future",
-    "english": "they will have to",
+    ], 
+    "english": "they will have to", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "debía", 
+    "level": "2", 
+    "verb": "must", 
+    "tense": "imperfect", 
     "tags": [
       "imperfect"
-    ],
-    "spanish": "debía",
-    "french": ".",
-    "verb": "must",
-    "tense": "imperfect",
-    "english": "i used to have to",
+    ], 
+    "english": "i used to have to", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "debías", 
+    "level": "2", 
+    "verb": "must", 
+    "tense": "imperfect", 
     "tags": [
       "imperfect"
-    ],
-    "spanish": "debías",
-    "french": ".",
-    "verb": "must",
-    "tense": "imperfect",
-    "english": "you used to have to",
+    ], 
+    "english": "you used to have to", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "debía", 
+    "level": "2", 
+    "verb": "must", 
+    "tense": "imperfect", 
     "tags": [
       "imperfect"
-    ],
-    "spanish": "debía",
-    "french": ".",
-    "verb": "must",
-    "tense": "imperfect",
-    "english": "he used to have to",
+    ], 
+    "english": "he used to have to", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "debíamos", 
+    "level": "2", 
+    "verb": "must", 
+    "tense": "imperfect", 
     "tags": [
       "imperfect"
-    ],
-    "spanish": "debíamos",
-    "french": ".",
-    "verb": "must",
-    "tense": "imperfect",
-    "english": "we used to have to",
+    ], 
+    "english": "we used to have to", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "debían", 
+    "level": "2", 
+    "verb": "must", 
+    "tense": "imperfect", 
     "tags": [
       "imperfect"
-    ],
-    "spanish": "debían",
-    "french": ".",
-    "verb": "must",
-    "tense": "imperfect",
-    "english": "they used to have to",
+    ], 
+    "english": "they used to have to", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "debí", 
+    "level": "2", 
+    "verb": "must", 
+    "tense": "preterite", 
     "tags": [
       "preterite"
-    ],
-    "spanish": "debí",
-    "french": ".",
-    "verb": "must",
-    "tense": "preterite",
-    "english": "i did have to",
+    ], 
+    "english": "i did have to", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "debiste", 
+    "level": "2", 
+    "verb": "must", 
+    "tense": "preterite", 
     "tags": [
       "preterite"
-    ],
-    "spanish": "debiste",
-    "french": ".",
-    "verb": "must",
-    "tense": "preterite",
-    "english": "you did have to",
+    ], 
+    "english": "you did have to", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "debió", 
+    "level": "2", 
+    "verb": "must", 
+    "tense": "preterite", 
     "tags": [
       "preterite"
-    ],
-    "spanish": "debió",
-    "french": ".",
-    "verb": "must",
-    "tense": "preterite",
-    "english": "he did have to",
+    ], 
+    "english": "he did have to", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "debimos", 
+    "level": "2", 
+    "verb": "must", 
+    "tense": "preterite", 
     "tags": [
       "preterite"
-    ],
-    "spanish": "debimos",
-    "french": ".",
-    "verb": "must",
-    "tense": "preterite",
-    "english": "we did have to",
+    ], 
+    "english": "we did have to", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "debieron", 
+    "level": "2", 
+    "verb": "must", 
+    "tense": "preterite", 
     "tags": [
       "preterite"
-    ],
-    "spanish": "debieron",
-    "french": ".",
-    "verb": "must",
-    "tense": "preterite",
-    "english": "they did have to",
+    ], 
+    "english": "they did have to", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "debería", 
+    "level": "2", 
+    "verb": "must", 
+    "tense": "conditional", 
     "tags": [
       "conditional"
-    ],
-    "spanish": "debería",
-    "french": ".",
-    "verb": "must",
-    "tense": "conditional",
-    "english": "i should",
+    ], 
+    "english": "i should", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "deberías", 
+    "level": "2", 
+    "verb": "must", 
+    "tense": "conditional", 
     "tags": [
       "conditional"
-    ],
-    "spanish": "deberías",
-    "french": ".",
-    "verb": "must",
-    "tense": "conditional",
-    "english": "you should",
+    ], 
+    "english": "you should", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "debería", 
+    "level": "2", 
+    "verb": "must", 
+    "tense": "conditional", 
     "tags": [
       "conditional"
-    ],
-    "spanish": "debería",
-    "french": ".",
-    "verb": "must",
-    "tense": "conditional",
-    "english": "he should",
+    ], 
+    "english": "he should", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "deberíamos", 
+    "level": "2", 
+    "verb": "must", 
+    "tense": "conditional", 
     "tags": [
       "conditional"
-    ],
-    "spanish": "deberíamos",
-    "french": ".",
-    "verb": "must",
-    "tense": "conditional",
-    "english": "we should",
+    ], 
+    "english": "we should", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "deberían", 
+    "level": "2", 
+    "verb": "must", 
+    "tense": "conditional", 
     "tags": [
       "conditional"
-    ],
-    "spanish": "deberían",
-    "french": ".",
-    "verb": "must",
-    "tense": "conditional",
-    "english": "they should",
+    ], 
+    "english": "they should", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "he debido", 
+    "level": "2", 
+    "verb": "must", 
+    "tense": "present perfect", 
     "tags": [
       "present perfect"
-    ],
-    "spanish": "he debido",
-    "french": ".",
-    "verb": "must",
-    "tense": "present perfect",
-    "english": "i have had to",
+    ], 
+    "english": "i have had to", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "has debido", 
+    "level": "2", 
+    "verb": "must", 
+    "tense": "present perfect", 
     "tags": [
       "present perfect"
-    ],
-    "spanish": "has debido",
-    "french": ".",
-    "verb": "must",
-    "tense": "present perfect",
-    "english": "you have had to",
+    ], 
+    "english": "you have had to", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "ha debido", 
+    "level": "2", 
+    "verb": "must", 
+    "tense": "present perfect", 
     "tags": [
       "present perfect"
-    ],
-    "spanish": "ha debido",
-    "french": ".",
-    "verb": "must",
-    "tense": "present perfect",
-    "english": "he has had to",
+    ], 
+    "english": "he has had to", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "hemos debido", 
+    "level": "2", 
+    "verb": "must", 
+    "tense": "present perfect", 
     "tags": [
       "present perfect"
-    ],
-    "spanish": "hemos debido",
-    "french": ".",
-    "verb": "must",
-    "tense": "present perfect",
-    "english": "we have had to",
+    ], 
+    "english": "we have had to", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "han debido", 
+    "level": "2", 
+    "verb": "must", 
+    "tense": "present perfect", 
     "tags": [
       "present perfect"
-    ],
-    "spanish": "han debido",
-    "french": ".",
-    "verb": "must",
-    "tense": "present perfect",
-    "english": "they have had to",
+    ], 
+    "english": "they have had to", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "podría deber", 
+    "level": "2", 
+    "verb": "must", 
+    "tense": "conditional (could)", 
     "tags": [
       "conditional (could)"
-    ],
-    "spanish": "podría deber",
-    "french": ".",
-    "verb": "must",
-    "tense": "conditional (could)",
-    "english": "i could have to",
+    ], 
+    "english": "i could have to", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "podrías deber", 
+    "level": "2", 
+    "verb": "must", 
+    "tense": "conditional (could)", 
     "tags": [
       "conditional (could)"
-    ],
-    "spanish": "podrías deber",
-    "french": ".",
-    "verb": "must",
-    "tense": "conditional (could)",
-    "english": "you could have to",
+    ], 
+    "english": "you could have to", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "podría deber", 
+    "level": "2", 
+    "verb": "must", 
+    "tense": "conditional (could)", 
     "tags": [
       "conditional (could)"
-    ],
-    "spanish": "podría deber",
-    "french": ".",
-    "verb": "must",
-    "tense": "conditional (could)",
-    "english": "he could have to",
+    ], 
+    "english": "he could have to", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "podríamos deber", 
+    "level": "2", 
+    "verb": "must", 
+    "tense": "conditional (could)", 
     "tags": [
       "conditional (could)"
-    ],
-    "spanish": "podríamos deber",
-    "french": ".",
-    "verb": "must",
-    "tense": "conditional (could)",
-    "english": "we could have to",
+    ], 
+    "english": "we could have to", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "podrían deber", 
+    "level": "2", 
+    "verb": "must", 
+    "tense": "conditional (could)", 
     "tags": [
       "conditional (could)"
-    ],
-    "spanish": "podrían deber",
-    "french": ".",
-    "verb": "must",
-    "tense": "conditional (could)",
-    "english": "they could have to",
+    ], 
+    "english": "they could have to", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "pongo", 
+    "level": "2", 
+    "verb": "put", 
+    "tense": "present", 
     "tags": [
       "present"
-    ],
-    "spanish": "pongo",
-    "french": ".",
-    "verb": "put",
-    "tense": "present",
-    "english": "i put",
+    ], 
+    "english": "i put", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "pones", 
+    "level": "2", 
+    "verb": "put", 
+    "tense": "present", 
     "tags": [
       "present"
-    ],
-    "spanish": "pones",
-    "french": ".",
-    "verb": "put",
-    "tense": "present",
-    "english": "you put",
+    ], 
+    "english": "you put", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "pone", 
+    "level": "2", 
+    "verb": "put", 
+    "tense": "present", 
     "tags": [
       "present"
-    ],
-    "spanish": "pone",
-    "french": ".",
-    "verb": "put",
-    "tense": "present",
-    "english": "he puts",
+    ], 
+    "english": "he puts", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "ponemos", 
+    "level": "2", 
+    "verb": "put", 
+    "tense": "present", 
     "tags": [
       "present"
-    ],
-    "spanish": "ponemos",
-    "french": ".",
-    "verb": "put",
-    "tense": "present",
-    "english": "we put",
+    ], 
+    "english": "we put", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "ponen", 
+    "level": "2", 
+    "verb": "put", 
+    "tense": "present", 
     "tags": [
       "present"
-    ],
-    "spanish": "ponen",
-    "french": ".",
-    "verb": "put",
-    "tense": "present",
-    "english": "they put",
+    ], 
+    "english": "they put", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "pondré", 
+    "level": "2", 
+    "verb": "put", 
+    "tense": "future", 
     "tags": [
       "future"
-    ],
-    "spanish": "pondré",
-    "french": ".",
-    "verb": "put",
-    "tense": "future",
-    "english": "i will put",
+    ], 
+    "english": "i will put", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "pondrás", 
+    "level": "2", 
+    "verb": "put", 
+    "tense": "future", 
     "tags": [
       "future"
-    ],
-    "spanish": "pondrás",
-    "french": ".",
-    "verb": "put",
-    "tense": "future",
-    "english": "you will put",
+    ], 
+    "english": "you will put", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "pondrá", 
+    "level": "2", 
+    "verb": "put", 
+    "tense": "future", 
     "tags": [
       "future"
-    ],
-    "spanish": "pondrá",
-    "french": ".",
-    "verb": "put",
-    "tense": "future",
-    "english": "he will put",
+    ], 
+    "english": "he will put", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "pondremos", 
+    "level": "2", 
+    "verb": "put", 
+    "tense": "future", 
     "tags": [
       "future"
-    ],
-    "spanish": "pondremos",
-    "french": ".",
-    "verb": "put",
-    "tense": "future",
-    "english": "we will put",
+    ], 
+    "english": "we will put", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "pondrán", 
+    "level": "2", 
+    "verb": "put", 
+    "tense": "future", 
     "tags": [
       "future"
-    ],
-    "spanish": "pondrán",
-    "french": ".",
-    "verb": "put",
-    "tense": "future",
-    "english": "they will put",
+    ], 
+    "english": "they will put", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "ponía", 
+    "level": "2", 
+    "verb": "put", 
+    "tense": "imperfect", 
     "tags": [
       "imperfect"
-    ],
-    "spanish": "ponía",
-    "french": ".",
-    "verb": "put",
-    "tense": "imperfect",
-    "english": "i used to put",
+    ], 
+    "english": "i used to put", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "ponías", 
+    "level": "2", 
+    "verb": "put", 
+    "tense": "imperfect", 
     "tags": [
       "imperfect"
-    ],
-    "spanish": "ponías",
-    "french": ".",
-    "verb": "put",
-    "tense": "imperfect",
-    "english": "you used to put",
+    ], 
+    "english": "you used to put", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "ponía", 
+    "level": "2", 
+    "verb": "put", 
+    "tense": "imperfect", 
     "tags": [
       "imperfect"
-    ],
-    "spanish": "ponía",
-    "french": ".",
-    "verb": "put",
-    "tense": "imperfect",
-    "english": "he used to put",
+    ], 
+    "english": "he used to put", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "poníamos", 
+    "level": "2", 
+    "verb": "put", 
+    "tense": "imperfect", 
     "tags": [
       "imperfect"
-    ],
-    "spanish": "poníamos",
-    "french": ".",
-    "verb": "put",
-    "tense": "imperfect",
-    "english": "we used to put",
+    ], 
+    "english": "we used to put", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "ponían", 
+    "level": "2", 
+    "verb": "put", 
+    "tense": "imperfect", 
     "tags": [
       "imperfect"
-    ],
-    "spanish": "ponían",
-    "french": ".",
-    "verb": "put",
-    "tense": "imperfect",
-    "english": "they used to put",
+    ], 
+    "english": "they used to put", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "puse", 
+    "level": "2", 
+    "verb": "put", 
+    "tense": "preterite", 
     "tags": [
       "preterite"
-    ],
-    "spanish": "puse",
-    "french": ".",
-    "verb": "put",
-    "tense": "preterite",
-    "english": "i put",
+    ], 
+    "english": "i put", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "pusiste", 
+    "level": "2", 
+    "verb": "put", 
+    "tense": "preterite", 
     "tags": [
       "preterite"
-    ],
-    "spanish": "pusiste",
-    "french": ".",
-    "verb": "put",
-    "tense": "preterite",
-    "english": "you put",
+    ], 
+    "english": "you put", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "puso", 
+    "level": "2", 
+    "verb": "put", 
+    "tense": "preterite", 
     "tags": [
       "preterite"
-    ],
-    "spanish": "puso",
-    "french": ".",
-    "verb": "put",
-    "tense": "preterite",
-    "english": "he put",
+    ], 
+    "english": "he put", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "pusimos", 
+    "level": "2", 
+    "verb": "put", 
+    "tense": "preterite", 
     "tags": [
       "preterite"
-    ],
-    "spanish": "pusimos",
-    "french": ".",
-    "verb": "put",
-    "tense": "preterite",
-    "english": "we put",
+    ], 
+    "english": "we put", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "pusieron", 
+    "level": "2", 
+    "verb": "put", 
+    "tense": "preterite", 
     "tags": [
       "preterite"
-    ],
-    "spanish": "pusieron",
-    "french": ".",
-    "verb": "put",
-    "tense": "preterite",
-    "english": "they put",
+    ], 
+    "english": "they put", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "pondría", 
+    "level": "2", 
+    "verb": "put", 
+    "tense": "conditional", 
     "tags": [
       "conditional"
-    ],
-    "spanish": "pondría",
-    "french": ".",
-    "verb": "put",
-    "tense": "conditional",
-    "english": "i would put",
+    ], 
+    "english": "i would put", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "pondrías", 
+    "level": "2", 
+    "verb": "put", 
+    "tense": "conditional", 
     "tags": [
       "conditional"
-    ],
-    "spanish": "pondrías",
-    "french": ".",
-    "verb": "put",
-    "tense": "conditional",
-    "english": "you would put",
+    ], 
+    "english": "you would put", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "pondría", 
+    "level": "2", 
+    "verb": "put", 
+    "tense": "conditional", 
     "tags": [
       "conditional"
-    ],
-    "spanish": "pondría",
-    "french": ".",
-    "verb": "put",
-    "tense": "conditional",
-    "english": "he would put",
+    ], 
+    "english": "he would put", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "pondríamos", 
+    "level": "2", 
+    "verb": "put", 
+    "tense": "conditional", 
     "tags": [
       "conditional"
-    ],
-    "spanish": "pondríamos",
-    "french": ".",
-    "verb": "put",
-    "tense": "conditional",
-    "english": "we would put",
+    ], 
+    "english": "we would put", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "pondrían", 
+    "level": "2", 
+    "verb": "put", 
+    "tense": "conditional", 
     "tags": [
       "conditional"
-    ],
-    "spanish": "pondrían",
-    "french": ".",
-    "verb": "put",
-    "tense": "conditional",
-    "english": "they would put",
+    ], 
+    "english": "they would put", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "he puesto", 
+    "level": "2", 
+    "verb": "put", 
+    "tense": "present perfect", 
     "tags": [
       "present perfect"
-    ],
-    "spanish": "he puesto",
-    "french": ".",
-    "verb": "put",
-    "tense": "present perfect",
-    "english": "i have put",
+    ], 
+    "english": "i have put", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "has puesto", 
+    "level": "2", 
+    "verb": "put", 
+    "tense": "present perfect", 
     "tags": [
       "present perfect"
-    ],
-    "spanish": "has puesto",
-    "french": ".",
-    "verb": "put",
-    "tense": "present perfect",
-    "english": "you have put",
+    ], 
+    "english": "you have put", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "ha puesto", 
+    "level": "2", 
+    "verb": "put", 
+    "tense": "present perfect", 
     "tags": [
       "present perfect"
-    ],
-    "spanish": "ha puesto",
-    "french": ".",
-    "verb": "put",
-    "tense": "present perfect",
-    "english": "he has put",
+    ], 
+    "english": "he has put", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "hemos puesto", 
+    "level": "2", 
+    "verb": "put", 
+    "tense": "present perfect", 
     "tags": [
       "present perfect"
-    ],
-    "spanish": "hemos puesto",
-    "french": ".",
-    "verb": "put",
-    "tense": "present perfect",
-    "english": "we have put",
+    ], 
+    "english": "we have put", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "han puesto", 
+    "level": "2", 
+    "verb": "put", 
+    "tense": "present perfect", 
     "tags": [
       "present perfect"
-    ],
-    "spanish": "han puesto",
-    "french": ".",
-    "verb": "put",
-    "tense": "present perfect",
-    "english": "they have put",
+    ], 
+    "english": "they have put", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "debería poner", 
+    "level": "2", 
+    "verb": "put", 
+    "tense": "conditional (should)", 
     "tags": [
       "conditional (should)"
-    ],
-    "spanish": "debería poner",
-    "french": ".",
-    "verb": "put",
-    "tense": "conditional (should)",
-    "english": "i should put",
+    ], 
+    "english": "i should put", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "deberías poner", 
+    "level": "2", 
+    "verb": "put", 
+    "tense": "conditional (should)", 
     "tags": [
       "conditional (should)"
-    ],
-    "spanish": "deberías poner",
-    "french": ".",
-    "verb": "put",
-    "tense": "conditional (should)",
-    "english": "you should put",
+    ], 
+    "english": "you should put", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "debería poner", 
+    "level": "2", 
+    "verb": "put", 
+    "tense": "conditional (should)", 
     "tags": [
       "conditional (should)"
-    ],
-    "spanish": "debería poner",
-    "french": ".",
-    "verb": "put",
-    "tense": "conditional (should)",
-    "english": "he should put",
+    ], 
+    "english": "he should put", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "deberíamos poner", 
+    "level": "2", 
+    "verb": "put", 
+    "tense": "conditional (should)", 
     "tags": [
       "conditional (should)"
-    ],
-    "spanish": "deberíamos poner",
-    "french": ".",
-    "verb": "put",
-    "tense": "conditional (should)",
-    "english": "we should put",
+    ], 
+    "english": "we should put", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "deberían poner", 
+    "level": "2", 
+    "verb": "put", 
+    "tense": "conditional (should)", 
     "tags": [
       "conditional (should)"
-    ],
-    "spanish": "deberían poner",
-    "french": ".",
-    "verb": "put",
-    "tense": "conditional (should)",
-    "english": "they should put",
+    ], 
+    "english": "they should put", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "podría poner", 
+    "level": "2", 
+    "verb": "put", 
+    "tense": "conditional (could)", 
     "tags": [
       "conditional (could)"
-    ],
-    "spanish": "podría poner",
-    "french": ".",
-    "verb": "put",
-    "tense": "conditional (could)",
-    "english": "i could put",
+    ], 
+    "english": "i could put", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "podrías poner", 
+    "level": "2", 
+    "verb": "put", 
+    "tense": "conditional (could)", 
     "tags": [
       "conditional (could)"
-    ],
-    "spanish": "podrías poner",
-    "french": ".",
-    "verb": "put",
-    "tense": "conditional (could)",
-    "english": "you could put",
+    ], 
+    "english": "you could put", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "podría poner", 
+    "level": "2", 
+    "verb": "put", 
+    "tense": "conditional (could)", 
     "tags": [
       "conditional (could)"
-    ],
-    "spanish": "podría poner",
-    "french": ".",
-    "verb": "put",
-    "tense": "conditional (could)",
-    "english": "he could put",
+    ], 
+    "english": "he could put", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "podríamos poner", 
+    "level": "2", 
+    "verb": "put", 
+    "tense": "conditional (could)", 
     "tags": [
       "conditional (could)"
-    ],
-    "spanish": "podríamos poner",
-    "french": ".",
-    "verb": "put",
-    "tense": "conditional (could)",
-    "english": "we could put",
+    ], 
+    "english": "we could put", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "podrían poner", 
+    "level": "2", 
+    "verb": "put", 
+    "tense": "conditional (could)", 
     "tags": [
       "conditional (could)"
-    ],
-    "spanish": "podrían poner",
-    "french": ".",
-    "verb": "put",
-    "tense": "conditional (could)",
-    "english": "they could put",
+    ], 
+    "english": "they could put", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "tomo", 
+    "level": "2", 
+    "verb": "take", 
+    "tense": "present", 
     "tags": [
       "present"
-    ],
-    "spanish": "tomo",
-    "french": ".",
-    "verb": "take",
-    "tense": "present",
-    "english": "i take",
+    ], 
+    "english": "i take", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "tomas", 
+    "level": "2", 
+    "verb": "take", 
+    "tense": "present", 
     "tags": [
       "present"
-    ],
-    "spanish": "tomas",
-    "french": ".",
-    "verb": "take",
-    "tense": "present",
-    "english": "you take",
+    ], 
+    "english": "you take", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "toma", 
+    "level": "2", 
+    "verb": "take", 
+    "tense": "present", 
     "tags": [
       "present"
-    ],
-    "spanish": "toma",
-    "french": ".",
-    "verb": "take",
-    "tense": "present",
-    "english": "he takes",
+    ], 
+    "english": "he takes", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "tomamos", 
+    "level": "2", 
+    "verb": "take", 
+    "tense": "present", 
     "tags": [
       "present"
-    ],
-    "spanish": "tomamos",
-    "french": ".",
-    "verb": "take",
-    "tense": "present",
-    "english": "we take",
+    ], 
+    "english": "we take", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "toman", 
+    "level": "2", 
+    "verb": "take", 
+    "tense": "present", 
     "tags": [
       "present"
-    ],
-    "spanish": "toman",
-    "french": ".",
-    "verb": "take",
-    "tense": "present",
-    "english": "they take",
+    ], 
+    "english": "they take", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "tomaré", 
+    "level": "2", 
+    "verb": "take", 
+    "tense": "future", 
     "tags": [
       "future"
-    ],
-    "spanish": "tomaré",
-    "french": ".",
-    "verb": "take",
-    "tense": "future",
-    "english": "i will take",
+    ], 
+    "english": "i will take", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "tomarás", 
+    "level": "2", 
+    "verb": "take", 
+    "tense": "future", 
     "tags": [
       "future"
-    ],
-    "spanish": "tomarás",
-    "french": ".",
-    "verb": "take",
-    "tense": "future",
-    "english": "you will take",
+    ], 
+    "english": "you will take", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "tomará", 
+    "level": "2", 
+    "verb": "take", 
+    "tense": "future", 
     "tags": [
       "future"
-    ],
-    "spanish": "tomará",
-    "french": ".",
-    "verb": "take",
-    "tense": "future",
-    "english": "he will take",
+    ], 
+    "english": "he will take", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "tomaremos", 
+    "level": "2", 
+    "verb": "take", 
+    "tense": "future", 
     "tags": [
       "future"
-    ],
-    "spanish": "tomaremos",
-    "french": ".",
-    "verb": "take",
-    "tense": "future",
-    "english": "we will take",
+    ], 
+    "english": "we will take", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "tomarán", 
+    "level": "2", 
+    "verb": "take", 
+    "tense": "future", 
     "tags": [
       "future"
-    ],
-    "spanish": "tomarán",
-    "french": ".",
-    "verb": "take",
-    "tense": "future",
-    "english": "they will take",
+    ], 
+    "english": "they will take", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "tomaba", 
+    "level": "2", 
+    "verb": "take", 
+    "tense": "imperfect", 
     "tags": [
       "imperfect"
-    ],
-    "spanish": "tomaba",
-    "french": ".",
-    "verb": "take",
-    "tense": "imperfect",
-    "english": "i used to take",
+    ], 
+    "english": "i used to take", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "tomabas", 
+    "level": "2", 
+    "verb": "take", 
+    "tense": "imperfect", 
     "tags": [
       "imperfect"
-    ],
-    "spanish": "tomabas",
-    "french": ".",
-    "verb": "take",
-    "tense": "imperfect",
-    "english": "you used to take",
+    ], 
+    "english": "you used to take", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "tomaba", 
+    "level": "2", 
+    "verb": "take", 
+    "tense": "imperfect", 
     "tags": [
       "imperfect"
-    ],
-    "spanish": "tomaba",
-    "french": ".",
-    "verb": "take",
-    "tense": "imperfect",
-    "english": "he used to take",
+    ], 
+    "english": "he used to take", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "tomábamos", 
+    "level": "2", 
+    "verb": "take", 
+    "tense": "imperfect", 
     "tags": [
       "imperfect"
-    ],
-    "spanish": "tomábamos",
-    "french": ".",
-    "verb": "take",
-    "tense": "imperfect",
-    "english": "we used to take",
+    ], 
+    "english": "we used to take", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "tomaban", 
+    "level": "2", 
+    "verb": "take", 
+    "tense": "imperfect", 
     "tags": [
       "imperfect"
-    ],
-    "spanish": "tomaban",
-    "french": ".",
-    "verb": "take",
-    "tense": "imperfect",
-    "english": "they used to take",
+    ], 
+    "english": "they used to take", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "tomé", 
+    "level": "2", 
+    "verb": "take", 
+    "tense": "preterite", 
     "tags": [
       "preterite"
-    ],
-    "spanish": "tomé",
-    "french": ".",
-    "verb": "take",
-    "tense": "preterite",
-    "english": "i took",
+    ], 
+    "english": "i took", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "tomaste", 
+    "level": "2", 
+    "verb": "take", 
+    "tense": "preterite", 
     "tags": [
       "preterite"
-    ],
-    "spanish": "tomaste",
-    "french": ".",
-    "verb": "take",
-    "tense": "preterite",
-    "english": "you took",
+    ], 
+    "english": "you took", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "tomó", 
+    "level": "2", 
+    "verb": "take", 
+    "tense": "preterite", 
     "tags": [
       "preterite"
-    ],
-    "spanish": "tomó",
-    "french": ".",
-    "verb": "take",
-    "tense": "preterite",
-    "english": "he took",
+    ], 
+    "english": "he took", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "tomamos", 
+    "level": "2", 
+    "verb": "take", 
+    "tense": "preterite", 
     "tags": [
       "preterite"
-    ],
-    "spanish": "tomamos",
-    "french": ".",
-    "verb": "take",
-    "tense": "preterite",
-    "english": "we took",
+    ], 
+    "english": "we took", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "tomaron", 
+    "level": "2", 
+    "verb": "take", 
+    "tense": "preterite", 
     "tags": [
       "preterite"
-    ],
-    "spanish": "tomaron",
-    "french": ".",
-    "verb": "take",
-    "tense": "preterite",
-    "english": "they took",
+    ], 
+    "english": "they took", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "tomaría", 
+    "level": "2", 
+    "verb": "take", 
+    "tense": "conditional", 
     "tags": [
       "conditional"
-    ],
-    "spanish": "tomaría",
-    "french": ".",
-    "verb": "take",
-    "tense": "conditional",
-    "english": "i would take",
+    ], 
+    "english": "i would take", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "tomarías", 
+    "level": "2", 
+    "verb": "take", 
+    "tense": "conditional", 
     "tags": [
       "conditional"
-    ],
-    "spanish": "tomarías",
-    "french": ".",
-    "verb": "take",
-    "tense": "conditional",
-    "english": "you would take",
+    ], 
+    "english": "you would take", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "tomaría", 
+    "level": "2", 
+    "verb": "take", 
+    "tense": "conditional", 
     "tags": [
       "conditional"
-    ],
-    "spanish": "tomaría",
-    "french": ".",
-    "verb": "take",
-    "tense": "conditional",
-    "english": "he would take",
+    ], 
+    "english": "he would take", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "tomaríamos", 
+    "level": "2", 
+    "verb": "take", 
+    "tense": "conditional", 
     "tags": [
       "conditional"
-    ],
-    "spanish": "tomaríamos",
-    "french": ".",
-    "verb": "take",
-    "tense": "conditional",
-    "english": "we would take",
+    ], 
+    "english": "we would take", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "tomarían", 
+    "level": "2", 
+    "verb": "take", 
+    "tense": "conditional", 
     "tags": [
       "conditional"
-    ],
-    "spanish": "tomarían",
-    "french": ".",
-    "verb": "take",
-    "tense": "conditional",
-    "english": "they would take",
+    ], 
+    "english": "they would take", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "he tomado", 
+    "level": "2", 
+    "verb": "take", 
+    "tense": "present perfect", 
     "tags": [
       "present perfect"
-    ],
-    "spanish": "he tomado",
-    "french": ".",
-    "verb": "take",
-    "tense": "present perfect",
-    "english": "i have taken",
+    ], 
+    "english": "i have taken", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "has tomado", 
+    "level": "2", 
+    "verb": "take", 
+    "tense": "present perfect", 
     "tags": [
       "present perfect"
-    ],
-    "spanish": "has tomado",
-    "french": ".",
-    "verb": "take",
-    "tense": "present perfect",
-    "english": "you have taken",
+    ], 
+    "english": "you have taken", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "ha tomado", 
+    "level": "2", 
+    "verb": "take", 
+    "tense": "present perfect", 
     "tags": [
       "present perfect"
-    ],
-    "spanish": "ha tomado",
-    "french": ".",
-    "verb": "take",
-    "tense": "present perfect",
-    "english": "he has taken",
+    ], 
+    "english": "he has taken", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "hemos tomado", 
+    "level": "2", 
+    "verb": "take", 
+    "tense": "present perfect", 
     "tags": [
       "present perfect"
-    ],
-    "spanish": "hemos tomado",
-    "french": ".",
-    "verb": "take",
-    "tense": "present perfect",
-    "english": "we have taken",
+    ], 
+    "english": "we have taken", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "han tomado", 
+    "level": "2", 
+    "verb": "take", 
+    "tense": "present perfect", 
     "tags": [
       "present perfect"
-    ],
-    "spanish": "han tomado",
-    "french": ".",
-    "verb": "take",
-    "tense": "present perfect",
-    "english": "they have taken",
+    ], 
+    "english": "they have taken", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "debería tomar", 
+    "level": "2", 
+    "verb": "take", 
+    "tense": "conditional (should)", 
     "tags": [
       "conditional (should)"
-    ],
-    "spanish": "debería tomar",
-    "french": ".",
-    "verb": "take",
-    "tense": "conditional (should)",
-    "english": "i should take",
+    ], 
+    "english": "i should take", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "deberías tomar", 
+    "level": "2", 
+    "verb": "take", 
+    "tense": "conditional (should)", 
     "tags": [
       "conditional (should)"
-    ],
-    "spanish": "deberías tomar",
-    "french": ".",
-    "verb": "take",
-    "tense": "conditional (should)",
-    "english": "you should take",
+    ], 
+    "english": "you should take", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "debería tomar", 
+    "level": "2", 
+    "verb": "take", 
+    "tense": "conditional (should)", 
     "tags": [
       "conditional (should)"
-    ],
-    "spanish": "debería tomar",
-    "french": ".",
-    "verb": "take",
-    "tense": "conditional (should)",
-    "english": "he should take",
+    ], 
+    "english": "he should take", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "deberíamos tomar", 
+    "level": "2", 
+    "verb": "take", 
+    "tense": "conditional (should)", 
     "tags": [
       "conditional (should)"
-    ],
-    "spanish": "deberíamos tomar",
-    "french": ".",
-    "verb": "take",
-    "tense": "conditional (should)",
-    "english": "we should take",
+    ], 
+    "english": "we should take", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "deberían tomar", 
+    "level": "2", 
+    "verb": "take", 
+    "tense": "conditional (should)", 
     "tags": [
       "conditional (should)"
-    ],
-    "spanish": "deberían tomar",
-    "french": ".",
-    "verb": "take",
-    "tense": "conditional (should)",
-    "english": "they should take",
+    ], 
+    "english": "they should take", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "podría tomar", 
+    "level": "2", 
+    "verb": "take", 
+    "tense": "conditional (could)", 
     "tags": [
       "conditional (could)"
-    ],
-    "spanish": "podría tomar",
-    "french": ".",
-    "verb": "take",
-    "tense": "conditional (could)",
-    "english": "i could take",
+    ], 
+    "english": "i could take", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "podrías tomar", 
+    "level": "2", 
+    "verb": "take", 
+    "tense": "conditional (could)", 
     "tags": [
       "conditional (could)"
-    ],
-    "spanish": "podrías tomar",
-    "french": ".",
-    "verb": "take",
-    "tense": "conditional (could)",
-    "english": "you could take",
+    ], 
+    "english": "you could take", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "podría tomar", 
+    "level": "2", 
+    "verb": "take", 
+    "tense": "conditional (could)", 
     "tags": [
       "conditional (could)"
-    ],
-    "spanish": "podría tomar",
-    "french": ".",
-    "verb": "take",
-    "tense": "conditional (could)",
-    "english": "he could take",
+    ], 
+    "english": "he could take", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "podríamos tomar", 
+    "level": "2", 
+    "verb": "take", 
+    "tense": "conditional (could)", 
     "tags": [
       "conditional (could)"
-    ],
-    "spanish": "podríamos tomar",
-    "french": ".",
-    "verb": "take",
-    "tense": "conditional (could)",
-    "english": "we could take",
+    ], 
+    "english": "we could take", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "podrían tomar", 
+    "level": "2", 
+    "verb": "take", 
+    "tense": "conditional (could)", 
     "tags": [
       "conditional (could)"
-    ],
-    "spanish": "podrían tomar",
-    "french": ".",
-    "verb": "take",
-    "tense": "conditional (could)",
-    "english": "they could take",
+    ], 
+    "english": "they could take", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "vengo", 
+    "level": "2", 
+    "verb": "come", 
+    "tense": "present", 
     "tags": [
       "present"
-    ],
-    "spanish": "vengo",
-    "french": ".",
-    "verb": "come",
-    "tense": "present",
-    "english": "i come",
+    ], 
+    "english": "i come", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "vienes", 
+    "level": "2", 
+    "verb": "come", 
+    "tense": "present", 
     "tags": [
       "present"
-    ],
-    "spanish": "vienes",
-    "french": ".",
-    "verb": "come",
-    "tense": "present",
-    "english": "you come",
+    ], 
+    "english": "you come", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "viene", 
+    "level": "2", 
+    "verb": "come", 
+    "tense": "present", 
     "tags": [
       "present"
-    ],
-    "spanish": "viene",
-    "french": ".",
-    "verb": "come",
-    "tense": "present",
-    "english": "he comes",
+    ], 
+    "english": "he comes", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "venimos", 
+    "level": "2", 
+    "verb": "come", 
+    "tense": "present", 
     "tags": [
       "present"
-    ],
-    "spanish": "venimos",
-    "french": ".",
-    "verb": "come",
-    "tense": "present",
-    "english": "we come",
+    ], 
+    "english": "we come", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "vienen", 
+    "level": "2", 
+    "verb": "come", 
+    "tense": "present", 
     "tags": [
       "present"
-    ],
-    "spanish": "vienen",
-    "french": ".",
-    "verb": "come",
-    "tense": "present",
-    "english": "they come",
+    ], 
+    "english": "they come", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "vendré", 
+    "level": "2", 
+    "verb": "come", 
+    "tense": "future", 
     "tags": [
       "future"
-    ],
-    "spanish": "vendré",
-    "french": ".",
-    "verb": "come",
-    "tense": "future",
-    "english": "i will come",
+    ], 
+    "english": "i will come", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "vendrás", 
+    "level": "2", 
+    "verb": "come", 
+    "tense": "future", 
     "tags": [
       "future"
-    ],
-    "spanish": "vendrás",
-    "french": ".",
-    "verb": "come",
-    "tense": "future",
-    "english": "you will come",
+    ], 
+    "english": "you will come", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "vendrá", 
+    "level": "2", 
+    "verb": "come", 
+    "tense": "future", 
     "tags": [
       "future"
-    ],
-    "spanish": "vendrá",
-    "french": ".",
-    "verb": "come",
-    "tense": "future",
-    "english": "he will come",
+    ], 
+    "english": "he will come", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "vendremos", 
+    "level": "2", 
+    "verb": "come", 
+    "tense": "future", 
     "tags": [
       "future"
-    ],
-    "spanish": "vendremos",
-    "french": ".",
-    "verb": "come",
-    "tense": "future",
-    "english": "we will come",
+    ], 
+    "english": "we will come", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "vendrán", 
+    "level": "2", 
+    "verb": "come", 
+    "tense": "future", 
     "tags": [
       "future"
-    ],
-    "spanish": "vendrán",
-    "french": ".",
-    "verb": "come",
-    "tense": "future",
-    "english": "they will come",
+    ], 
+    "english": "they will come", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "venía", 
+    "level": "2", 
+    "verb": "come", 
+    "tense": "imperfect", 
     "tags": [
       "imperfect"
-    ],
-    "spanish": "venía",
-    "french": ".",
-    "verb": "come",
-    "tense": "imperfect",
-    "english": "i used to come",
+    ], 
+    "english": "i used to come", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "venías", 
+    "level": "2", 
+    "verb": "come", 
+    "tense": "imperfect", 
     "tags": [
       "imperfect"
-    ],
-    "spanish": "venías",
-    "french": ".",
-    "verb": "come",
-    "tense": "imperfect",
-    "english": "you used to come",
+    ], 
+    "english": "you used to come", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "venía", 
+    "level": "2", 
+    "verb": "come", 
+    "tense": "imperfect", 
     "tags": [
       "imperfect"
-    ],
-    "spanish": "venía",
-    "french": ".",
-    "verb": "come",
-    "tense": "imperfect",
-    "english": "he used to come",
+    ], 
+    "english": "he used to come", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "veníamos", 
+    "level": "2", 
+    "verb": "come", 
+    "tense": "imperfect", 
     "tags": [
       "imperfect"
-    ],
-    "spanish": "veníamos",
-    "french": ".",
-    "verb": "come",
-    "tense": "imperfect",
-    "english": "we used to come",
+    ], 
+    "english": "we used to come", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "venían", 
+    "level": "2", 
+    "verb": "come", 
+    "tense": "imperfect", 
     "tags": [
       "imperfect"
-    ],
-    "spanish": "venían",
-    "french": ".",
-    "verb": "come",
-    "tense": "imperfect",
-    "english": "they used to come",
+    ], 
+    "english": "they used to come", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "vine", 
+    "level": "2", 
+    "verb": "come", 
+    "tense": "preterite", 
     "tags": [
       "preterite"
-    ],
-    "spanish": "vine",
-    "french": ".",
-    "verb": "come",
-    "tense": "preterite",
-    "english": "i came",
+    ], 
+    "english": "i came", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "viniste", 
+    "level": "2", 
+    "verb": "come", 
+    "tense": "preterite", 
     "tags": [
       "preterite"
-    ],
-    "spanish": "viniste",
-    "french": ".",
-    "verb": "come",
-    "tense": "preterite",
-    "english": "you came",
+    ], 
+    "english": "you came", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "vino", 
+    "level": "2", 
+    "verb": "come", 
+    "tense": "preterite", 
     "tags": [
       "preterite"
-    ],
-    "spanish": "vino",
-    "french": ".",
-    "verb": "come",
-    "tense": "preterite",
-    "english": "he came",
+    ], 
+    "english": "he came", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "vinimos", 
+    "level": "2", 
+    "verb": "come", 
+    "tense": "preterite", 
     "tags": [
       "preterite"
-    ],
-    "spanish": "vinimos",
-    "french": ".",
-    "verb": "come",
-    "tense": "preterite",
-    "english": "we came",
+    ], 
+    "english": "we came", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "vinieron", 
+    "level": "2", 
+    "verb": "come", 
+    "tense": "preterite", 
     "tags": [
       "preterite"
-    ],
-    "spanish": "vinieron",
-    "french": ".",
-    "verb": "come",
-    "tense": "preterite",
-    "english": "they came",
+    ], 
+    "english": "they came", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "vendría", 
+    "level": "2", 
+    "verb": "come", 
+    "tense": "conditional", 
     "tags": [
       "conditional"
-    ],
-    "spanish": "vendría",
-    "french": ".",
-    "verb": "come",
-    "tense": "conditional",
-    "english": "i would come",
+    ], 
+    "english": "i would come", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "vendrías", 
+    "level": "2", 
+    "verb": "come", 
+    "tense": "conditional", 
     "tags": [
       "conditional"
-    ],
-    "spanish": "vendrías",
-    "french": ".",
-    "verb": "come",
-    "tense": "conditional",
-    "english": "you would come",
+    ], 
+    "english": "you would come", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "vendría", 
+    "level": "2", 
+    "verb": "come", 
+    "tense": "conditional", 
     "tags": [
       "conditional"
-    ],
-    "spanish": "vendría",
-    "french": ".",
-    "verb": "come",
-    "tense": "conditional",
-    "english": "he would come",
+    ], 
+    "english": "he would come", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "vendríamos", 
+    "level": "2", 
+    "verb": "come", 
+    "tense": "conditional", 
     "tags": [
       "conditional"
-    ],
-    "spanish": "vendríamos",
-    "french": ".",
-    "verb": "come",
-    "tense": "conditional",
-    "english": "we would come",
+    ], 
+    "english": "we would come", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "vendrían", 
+    "level": "2", 
+    "verb": "come", 
+    "tense": "conditional", 
     "tags": [
       "conditional"
-    ],
-    "spanish": "vendrían",
-    "french": ".",
-    "verb": "come",
-    "tense": "conditional",
-    "english": "they would come",
+    ], 
+    "english": "they would come", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "he venido", 
+    "level": "2", 
+    "verb": "come", 
+    "tense": "present perfect", 
     "tags": [
       "present perfect"
-    ],
-    "spanish": "he venido",
-    "french": ".",
-    "verb": "come",
-    "tense": "present perfect",
-    "english": "i have come",
+    ], 
+    "english": "i have come", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "has venido", 
+    "level": "2", 
+    "verb": "come", 
+    "tense": "present perfect", 
     "tags": [
       "present perfect"
-    ],
-    "spanish": "has venido",
-    "french": ".",
-    "verb": "come",
-    "tense": "present perfect",
-    "english": "you have come",
+    ], 
+    "english": "you have come", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "ha venido", 
+    "level": "2", 
+    "verb": "come", 
+    "tense": "present perfect", 
     "tags": [
       "present perfect"
-    ],
-    "spanish": "ha venido",
-    "french": ".",
-    "verb": "come",
-    "tense": "present perfect",
-    "english": "he has come",
+    ], 
+    "english": "he has come", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "hemos venido", 
+    "level": "2", 
+    "verb": "come", 
+    "tense": "present perfect", 
     "tags": [
       "present perfect"
-    ],
-    "spanish": "hemos venido",
-    "french": ".",
-    "verb": "come",
-    "tense": "present perfect",
-    "english": "we have come",
+    ], 
+    "english": "we have come", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "han venido", 
+    "level": "2", 
+    "verb": "come", 
+    "tense": "present perfect", 
     "tags": [
       "present perfect"
-    ],
-    "spanish": "han venido",
-    "french": ".",
-    "verb": "come",
-    "tense": "present perfect",
-    "english": "they have come",
+    ], 
+    "english": "they have come", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "debería venir", 
+    "level": "2", 
+    "verb": "come", 
+    "tense": "conditional (should)", 
     "tags": [
       "conditional (should)"
-    ],
-    "spanish": "debería venir",
-    "french": ".",
-    "verb": "come",
-    "tense": "conditional (should)",
-    "english": "i should come",
+    ], 
+    "english": "i should come", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "deberías venir", 
+    "level": "2", 
+    "verb": "come", 
+    "tense": "conditional (should)", 
     "tags": [
       "conditional (should)"
-    ],
-    "spanish": "deberías venir",
-    "french": ".",
-    "verb": "come",
-    "tense": "conditional (should)",
-    "english": "you should come",
+    ], 
+    "english": "you should come", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "debería venir", 
+    "level": "2", 
+    "verb": "come", 
+    "tense": "conditional (should)", 
     "tags": [
       "conditional (should)"
-    ],
-    "spanish": "debería venir",
-    "french": ".",
-    "verb": "come",
-    "tense": "conditional (should)",
-    "english": "he should come",
+    ], 
+    "english": "he should come", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "deberíamos venir", 
+    "level": "2", 
+    "verb": "come", 
+    "tense": "conditional (should)", 
     "tags": [
       "conditional (should)"
-    ],
-    "spanish": "deberíamos venir",
-    "french": ".",
-    "verb": "come",
-    "tense": "conditional (should)",
-    "english": "we should come",
+    ], 
+    "english": "we should come", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "deberían venir", 
+    "level": "2", 
+    "verb": "come", 
+    "tense": "conditional (should)", 
     "tags": [
       "conditional (should)"
-    ],
-    "spanish": "deberían venir",
-    "french": ".",
-    "verb": "come",
-    "tense": "conditional (should)",
-    "english": "they should come",
+    ], 
+    "english": "they should come", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "podría venir", 
+    "level": "2", 
+    "verb": "come", 
+    "tense": "conditional (could)", 
     "tags": [
       "conditional (could)"
-    ],
-    "spanish": "podría venir",
-    "french": ".",
-    "verb": "come",
-    "tense": "conditional (could)",
-    "english": "i could come",
+    ], 
+    "english": "i could come", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "podrías venir", 
+    "level": "2", 
+    "verb": "come", 
+    "tense": "conditional (could)", 
     "tags": [
       "conditional (could)"
-    ],
-    "spanish": "podrías venir",
-    "french": ".",
-    "verb": "come",
-    "tense": "conditional (could)",
-    "english": "you could come",
+    ], 
+    "english": "you could come", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "podría venir", 
+    "level": "2", 
+    "verb": "come", 
+    "tense": "conditional (could)", 
     "tags": [
       "conditional (could)"
-    ],
-    "spanish": "podría venir",
-    "french": ".",
-    "verb": "come",
-    "tense": "conditional (could)",
-    "english": "he could come",
+    ], 
+    "english": "he could come", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "podríamos venir", 
+    "level": "2", 
+    "verb": "come", 
+    "tense": "conditional (could)", 
     "tags": [
       "conditional (could)"
-    ],
-    "spanish": "podríamos venir",
-    "french": ".",
-    "verb": "come",
-    "tense": "conditional (could)",
-    "english": "we could come",
+    ], 
+    "english": "we could come", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "podrían venir", 
+    "level": "2", 
+    "verb": "come", 
+    "tense": "conditional (could)", 
     "tags": [
       "conditional (could)"
-    ],
-    "spanish": "podrían venir",
-    "french": ".",
-    "verb": "come",
-    "tense": "conditional (could)",
-    "english": "they could come",
+    ], 
+    "english": "they could come", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "veo", 
+    "level": "2", 
+    "verb": "see", 
+    "tense": "present", 
     "tags": [
       "present"
-    ],
-    "spanish": "veo",
-    "french": ".",
-    "verb": "see",
-    "tense": "present",
-    "english": "i see",
+    ], 
+    "english": "i see", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "ves", 
+    "level": "2", 
+    "verb": "see", 
+    "tense": "present", 
     "tags": [
       "present"
-    ],
-    "spanish": "ves",
-    "french": ".",
-    "verb": "see",
-    "tense": "present",
-    "english": "you see",
+    ], 
+    "english": "you see", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "ve", 
+    "level": "2", 
+    "verb": "see", 
+    "tense": "present", 
     "tags": [
       "present"
-    ],
-    "spanish": "ve",
-    "french": ".",
-    "verb": "see",
-    "tense": "present",
-    "english": "he sees",
+    ], 
+    "english": "he sees", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "vemos", 
+    "level": "2", 
+    "verb": "see", 
+    "tense": "present", 
     "tags": [
       "present"
-    ],
-    "spanish": "vemos",
-    "french": ".",
-    "verb": "see",
-    "tense": "present",
-    "english": "we see",
+    ], 
+    "english": "we see", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "ven", 
+    "level": "2", 
+    "verb": "see", 
+    "tense": "present", 
     "tags": [
       "present"
-    ],
-    "spanish": "ven",
-    "french": ".",
-    "verb": "see",
-    "tense": "present",
-    "english": "they see",
+    ], 
+    "english": "they see", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "veré", 
+    "level": "2", 
+    "verb": "see", 
+    "tense": "future", 
     "tags": [
       "future"
-    ],
-    "spanish": "veré",
-    "french": ".",
-    "verb": "see",
-    "tense": "future",
-    "english": "i will see",
+    ], 
+    "english": "i will see", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "verás", 
+    "level": "2", 
+    "verb": "see", 
+    "tense": "future", 
     "tags": [
       "future"
-    ],
-    "spanish": "verás",
-    "french": ".",
-    "verb": "see",
-    "tense": "future",
-    "english": "you will see",
+    ], 
+    "english": "you will see", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "verá", 
+    "level": "2", 
+    "verb": "see", 
+    "tense": "future", 
     "tags": [
       "future"
-    ],
-    "spanish": "verá",
-    "french": ".",
-    "verb": "see",
-    "tense": "future",
-    "english": "he will see",
+    ], 
+    "english": "he will see", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "veremos", 
+    "level": "2", 
+    "verb": "see", 
+    "tense": "future", 
     "tags": [
       "future"
-    ],
-    "spanish": "veremos",
-    "french": ".",
-    "verb": "see",
-    "tense": "future",
-    "english": "we will see",
+    ], 
+    "english": "we will see", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "verán", 
+    "level": "2", 
+    "verb": "see", 
+    "tense": "future", 
     "tags": [
       "future"
-    ],
-    "spanish": "verán",
-    "french": ".",
-    "verb": "see",
-    "tense": "future",
-    "english": "they will see",
+    ], 
+    "english": "they will see", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "veía", 
+    "level": "2", 
+    "verb": "see", 
+    "tense": "imperfect", 
     "tags": [
       "imperfect"
-    ],
-    "spanish": "veía",
-    "french": ".",
-    "verb": "see",
-    "tense": "imperfect",
-    "english": "i used to see",
+    ], 
+    "english": "i used to see", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "veías", 
+    "level": "2", 
+    "verb": "see", 
+    "tense": "imperfect", 
     "tags": [
       "imperfect"
-    ],
-    "spanish": "veías",
-    "french": ".",
-    "verb": "see",
-    "tense": "imperfect",
-    "english": "you used to see",
+    ], 
+    "english": "you used to see", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "veía", 
+    "level": "2", 
+    "verb": "see", 
+    "tense": "imperfect", 
     "tags": [
       "imperfect"
-    ],
-    "spanish": "veía",
-    "french": ".",
-    "verb": "see",
-    "tense": "imperfect",
-    "english": "he used to see",
+    ], 
+    "english": "he used to see", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "veíamos", 
+    "level": "2", 
+    "verb": "see", 
+    "tense": "imperfect", 
     "tags": [
       "imperfect"
-    ],
-    "spanish": "veíamos",
-    "french": ".",
-    "verb": "see",
-    "tense": "imperfect",
-    "english": "we used to see",
+    ], 
+    "english": "we used to see", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "veían", 
+    "level": "2", 
+    "verb": "see", 
+    "tense": "imperfect", 
     "tags": [
       "imperfect"
-    ],
-    "spanish": "veían",
-    "french": ".",
-    "verb": "see",
-    "tense": "imperfect",
-    "english": "they used to see",
+    ], 
+    "english": "they used to see", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "vi", 
+    "level": "2", 
+    "verb": "see", 
+    "tense": "preterite", 
     "tags": [
       "preterite"
-    ],
-    "spanish": "vi",
-    "french": ".",
-    "verb": "see",
-    "tense": "preterite",
-    "english": "i saw",
+    ], 
+    "english": "i saw", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "viste", 
+    "level": "2", 
+    "verb": "see", 
+    "tense": "preterite", 
     "tags": [
       "preterite"
-    ],
-    "spanish": "viste",
-    "french": ".",
-    "verb": "see",
-    "tense": "preterite",
-    "english": "you saw",
+    ], 
+    "english": "you saw", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "vio", 
+    "level": "2", 
+    "verb": "see", 
+    "tense": "preterite", 
     "tags": [
       "preterite"
-    ],
-    "spanish": "vio",
-    "french": ".",
-    "verb": "see",
-    "tense": "preterite",
-    "english": "he saw",
+    ], 
+    "english": "he saw", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "vimos", 
+    "level": "2", 
+    "verb": "see", 
+    "tense": "preterite", 
     "tags": [
       "preterite"
-    ],
-    "spanish": "vimos",
-    "french": ".",
-    "verb": "see",
-    "tense": "preterite",
-    "english": "we saw",
+    ], 
+    "english": "we saw", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "vieron", 
+    "level": "2", 
+    "verb": "see", 
+    "tense": "preterite", 
     "tags": [
       "preterite"
-    ],
-    "spanish": "vieron",
-    "french": ".",
-    "verb": "see",
-    "tense": "preterite",
-    "english": "they saw",
+    ], 
+    "english": "they saw", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "vería", 
+    "level": "2", 
+    "verb": "see", 
+    "tense": "conditional", 
     "tags": [
       "conditional"
-    ],
-    "spanish": "vería",
-    "french": ".",
-    "verb": "see",
-    "tense": "conditional",
-    "english": "i would see",
+    ], 
+    "english": "i would see", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "verías", 
+    "level": "2", 
+    "verb": "see", 
+    "tense": "conditional", 
     "tags": [
       "conditional"
-    ],
-    "spanish": "verías",
-    "french": ".",
-    "verb": "see",
-    "tense": "conditional",
-    "english": "you would see",
+    ], 
+    "english": "you would see", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "vería", 
+    "level": "2", 
+    "verb": "see", 
+    "tense": "conditional", 
     "tags": [
       "conditional"
-    ],
-    "spanish": "vería",
-    "french": ".",
-    "verb": "see",
-    "tense": "conditional",
-    "english": "he would see",
+    ], 
+    "english": "he would see", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "veríamos", 
+    "level": "2", 
+    "verb": "see", 
+    "tense": "conditional", 
     "tags": [
       "conditional"
-    ],
-    "spanish": "veríamos",
-    "french": ".",
-    "verb": "see",
-    "tense": "conditional",
-    "english": "we would see",
+    ], 
+    "english": "we would see", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "verían", 
+    "level": "2", 
+    "verb": "see", 
+    "tense": "conditional", 
     "tags": [
       "conditional"
-    ],
-    "spanish": "verían",
-    "french": ".",
-    "verb": "see",
-    "tense": "conditional",
-    "english": "they would see",
+    ], 
+    "english": "they would see", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "he visto", 
+    "level": "2", 
+    "verb": "see", 
+    "tense": "present perfect", 
     "tags": [
       "present perfect"
-    ],
-    "spanish": "he visto",
-    "french": ".",
-    "verb": "see",
-    "tense": "present perfect",
-    "english": "i have seen",
+    ], 
+    "english": "i have seen", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "has visto", 
+    "level": "2", 
+    "verb": "see", 
+    "tense": "present perfect", 
     "tags": [
       "present perfect"
-    ],
-    "spanish": "has visto",
-    "french": ".",
-    "verb": "see",
-    "tense": "present perfect",
-    "english": "you have seen",
+    ], 
+    "english": "you have seen", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "ha visto", 
+    "level": "2", 
+    "verb": "see", 
+    "tense": "present perfect", 
     "tags": [
       "present perfect"
-    ],
-    "spanish": "ha visto",
-    "french": ".",
-    "verb": "see",
-    "tense": "present perfect",
-    "english": "he has seen",
+    ], 
+    "english": "he has seen", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "hemos visto", 
+    "level": "2", 
+    "verb": "see", 
+    "tense": "present perfect", 
     "tags": [
       "present perfect"
-    ],
-    "spanish": "hemos visto",
-    "french": ".",
-    "verb": "see",
-    "tense": "present perfect",
-    "english": "we have seen",
+    ], 
+    "english": "we have seen", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "han visto", 
+    "level": "2", 
+    "verb": "see", 
+    "tense": "present perfect", 
     "tags": [
       "present perfect"
-    ],
-    "spanish": "han visto",
-    "french": ".",
-    "verb": "see",
-    "tense": "present perfect",
-    "english": "they have seen",
+    ], 
+    "english": "they have seen", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "debería ver", 
+    "level": "2", 
+    "verb": "see", 
+    "tense": "conditional (should)", 
     "tags": [
       "conditional (should)"
-    ],
-    "spanish": "debería ver",
-    "french": ".",
-    "verb": "see",
-    "tense": "conditional (should)",
-    "english": "i should see",
+    ], 
+    "english": "i should see", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "deberías ver", 
+    "level": "2", 
+    "verb": "see", 
+    "tense": "conditional (should)", 
     "tags": [
       "conditional (should)"
-    ],
-    "spanish": "deberías ver",
-    "french": ".",
-    "verb": "see",
-    "tense": "conditional (should)",
-    "english": "you should see",
+    ], 
+    "english": "you should see", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "debería ver", 
+    "level": "2", 
+    "verb": "see", 
+    "tense": "conditional (should)", 
     "tags": [
       "conditional (should)"
-    ],
-    "spanish": "debería ver",
-    "french": ".",
-    "verb": "see",
-    "tense": "conditional (should)",
-    "english": "he should see",
+    ], 
+    "english": "he should see", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "deberíamos ver", 
+    "level": "2", 
+    "verb": "see", 
+    "tense": "conditional (should)", 
     "tags": [
       "conditional (should)"
-    ],
-    "spanish": "deberíamos ver",
-    "french": ".",
-    "verb": "see",
-    "tense": "conditional (should)",
-    "english": "we should see",
+    ], 
+    "english": "we should see", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "deberían ver", 
+    "level": "2", 
+    "verb": "see", 
+    "tense": "conditional (should)", 
     "tags": [
       "conditional (should)"
-    ],
-    "spanish": "deberían ver",
-    "french": ".",
-    "verb": "see",
-    "tense": "conditional (should)",
-    "english": "they should see",
+    ], 
+    "english": "they should see", 
+    "french": ".", 
     "subject": "they"
-  },
+  }, 
   {
+    "spanish": "podría ver", 
+    "level": "2", 
+    "verb": "see", 
+    "tense": "conditional (could)", 
     "tags": [
       "conditional (could)"
-    ],
-    "spanish": "podría ver",
-    "french": ".",
-    "verb": "see",
-    "tense": "conditional (could)",
-    "english": "i could see",
+    ], 
+    "english": "i could see", 
+    "french": ".", 
     "subject": "i"
-  },
+  }, 
   {
+    "spanish": "podrías ver", 
+    "level": "2", 
+    "verb": "see", 
+    "tense": "conditional (could)", 
     "tags": [
       "conditional (could)"
-    ],
-    "spanish": "podrías ver",
-    "french": ".",
-    "verb": "see",
-    "tense": "conditional (could)",
-    "english": "you could see",
+    ], 
+    "english": "you could see", 
+    "french": ".", 
     "subject": "you"
-  },
+  }, 
   {
+    "spanish": "podría ver", 
+    "level": "2", 
+    "verb": "see", 
+    "tense": "conditional (could)", 
     "tags": [
       "conditional (could)"
-    ],
-    "spanish": "podría ver",
-    "french": ".",
-    "verb": "see",
-    "tense": "conditional (could)",
-    "english": "he could see",
+    ], 
+    "english": "he could see", 
+    "french": ".", 
     "subject": "he"
-  },
+  }, 
   {
+    "spanish": "podríamos ver", 
+    "level": "2", 
+    "verb": "see", 
+    "tense": "conditional (could)", 
     "tags": [
       "conditional (could)"
-    ],
-    "spanish": "podríamos ver",
-    "french": ".",
-    "verb": "see",
-    "tense": "conditional (could)",
-    "english": "we could see",
+    ], 
+    "english": "we could see", 
+    "french": ".", 
     "subject": "we"
-  },
+  }, 
   {
+    "spanish": "podrían ver", 
+    "level": "2", 
+    "verb": "see", 
+    "tense": "conditional (could)", 
     "tags": [
       "conditional (could)"
-    ],
-    "spanish": "podrían ver",
-    "french": ".",
-    "verb": "see",
-    "tense": "conditional (could)",
-    "english": "they could see",
+    ], 
+    "english": "they could see", 
+    "french": ".", 
     "subject": "they"
   }
 ];

@@ -6,30 +6,34 @@ import { CONJUGATIONS } from '../data/conjugations';
   providedIn: 'root'
 })
 export class ConjugationService {
-  tags: string[];
+  tenses: string[];
   conjugations: Conjugation[];
   conjugation: Conjugation;
 
   constructor() {}
 
-  public getTags() {
-    // collect all tags
-    let tags = [];
+  public getTenses() {
+    // collect all tenses
+    let tenses = [];
     CONJUGATIONS.forEach((conjugation) => {
-      tags = tags.concat(conjugation.tags);
+      tenses = tenses.concat(conjugation.tense);
     });
 
-    // filter unique tags
-    return tags.filter((tag, i, array) => {
-      return array.indexOf(tag) === i;
+    // filter unique tenses
+    return tenses.filter((tense, i, array) => {
+      return array.indexOf(tense) === i;
     });
+  }
+
+  public function getFilters() {
+    return this.getTenses();
   }
 
   private filter(conjugations: Conjugation[], filters: string[]): Conjugation[] {
     return conjugations.filter(function (conjugation) {
       // return filters.every((filter) => {                            // exclusive
       return filters.some((filter) => {                             // inclusive
-        return -1 !== conjugation.tags.indexOf(filter);
+        return -1 !== conjugation.tense.indexOf(filter);
       });
     });
   }
