@@ -5,8 +5,12 @@ import { StoreService } from '../services/store.service';
   providedIn: 'root'
 })
 export class FilterService {
-  filters: string[];
-  defaultFilters: string[] = ['present'];
+  // filters: string[];
+  filters: any;
+  defaultFilters = {
+    level: ['1'],
+    tense: ['present'],
+  }
 
   constructor(
     private storeService: StoreService
@@ -34,13 +38,13 @@ export class FilterService {
     return this.filters;
   }
 
-  public setFilter(filter, isChecked) {
-    const index = this.filters.indexOf(filter);
+  public setFilter(group, filter, isChecked) {
+    const index = this.filters[group].indexOf(filter);
 
     if (isChecked && -1 === index) {
-      this.filters.push(filter);
+      this.filters[group].push(filter);
     } else if (!isChecked && -1 !== index) {
-      this.filters.splice(index, 1);
+      this.filters[group].splice(index, 1);
     }
     this.persist(this.filters);
 

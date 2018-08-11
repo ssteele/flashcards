@@ -12,21 +12,28 @@ export class ConjugationService {
 
   constructor() {}
 
-  public getTenses() {
-    // collect all tenses
-    let tenses = [];
-    CONJUGATIONS.forEach((conjugation) => {
-      tenses = tenses.concat(conjugation.tense);
-    });
-
-    // filter unique tenses
-    return tenses.filter((tense, i, array) => {
-      return array.indexOf(tense) === i;
+  private getUnique(values) {
+    return values.filter((value, i, array) => {
+      return array.indexOf(value) === i;
     });
   }
 
-  public function getFilters() {
-    return this.getTenses();
+  private getPropertyValues(property) {
+    let values = [];
+    CONJUGATIONS.forEach((conjugation) => {
+      values = values.concat(conjugation[property]);
+    });
+
+    return values;
+  }
+
+  public getFilters() {
+    let filter: any = {};
+
+    filter.tense = this.getUnique(this.getPropertyValues('tense'));
+    filter.level = this.getUnique(this.getPropertyValues('level'));
+
+    return filter;
   }
 
   private filter(conjugations: Conjugation[], filters: string[]): Conjugation[] {

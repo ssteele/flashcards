@@ -33,8 +33,8 @@ export class UserOptionsFormComponent implements OnInit {
     this.isNightMode = this.settingsService.getNightMode();
   }
 
-  public onFilterChange(value, isChecked) {
-    this.selectedFilters = this.filterService.setFilter(value, isChecked);
+  public onFilterChange(group, value, isChecked) {
+    this.selectedFilters = this.filterService.setFilter(group, value, isChecked);
     this.formFilterOptions = this.generateFormFilterOptions(this.availableFilters, this.selectedFilters);
     this.isFormDirty = true;
   }
@@ -48,13 +48,19 @@ export class UserOptionsFormComponent implements OnInit {
   }
 
   private generateFormFilterOptions(availableFilters, selectedFilters): FormFilterOptions[] {
-    let options = [];
-    for (let availableFilter of availableFilters) {
-      options.push({
-        'value': availableFilter,
-        'isChecked': (-1 !== selectedFilters.indexOf(availableFilter)) ? true : false
-      });
+    let options: any = {};
+
+    for (let group in availableFilters) {
+      options[group] = [];
+
+      for (let availableFilter of availableFilters[group]) {
+        options[group].push({
+          'value': availableFilter,
+          'isChecked': (-1 !== selectedFilters[group].indexOf(availableFilter)) ? true : false
+        });
+      }
     }
+
     return options;
   }
 }

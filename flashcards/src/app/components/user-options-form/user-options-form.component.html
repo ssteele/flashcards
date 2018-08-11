@@ -1,13 +1,25 @@
 <form>
   <mat-dialog-content>
-    <h3 mat-dialog-title>Filters</h3>
-
+    <h3 mat-dialog-title>Level</h3>
     <ul>
-      <li *ngFor="let filter of formFilterOptions">
+      <li *ngFor="let filter of formFilterOptions.level">
         <mat-checkbox
           name="{{ filter.value }}"
           [ngModel]="filter.isChecked"
-          (ngModelChange)="onFilterChange(filter.value, $event)"
+          (ngModelChange)="onFilterChange('level', filter.value, $event)"
+        >
+          {{ filter.value }}
+        </mat-checkbox>
+      </li>
+    </ul>
+
+    <h3 mat-dialog-title>Tense</h3>
+    <ul>
+      <li *ngFor="let filter of formFilterOptions.tense">
+        <mat-checkbox
+          name="{{ filter.value }}"
+          [ngModel]="filter.isChecked"
+          (ngModelChange)="onFilterChange('tense', filter.value, $event)"
         >
           {{ filter.value }}
         </mat-checkbox>
