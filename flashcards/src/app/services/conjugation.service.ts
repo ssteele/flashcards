@@ -38,10 +38,15 @@ export class ConjugationService {
 
   private filter(conjugations: Conjugation[], filters: string[]): Conjugation[] {
     return conjugations.filter(function (conjugation) {
-      // return filters.every((filter) => {                            // exclusive
-      return filters.some((filter) => {                             // inclusive
-        return -1 !== conjugation.tense.indexOf(filter);
+      const level: boolean = filters['level'].some((filter) => {
+        return conjugation.level === filter;
       });
+
+      const tense: boolean = filters['tense'].some((filter) => {
+        return conjugation.tense === filter;
+      });
+
+      return level && tense;
     });
   }
 
