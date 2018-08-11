@@ -15,7 +15,7 @@ export class FilterService {
   constructor(
     private storeService: StoreService
   ) {
-    this.filters = this.fetch() || this.defaultFilters;
+    this.filters = this.fetch();
   }
 
   public fetch() {
@@ -23,15 +23,29 @@ export class FilterService {
 
     const filters = this.storeService.fetch('filters');
 
-    if (filters && filters.length > 0) {
-      response = filters;
+    response = this.defaultFilters;
+    if (filters) {
+      if (filters.level.length > 0) {
+        response.level = filters.level;
+      }
+      if (filters.tense.length > 0) {
+        response.tense = filters.tense;
+      }
+    } else {
+      this.persist(response);
     }
 
     return response;
   }
 
   public persist(filters) {
-    this.storeService.persist('filters', filters);
+    let result = false;
+    if (filters && filters.level.length > 0 && filters.tense.length > 0) {
+      this.storeService.persist('filters', filters);
+      result = true;
+    }
+
+    return result;
   }
 
   public get() {
@@ -46,8 +60,7 @@ export class FilterService {
     } else if (!isChecked && -1 !== index) {
       this.filters[group].splice(index, 1);
     }
-    this.persist(this.filters);
 
-    return this.filters;
+    return this.persist(this.filters);
   }
 }

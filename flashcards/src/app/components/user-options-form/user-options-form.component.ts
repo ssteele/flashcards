@@ -34,9 +34,15 @@ export class UserOptionsFormComponent implements OnInit {
   }
 
   public onFilterChange(group, value, isChecked) {
-    this.selectedFilters = this.filterService.setFilter(group, value, isChecked);
-    this.formFilterOptions = this.generateFormFilterOptions(this.availableFilters, this.selectedFilters);
-    this.isFormDirty = true;
+    const isUpdateSuccess: boolean = this.filterService.setFilter(group, value, isChecked);
+    if (isUpdateSuccess) {
+      this.selectedFilters = this.filterService.get();
+      this.formFilterOptions = this.generateFormFilterOptions(this.availableFilters, this.selectedFilters);
+      this.isFormDirty = true;
+    // reset if no options saved in group
+    // } else {
+    //   this.selectedFilters[group].push(value);
+    }
   }
 
   public onMaxFlashcardsChange(count) {
