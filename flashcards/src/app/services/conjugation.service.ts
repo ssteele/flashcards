@@ -38,29 +38,17 @@ export class ConjugationService {
   }
 
   private filter(conjugations: Conjugation[], filters: string[]): Conjugation[] {
-    return conjugations.filter(function (conjugation) {
-      const level = filters['level'].some((filter) => {
-        return conjugation.level === filter;
-      });
-
-      const tense = filters['tense'].some((filter) => {
-        return conjugation.tense === filter;
-      });
-
-      return level && tense;
-
-    // const filterProperties = this.filterProperties;
-    // return conjugations.filter(function (conjugation) {
-      // let isFound = true;
-      // for (const property of filterProperties) {
-      //   const tense = filters['tense'].some((filter) => {
-      //     return conjugation.tense === filter;
-      //   });
-      // }
-
-      // return isFound;
-    // });
-
+    return conjugations.filter((conjugation) => {
+      let isFound = true;
+      for (const property of this.filterProperties) {
+        isFound = filters[property].some((filter) => {
+          return conjugation[property] === filter;
+        });
+        if (!isFound) {
+          break;
+        }
+      }
+      return isFound;
     });
   }
 
