@@ -30,6 +30,7 @@ import { StoreService } from '../../services/store.service';
 
 export class FlashcardsComponent implements OnInit {
   filters: string[];
+  emptyFilters: string;
   cards: Conjugation[];
   card: Conjugation;
 
@@ -47,14 +48,16 @@ export class FlashcardsComponent implements OnInit {
   ) {}
 
   ngOnInit() {
-    this.maxFlashcards = this.settingsService.getMaxFlashcards();
     this.renderFlashcards();
   }
 
-  public getFlashcards() {
+  private getFlashcards() {
     this.answerState = 'hidden';
 
     this.filters = this.filterService.get();
+    this.emptyFilters = this.getEmptyFilters(this.filters);
+
+    this.maxFlashcards = this.settingsService.getMaxFlashcards();
     this.index = 0;
 
     this.cards = this.conjugationService.get(this.maxFlashcards, this.filters);
@@ -71,10 +74,17 @@ export class FlashcardsComponent implements OnInit {
 
     this.index = this.storeService.fetch('cardIndex') || 0;
     this.cards = this.storeService.fetch('cards');
-    if (!this.cards) {
+    if (!this.cards || this.cards.length < 1) {
       this.cards = await this.getFlashcards();
     }
     this.card = this.cards[this.index];
+  }
+
+  private getEmptyFilters(filters) {
+    const emptyFilters = this.filterService.getEmpty(filters);
+    return emptyFilters.join(', ').replace(/\w\S*/g, (text) => {
+      return text.charAt(0).toUpperCase() + text.substr(1).toLowerCase();
+    });
   }
 
   private onAdvance(): void {

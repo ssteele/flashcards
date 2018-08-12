@@ -1,4 +1,5 @@
 import { Injectable } from '@angular/core';
+import { CONSTANTS } from '../data/constants';
 import { Conjugation } from '../models/conjugation';
 import { CONJUGATIONS } from '../data/conjugations';
 
@@ -6,7 +7,7 @@ import { CONJUGATIONS } from '../data/conjugations';
   providedIn: 'root'
 })
 export class ConjugationService {
-  tenses: string[];
+  filterProperties: string[] = CONSTANTS.FILTERS;
   conjugations: Conjugation[];
   conjugation: Conjugation;
 
@@ -38,15 +39,28 @@ export class ConjugationService {
 
   private filter(conjugations: Conjugation[], filters: string[]): Conjugation[] {
     return conjugations.filter(function (conjugation) {
-      const level: boolean = filters['level'].some((filter) => {
+      const level = filters['level'].some((filter) => {
         return conjugation.level === filter;
       });
 
-      const tense: boolean = filters['tense'].some((filter) => {
+      const tense = filters['tense'].some((filter) => {
         return conjugation.tense === filter;
       });
 
       return level && tense;
+
+    // const filterProperties = this.filterProperties;
+    // return conjugations.filter(function (conjugation) {
+      // let isFound = true;
+      // for (const property of filterProperties) {
+      //   const tense = filters['tense'].some((filter) => {
+      //     return conjugation.tense === filter;
+      //   });
+      // }
+
+      // return isFound;
+    // });
+
     });
   }
 
@@ -76,7 +90,7 @@ export class ConjugationService {
     return conjugations;
   }
 
-  public get(maxCount: number, filters?: string[]): Conjugation[] {
+  public get(maxCount: number, filters: string[]): Conjugation[] {
     let conjugations = CONJUGATIONS;
 
     conjugations = this.filter(conjugations, filters);

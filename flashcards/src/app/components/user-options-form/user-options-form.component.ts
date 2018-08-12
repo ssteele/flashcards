@@ -12,7 +12,8 @@ import { SettingsService } from '../../services/settings.service';
 export class UserOptionsFormComponent implements OnInit {
   availableFilters: string[];
   selectedFilters: string[];
-  formFilterOptions: FormFilterOptions[];
+  // formFilterOptions: FormFilterOptions[];
+  formFilterOptions: any;
   maxFlashcards: number;
   maxFlashcardsOptions: number[];
   isNightMode: boolean;
@@ -34,19 +35,15 @@ export class UserOptionsFormComponent implements OnInit {
   }
 
   public onFilterChange(group, value, isChecked) {
-    const isUpdateSuccess: boolean = this.filterService.setFilter(group, value, isChecked);
-    if (isUpdateSuccess) {
-      this.selectedFilters = this.filterService.get();
-      this.formFilterOptions = this.generateFormFilterOptions(this.availableFilters, this.selectedFilters);
-      this.isFormDirty = true;
-    // reset if no options saved in group
-    // } else {
-    //   this.selectedFilters[group].push(value);
-    }
+    this.filterService.setFilter(group, value, isChecked);
+    this.selectedFilters = this.filterService.get();
+    this.formFilterOptions = this.generateFormFilterOptions(this.availableFilters, this.selectedFilters);
+    this.isFormDirty = true;
   }
 
   public onMaxFlashcardsChange(count) {
     this.maxFlashcards = this.settingsService.setMaxFlashcards(count);
+    this.isFormDirty = true;
   }
 
   public onNightModeChange(isChecked) {
