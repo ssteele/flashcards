@@ -1,6 +1,7 @@
 import { Component, OnInit, HostListener } from '@angular/core';
 import { trigger, state, style, animate, transition } from '@angular/animations';
 import { Conjugation } from '../../models/conjugation';
+import { Filter } from '../../models/filter';
 import { ConjugationService } from '../../services/conjugation.service';
 import { FilterService } from '../../services/filter.service';
 import { MatDialog } from '@angular/material/dialog';
@@ -29,7 +30,7 @@ import { StoreService } from '../../services/store.service';
 })
 
 export class FlashcardsComponent implements OnInit {
-  filters: string[];
+  filters: Filter;
   emptyFilters: string;
   cards: Conjugation[];
   card: Conjugation;

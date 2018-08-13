@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Filter } from '../../models/filter';
 import { FormFilterOptions } from '../../models/form-filter-options';
 import { ConjugationService } from '../../services/conjugation.service';
 import { FilterService } from '../../services/filter.service';
@@ -10,10 +11,9 @@ import { SettingsService } from '../../services/settings.service';
   styleUrls: ['./user-options-form.component.scss']
 })
 export class UserOptionsFormComponent implements OnInit {
-  availableFilters: string[];
-  selectedFilters: string[];
-  // formFilterOptions: FormFilterOptions[];
-  formFilterOptions: any;
+  availableFilters: Filter;
+  selectedFilters: Filter;
+  formFilterOptions: FormFilterOptions[];
   maxFlashcards: number;
   maxFlashcardsOptions: number[];
   isNightMode: boolean;
@@ -57,10 +57,11 @@ export class UserOptionsFormComponent implements OnInit {
       options[group] = [];
 
       for (let availableFilter of availableFilters[group]) {
-        options[group].push({
+        const option: FormFilterOptions = {
           'value': availableFilter,
           'isChecked': (-1 !== selectedFilters[group].indexOf(availableFilter)) ? true : false
-        });
+        }
+        options[group].push(option);
       }
     }
 

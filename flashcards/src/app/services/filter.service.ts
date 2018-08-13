@@ -7,8 +7,7 @@ import { StoreService } from '../services/store.service';
   providedIn: 'root'
 })
 export class FilterService {
-  // filters: string[];
-  filters: any;
+  filters: Filter;
   filterProperties: string[] = CONSTANTS.FILTERS;
   defaultFilters = {
     level: ['1'],

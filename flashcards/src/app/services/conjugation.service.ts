@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { CONSTANTS } from '../data/constants';
 import { Conjugation } from '../models/conjugation';
+import { Filter } from '../models/filter';
 import { CONJUGATIONS } from '../data/conjugations';
 
 @Injectable({
@@ -29,15 +30,15 @@ export class ConjugationService {
   }
 
   public getFilters() {
-    let filter: any = {};
-
-    filter.tense = this.getUnique(this.getPropertyValues('tense'));
-    filter.level = this.getUnique(this.getPropertyValues('level'));
+    let filter: Filter = {
+      tense: this.getUnique(this.getPropertyValues('tense')),
+      level: this.getUnique(this.getPropertyValues('level'))
+    };
 
     return filter;
   }
 
-  private filter(conjugations: Conjugation[], filters: string[]): Conjugation[] {
+  private filter(conjugations: Conjugation[], filters: Filter): Conjugation[] {
     return conjugations.filter((conjugation) => {
       let isFound = true;
       for (const property of this.filterProperties) {
@@ -78,7 +79,7 @@ export class ConjugationService {
     return conjugations;
   }
 
-  public get(maxCount: number, filters: string[]): Conjugation[] {
+  public get(maxCount: number, filters: Filter): Conjugation[] {
     let conjugations = CONJUGATIONS;
 
     conjugations = this.filter(conjugations, filters);
