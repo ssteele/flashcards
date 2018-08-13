@@ -18,6 +18,10 @@ export class AppComponent implements OnInit {
   }
 
   ngOnInit() {
+    this.getNightmode();
+  }
+
+  getNightmode() {
     this.isNightMode = this.settingsService.getNightMode();
   }
 }
