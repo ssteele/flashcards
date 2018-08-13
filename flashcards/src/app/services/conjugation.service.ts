@@ -33,11 +33,11 @@ export class ConjugationService {
     return this.filterProperties;
   }
 
-  public getFilters() {
-    let filter: Filter = {
-      tense: this.getUnique(this.getPropertyValues('tense')),
-      level: this.getUnique(this.getPropertyValues('level'))
-    };
+  public getFilters(): Filter {
+    let filter: Filter = new Filter;
+    for (const property of this.filterProperties) {
+      filter[property] = this.getUnique(this.getPropertyValues(property))
+    }
 
     return filter;
   }
