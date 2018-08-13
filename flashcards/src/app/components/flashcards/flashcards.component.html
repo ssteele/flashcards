@@ -11,11 +11,11 @@
 <div class="flashcard">
   <div *ngIf="cards.length" class="content">
     <div class="translations">
-      <div class="prompt">
+      <div class="prompt uppercase-first-letter">
         {{ card.english }}
       </div>
 
-      <div class="answer" [@answerState]="answerState">
+      <div class="answer uppercase-first-letter" [@answerState]="answerState">
         {{ card.spanish }}
       </div>
     </div>

@@ -11,6 +11,7 @@ import { SettingsService } from '../../services/settings.service';
   styleUrls: ['./user-options-form.component.scss']
 })
 export class UserOptionsFormComponent implements OnInit {
+  filterProperties: string[];
   availableFilters: Filter;
   selectedFilters: Filter;
   formFilterOptions: FormFilterOptions[];
@@ -26,6 +27,7 @@ export class UserOptionsFormComponent implements OnInit {
   ) {}
 
   ngOnInit() {
+    this.filterProperties = this.conjugationService.getFilterProperties();
     this.availableFilters = this.conjugationService.getFilters();
     this.selectedFilters = this.filterService.get();
     this.formFilterOptions = this.generateFormFilterOptions(this.availableFilters, this.selectedFilters);

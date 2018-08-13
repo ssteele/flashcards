@@ -6,8 +6,9 @@ import { ConjugationService } from '../../services/conjugation.service';
 import { FilterService } from '../../services/filter.service';
 import { MatDialog } from '@angular/material/dialog';
 import { UserOptionsFormComponent } from '../user-options-form/user-options-form.component';
-import { SettingsService } from '../../services/settings.service';
 import { StoreService } from '../../services/store.service';
+import { SettingsService } from '../../services/settings.service';
+import { UtilityService } from '../../services/utility.service';
 
 @Component({
   selector: 'app-flashcards',
@@ -43,6 +44,7 @@ export class FlashcardsComponent implements OnInit {
   constructor(
     private storeService: StoreService,
     private settingsService: SettingsService,
+    private utilityService: UtilityService,
     private conjugationService: ConjugationService,
     private filterService: FilterService,
     public dialog: MatDialog
@@ -84,7 +86,7 @@ export class FlashcardsComponent implements OnInit {
   private getEmptyFilters(filters) {
     const emptyFilters = this.filterService.getEmpty(filters);
     return emptyFilters.join(', ').replace(/\w\S*/g, (text) => {
-      return text.charAt(0).toUpperCase() + text.substr(1).toLowerCase();
+      return this.utilityService.uppercaseFirstLetter(text);
     });
   }
 

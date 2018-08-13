@@ -1,70 +1,75 @@
 <form>
   <mat-dialog-content>
-    <h3 mat-dialog-title>Level</h3>
-    <ul>
-      <li *ngFor="let filter of formFilterOptions.level">
-        <mat-checkbox
-          name="{{ filter.value }}"
-          [ngModel]="filter.isChecked"
-          (ngModelChange)="onFilterChange('level', filter.value, $event)"
-        >
-          {{ filter.value }}
-        </mat-checkbox>
-      </li>
-    </ul>
 
-    <h3 mat-dialog-title>Tense</h3>
-    <ul>
-      <li *ngFor="let filter of formFilterOptions.tense">
-        <mat-checkbox
-          name="{{ filter.value }}"
-          [ngModel]="filter.isChecked"
-          (ngModelChange)="onFilterChange('tense', filter.value, $event)"
-        >
-          {{ filter.value }}
-        </mat-checkbox>
-      </li>
-    </ul>
-
-    <h3 mat-dialog-title>Other</h3>
-
-    <ul>
-      <li class="individual-option">
-        <mat-select
-          [(value)]="maxFlashcards"
-          placeholder="Cards per deck"
-          name="maxFlashcards"
-          [ngModel]="maxFlashcards"
-          (ngModelChange)="onMaxFlashcardsChange($event)"
-        >
-          <mat-option
-            *ngFor="let option of maxFlashcardsOptions"
-            [value]="option"
+    <div *ngFor="let property of filterProperties">
+      <h3 class="uppercase-first-letter" mat-dialog-title>{{ property }}</h3>
+      <ul>
+        <li *ngFor="let filter of formFilterOptions[property]">
+          <mat-checkbox
+            name="{{ filter.value }}"
+            [ngModel]="filter.isChecked"
+            (ngModelChange)="onFilterChange(property, filter.value, $event)"
           >
-            {{ option }} cards per deck
-          </mat-option>
-        </mat-select>
-      </li>
+            {{ filter.value }}
+          </mat-checkbox>
+        </li>
+      </ul>
+    </div>
 
-      <li class="individual-option">
-        <mat-slide-toggle
-          name="isNightMode"
-          [ngModel]="isNightMode"
-          (ngModelChange)="onNightModeChange($event)"
-        >
-          Night mode
-        </mat-slide-toggle>
-      </li>
-    </ul>
+      <!-- <h3 mat-dialog-title>Tense</h3>
+      <ul>
+        <li *ngFor="let filter of formFilterOptions.tense">
+          <mat-checkbox
+            name="{{ filter.value }}"
+            [ngModel]="filter.isChecked"
+            (ngModelChange)="onFilterChange('tense', filter.value, $event)"
+          >
+            {{ filter.value }}
+          </mat-checkbox>
+        </li>
+      </ul> -->
+    <div>
+      <h3 mat-dialog-title>Other</h3>
+      <ul>
+        <li class="individual-option">
+          <mat-select
+            [(value)]="maxFlashcards"
+            placeholder="Cards per deck"
+            name="maxFlashcards"
+            [ngModel]="maxFlashcards"
+            (ngModelChange)="onMaxFlashcardsChange($event)"
+          >
+            <mat-option
+              *ngFor="let option of maxFlashcardsOptions"
+              [value]="option"
+            >
+              {{ option }} cards per deck
+            </mat-option>
+          </mat-select>
+        </li>
+
+        <li class="individual-option">
+          <mat-slide-toggle
+            name="isNightMode"
+            [ngModel]="isNightMode"
+            (ngModelChange)="onNightModeChange($event)"
+          >
+            Night mode
+          </mat-slide-toggle>
+        </li>
+      </ul>
+    </div>
   </mat-dialog-content>
 
   <mat-dialog-actions class="centered">
-    <button
-      mat-raised-button
-      color="primary"
-      [mat-dialog-close]="isFormDirty"
-    >
-      Save
-    </button>
+    <div>
+      <button
+        mat-raised-button
+        color="primary"
+        [mat-dialog-close]="isFormDirty"
+      >
+        Save
+      </button>
+    </div>
   </mat-dialog-actions>
 </form>

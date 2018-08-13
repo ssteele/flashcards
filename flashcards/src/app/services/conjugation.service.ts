@@ -29,6 +29,10 @@ export class ConjugationService {
     return values;
   }
 
+  public getFilterProperties() {
+    return this.filterProperties;
+  }
+
   public getFilters() {
     let filter: Filter = {
       tense: this.getUnique(this.getPropertyValues('tense')),

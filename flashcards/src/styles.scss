@@ -53,6 +53,10 @@ ul {
   justify-content: center;
 }
 
+.uppercase-first-letter::first-letter {
+  text-transform: uppercase;
+}
+
 #container.night-mode {
   background: #000;
 
