@@ -9,10 +9,6 @@ import { StoreService } from '../services/store.service';
 export class FilterService {
   filters: Filter;
   filterProperties: string[] = CONSTANTS.FILTERS;
-  defaultFilters = {
-    level: ['1'],
-    tense: ['present'],
-  }
 
   constructor(
     private storeService: StoreService
@@ -20,7 +16,7 @@ export class FilterService {
     this.filters = this.fetch();
     if (!this.filters) {
       // store default filters if no filters saved
-      this.filters = this.defaultFilters;
+      this.filters = CONSTANTS.DEFAULT_FILTERS;
       this.persist(this.filters);
     }
   }
