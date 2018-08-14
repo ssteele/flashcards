@@ -12,11 +12,11 @@
   <div *ngIf="cards.length" class="content">
     <div class="translations">
       <div class="prompt uppercase-first-letter">
-        {{ card.english }}
+        {{ card.translation.english }}
       </div>
 
       <div class="answer uppercase-first-letter" [@answerState]="answerState">
-        {{ card.spanish }}
+        {{ card.translation.spanish }}
       </div>
     </div>
 

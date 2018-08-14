@@ -1,10 +1,10 @@
+import { Translation } from './translation';
+
 export class Conjugation {
-  verb: string;
+  infinitive: Translation;
+  translation: Translation;
   level: string;
   tense: string;
   subject: string;
   tags: string[];
-  english: string;
-  spanish: string;
-  french: string;
 }
