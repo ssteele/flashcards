@@ -59,9 +59,11 @@ export class UserOptionsFormComponent implements OnInit {
       options[group] = [];
 
       for (let availableFilter of availableFilters[group]) {
+        const description = this.conjugationService.getDescription(group, availableFilter);
         const option: FormFilterOptions = {
           'value': availableFilter,
-          'isChecked': (-1 !== selectedFilters[group].indexOf(availableFilter)) ? true : false
+          'isChecked': (-1 !== selectedFilters[group].indexOf(availableFilter)) ? true : false,
+          'description': description,
         }
         options[group].push(option);
       }

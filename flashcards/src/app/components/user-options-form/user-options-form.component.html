@@ -10,7 +10,7 @@
             [ngModel]="filter.isChecked"
             (ngModelChange)="onFilterChange(property, filter.value, $event)"
           >
-            {{ filter.value }}
+            {{ filter.value }} <span class="emphasis">{{ filter.description }}</span>
           </mat-checkbox>
         </li>
       </ul>

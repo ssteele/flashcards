@@ -42,6 +42,26 @@ export class ConjugationService {
     return filter;
   }
 
+  private getVerbsInLevel(level) {
+    let infinitives = [];
+    CONJUGATIONS.filter((conjugation) => {
+      return conjugation.level === level;
+    }).forEach((conjugation) => {
+      infinitives = infinitives.concat(conjugation.infinitive.spanish);
+    });
+
+    return this.getUnique(infinitives).join(', ');
+  }
+
+  public getDescription(group, filter) {
+    let description = '';
+    if ('level' === group) {
+      description += '- ' + this.getVerbsInLevel(filter);
+    }
+    
+    return description;
+  }
+
   private filter(conjugations: Conjugation[], filters: Filter): Conjugation[] {
     return conjugations.filter((conjugation) => {
       let isFound = true;

@@ -33,16 +33,6 @@ export class FilterService {
     return this.filters;
   }
 
-  public getEmpty(filters) {
-    let emptyFilterProperties = [];
-    for (const property of this.filterProperties) {
-      if ('undefined' === typeof filters[property] || filters[property].length < 1) {
-        emptyFilterProperties.push(property);
-      }
-    }
-    return emptyFilterProperties;
-  }
-
   public setFilter(group, filter, isChecked) {
     const index = this.filters[group].indexOf(filter);
 
@@ -53,5 +43,15 @@ export class FilterService {
     }
 
     this.persist(this.filters);
+  }
+
+  public getEmpty(filters) {
+    let emptyFilterProperties = [];
+    for (const property of this.filterProperties) {
+      if ('undefined' === typeof filters[property] || filters[property].length < 1) {
+        emptyFilterProperties.push(property);
+      }
+    }
+    return emptyFilterProperties;
   }
 }

@@ -53,6 +53,10 @@ ul {
   justify-content: center;
 }
 
+.emphasis {
+  font-style: italic;
+}
+
 .uppercase-first-letter::first-letter {
   text-transform: uppercase;
 }
