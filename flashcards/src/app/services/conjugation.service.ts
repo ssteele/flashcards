@@ -1,9 +1,10 @@
 import { Injectable } from '@angular/core';
+
 import { Conjugation } from '../models/conjugation';
 import { Filter } from '../models/filter';
+
 import { CONSTANTS } from '../data/constants';
 import { CONJUGATIONS } from '../data/conjugations';
-import { FlashcardService } from './flashcard.service';
 
 @Injectable({
   providedIn: 'root'
@@ -13,19 +14,7 @@ export class ConjugationService {
   conjugations: Conjugation[];
   conjugation: Conjugation;
 
-  constructor(
-    private flashcardService: FlashcardService,
-  ) {}
-
-  public get(maxCount: number, filters: Filter): Conjugation[] {
-    let conjugations = CONJUGATIONS;
-
-    conjugations = this.flashcardService.filter(conjugations, filters);
-    conjugations = this.flashcardService.shuffle(conjugations);
-    conjugations = this.flashcardService.reduce(conjugations, maxCount);
-
-    return conjugations;
-  }
+  constructor() {}
 
   public getFilters(): Filter {
     let filter: Filter = new Filter;
@@ -34,12 +23,6 @@ export class ConjugationService {
     }
 
     return filter;
-  }
-
-  private getUnique(values) {
-    return values.filter((value, i, array) => {
-      return array.indexOf(value) === i;
-    });
   }
 
   public getFilterProperties() {
@@ -53,6 +36,12 @@ export class ConjugationService {
     });
 
     return values;
+  }
+
+  private getUnique(values) {
+    return values.filter((value, i, array) => {
+      return array.indexOf(value) === i;
+    });
   }
 
   public getVerbsInLevel(level: string): string[] {

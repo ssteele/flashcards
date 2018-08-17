@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { VersionService } from '../services/version.service';
+
 import { SettingsService } from '../services/settings.service';
+import { VersionService } from '../services/version.service';
 
 @Component({
   selector: 'app-root',

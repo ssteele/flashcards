@@ -1,7 +1,10 @@
 import { Injectable } from '@angular/core';
-import { CONSTANTS } from '../data/constants';
-import { Filter } from '../models/filter';
+
 import { StoreService } from '../services/store.service';
+
+import { Filter } from '../models/filter';
+
+import { CONSTANTS } from '../data/constants';
 
 @Injectable({
   providedIn: 'root'

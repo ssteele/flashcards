@@ -1,14 +1,17 @@
 import { Component, OnInit, HostListener } from '@angular/core';
 import { trigger, state, style, animate, transition } from '@angular/animations';
-import { Conjugation } from '../../models/conjugation';
-import { Filter } from '../../models/filter';
-import { ConjugationService } from '../../services/conjugation.service';
-import { FilterService } from '../../services/filter.service';
 import { MatDialog } from '@angular/material/dialog';
-import { UserOptionsFormComponent } from '../user-options-form/user-options-form.component';
+
 import { StoreService } from '../../services/store.service';
 import { SettingsService } from '../../services/settings.service';
+import { FlashcardService } from '../../services/flashcard.service';
+import { FilterService } from '../../services/filter.service';
 import { UtilityService } from '../../services/utility.service';
+
+import { Conjugation } from '../../models/conjugation';
+import { Filter } from '../../models/filter';
+
+import { UserOptionsFormComponent } from '../user-options-form/user-options-form.component';
 
 @Component({
   selector: 'app-flashcards',
@@ -45,7 +48,7 @@ export class FlashcardsComponent implements OnInit {
     private storeService: StoreService,
     private settingsService: SettingsService,
     private utilityService: UtilityService,
-    private conjugationService: ConjugationService,
+    private flashcardService: FlashcardService,
     private filterService: FilterService,
     public dialog: MatDialog
   ) {}
@@ -63,7 +66,7 @@ export class FlashcardsComponent implements OnInit {
     this.maxFlashcards = this.settingsService.getMaxFlashcards();
     this.index = 0;
 
-    this.cards = this.conjugationService.get(this.maxFlashcards, this.filters);
+    this.cards = this.flashcardService.get(this.maxFlashcards, this.filters);
     this.storeService.persist('cards', this.cards);
 
     this.card = this.cards[this.index];

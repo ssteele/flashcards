@@ -1,9 +1,12 @@
 import { Component, OnInit } from '@angular/core';
-import { Filter } from '../../models/filter';
-import { FormFilterOptions } from '../../models/form-filter-options';
+
 import { ConjugationService } from '../../services/conjugation.service';
 import { FilterService } from '../../services/filter.service';
 import { SettingsService } from '../../services/settings.service';
+
+import { Filter } from '../../models/filter';
+import { FormFilterOptions } from '../../models/form-filter-options';
+
 import { LevelFilter } from '../../classes/filter/level-filter';
 import { TenseFilter } from '../../classes/filter/tense-filter';
 import { SubjectFilter } from '../../classes/filter/subject-filter';

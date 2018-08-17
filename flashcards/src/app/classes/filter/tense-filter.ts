@@ -1,6 +1,8 @@
 import { Injectable } from '@angular/core';
-import { BaseFilter } from "./base-filter";
+
 import { ConjugationService } from '../../services/conjugation.service';
+
+import { BaseFilter } from "./base-filter";
 
 @Injectable({
   providedIn: 'root'
