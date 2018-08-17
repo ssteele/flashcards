@@ -42,7 +42,7 @@ export class ConjugationService {
     return filter;
   }
 
-  private getVerbsInLevel(level) {
+  public getVerbsInLevel(level: string): string[] {
     let infinitives = [];
     CONJUGATIONS.filter((conjugation) => {
       return conjugation.level === level;
@@ -51,15 +51,6 @@ export class ConjugationService {
     });
 
     return this.getUnique(infinitives).join(', ');
-  }
-
-  public getDescription(group, filter) {
-    let description = '';
-    if ('level' === group) {
-      description += '- ' + this.getVerbsInLevel(filter);
-    }
-    
-    return description;
   }
 
   private filter(conjugations: Conjugation[], filters: Filter): Conjugation[] {

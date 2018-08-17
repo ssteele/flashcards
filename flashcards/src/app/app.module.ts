@@ -13,6 +13,9 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { AppComponent } from './components/app.component';
 import { FlashcardsComponent } from './components/flashcards/flashcards.component';
 import { UserOptionsFormComponent } from './components/user-options-form/user-options-form.component';
+import { LevelFilter } from './classes/filter/level-filter';
+import { TenseFilter } from './classes/filter/tense-filter';
+import { SubjectFilter } from './classes/filter/subject-filter';
 
 @NgModule({
   declarations: [
@@ -30,10 +33,14 @@ import { UserOptionsFormComponent } from './components/user-options-form/user-op
     MatButtonModule,
     MatSelectModule,
     MatCheckboxModule,
-    MatSlideToggleModule
+    MatSlideToggleModule,
   ],
   entryComponents: [UserOptionsFormComponent],
-  providers: [],
+  providers: [
+    LevelFilter,
+    TenseFilter,
+    SubjectFilter,
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

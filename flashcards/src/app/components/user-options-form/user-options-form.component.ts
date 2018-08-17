@@ -4,6 +4,9 @@ import { FormFilterOptions } from '../../models/form-filter-options';
 import { ConjugationService } from '../../services/conjugation.service';
 import { FilterService } from '../../services/filter.service';
 import { SettingsService } from '../../services/settings.service';
+import { LevelFilter } from '../../classes/filter/level-filter';
+import { TenseFilter } from '../../classes/filter/tense-filter';
+import { SubjectFilter } from '../../classes/filter/subject-filter';
 
 @Component({
   selector: 'app-user-options-form',
@@ -23,7 +26,10 @@ export class UserOptionsFormComponent implements OnInit {
   constructor(
     private conjugationService: ConjugationService,
     private filterService: FilterService,
-    private settingsService: SettingsService
+    private settingsService: SettingsService,
+    private levelFilter: LevelFilter,
+    private tenseFilter: TenseFilter,
+    private subjectFilter: SubjectFilter,
   ) {}
 
   ngOnInit() {
@@ -55,11 +61,12 @@ export class UserOptionsFormComponent implements OnInit {
   private generateFormFilterOptions(availableFilters, selectedFilters): FormFilterOptions[] {
     let options: any = {};
 
-    for (let group in availableFilters) {
+    for (const group in availableFilters) {
       options[group] = [];
 
-      for (let availableFilter of availableFilters[group]) {
-        const description = this.conjugationService.getDescription(group, availableFilter);
+      for (const availableFilter of availableFilters[group]) {
+        const filterClass = group + 'Filter';
+        const description = this[filterClass].getDescription(availableFilter);
         const option: FormFilterOptions = {
           'value': availableFilter,
           'isChecked': (-1 !== selectedFilters[group].indexOf(availableFilter)) ? true : false,
