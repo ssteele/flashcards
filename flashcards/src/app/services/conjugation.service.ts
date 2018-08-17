@@ -17,23 +17,14 @@ export class ConjugationService {
     private flashcardService: FlashcardService,
   ) {}
 
-  private getUnique(values) {
-    return values.filter((value, i, array) => {
-      return array.indexOf(value) === i;
-    });
-  }
+  public get(maxCount: number, filters: Filter): Conjugation[] {
+    let conjugations = CONJUGATIONS;
 
-  private getPropertyValues(property) {
-    let values = [];
-    CONJUGATIONS.forEach((conjugation) => {
-      values = values.concat(conjugation[property]);
-    });
+    conjugations = this.flashcardService.filter(conjugations, filters);
+    conjugations = this.flashcardService.shuffle(conjugations);
+    conjugations = this.flashcardService.reduce(conjugations, maxCount);
 
-    return values;
-  }
-
-  public getFilterProperties() {
-    return this.filterProperties;
+    return conjugations;
   }
 
   public getFilters(): Filter {
@@ -45,6 +36,25 @@ export class ConjugationService {
     return filter;
   }
 
+  private getUnique(values) {
+    return values.filter((value, i, array) => {
+      return array.indexOf(value) === i;
+    });
+  }
+
+  public getFilterProperties() {
+    return this.filterProperties;
+  }
+
+  private getPropertyValues(property) {
+    let values = [];
+    CONJUGATIONS.forEach((conjugation) => {
+      values = values.concat(conjugation[property]);
+    });
+
+    return values;
+  }
+
   public getVerbsInLevel(level: string): string[] {
     let infinitives = [];
     CONJUGATIONS.filter((conjugation) => {
@@ -54,15 +64,5 @@ export class ConjugationService {
     });
 
     return this.getUnique(infinitives).join(', ');
-  }
-
-  public get(maxCount: number, filters: Filter): Conjugation[] {
-    let conjugations = CONJUGATIONS;
-
-    conjugations = this.flashcardService.filter(conjugations, filters);
-    conjugations = this.flashcardService.shuffle(conjugations);
-    conjugations = this.flashcardService.reduce(conjugations, maxCount);
-
-    return conjugations;
   }
 }
