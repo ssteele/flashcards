@@ -1,6 +1,5 @@
 <form>
   <mat-dialog-content>
-
     <div *ngFor="let property of filterProperties">
       <h3 class="uppercase-first-letter" mat-dialog-title>{{ property }}</h3>
       <ul>
@@ -9,25 +8,17 @@
             name="{{ filter.value }}"
             [ngModel]="filter.isChecked"
             (ngModelChange)="onFilterChange(property, filter.value, $event)"
+            class="embed-options"
           >
-            {{ filter.value }} <span class="emphasis">{{ filter.description }}</span>
+            <span class="embed">
+              <span>{{ filter.value }}</span>
+              <span class="emphasis pl-3">{{ filter.description }}</span>
+            </span>
           </mat-checkbox>
         </li>
       </ul>
     </div>
 
-      <!-- <h3 mat-dialog-title>Tense</h3>
-      <ul>
-        <li *ngFor="let filter of formFilterOptions.tense">
-          <mat-checkbox
-            name="{{ filter.value }}"
-            [ngModel]="filter.isChecked"
-            (ngModelChange)="onFilterChange('tense', filter.value, $event)"
-          >
-            {{ filter.value }}
-          </mat-checkbox>
-        </li>
-      </ul> -->
     <div>
       <h3 mat-dialog-title>Other</h3>
       <ul>
