@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Renderer2 } from '@angular/core';
 
 import { SettingsService } from '../services/settings.service';
 import { VersionService } from '../services/version.service';
@@ -12,6 +12,7 @@ export class AppComponent implements OnInit {
   public isNightMode: boolean;
 
   constructor(
+    private renderer: Renderer2,
     private versionService: VersionService,
     private settingsService: SettingsService
   ) {
@@ -19,10 +20,13 @@ export class AppComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.getNightmode();
+    this.getNightMode();
   }
 
-  getNightmode() {
+  getNightMode() {
     this.isNightMode = this.settingsService.getNightMode();
+    if (this.isNightMode) {
+      this.renderer.addClass(document.body, 'night-mode');
+    }
   }
 }
