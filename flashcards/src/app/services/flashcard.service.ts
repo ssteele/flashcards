@@ -1,7 +1,5 @@
 import { Injectable } from '@angular/core';
 
-import { ConjugationService } from './conjugation.service';
-
 import { Conjugation } from '../models/conjugation';
 import { Filter } from '../models/filter';
 
@@ -14,9 +12,7 @@ import { CONJUGATIONS } from '../data/conjugations';
 export class FlashcardService {
   filterProperties: string[] = CONSTANTS.FILTERS;
 
-  constructor(
-    private conjugationService: ConjugationService,
-  ) { }
+  constructor() {}
 
   public get(maxCount: number, filters: Filter): Conjugation[] {
     let conjugations = CONJUGATIONS;
