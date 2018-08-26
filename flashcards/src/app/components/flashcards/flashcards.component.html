@@ -13,6 +13,7 @@
     <div class="translations">
       <div class="prompt uppercase-first-letter">
         {{ card.translation.english }}
+        <div class="cue">{{ card.cues.english }}</div>
       </div>
 
       <div class="answer uppercase-first-letter" [@answerState]="answerState">
