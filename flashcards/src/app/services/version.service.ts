@@ -6,7 +6,7 @@ import { StoreService } from '../services/store.service';
   providedIn: 'root'
 })
 export class VersionService {
-  private version: string = '1.0.5';
+  private version: string = '1.0.8';
   private resetFields: string[] = [
     'filters',
     'cards',
