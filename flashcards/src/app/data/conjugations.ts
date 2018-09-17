@@ -32,7 +32,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -55,7 +55,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -78,7 +78,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -101,7 +101,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -124,7 +124,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -147,7 +147,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -170,7 +170,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -193,7 +193,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -216,7 +216,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -239,7 +239,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -262,7 +262,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -308,7 +308,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -331,7 +331,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -354,7 +354,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -377,7 +377,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -400,7 +400,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -423,7 +423,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -446,7 +446,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -469,7 +469,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -492,7 +492,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -515,7 +515,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -538,7 +538,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -561,7 +561,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -584,7 +584,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -607,7 +607,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -630,7 +630,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -653,7 +653,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -676,7 +676,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -699,7 +699,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -722,7 +722,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -745,7 +745,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -768,7 +768,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -791,7 +791,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -814,7 +814,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -837,7 +837,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -860,7 +860,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -883,7 +883,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -906,7 +906,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -929,7 +929,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -952,7 +952,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -975,7 +975,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -998,7 +998,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -1021,7 +1021,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -1044,7 +1044,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -1067,7 +1067,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -1090,7 +1090,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -1113,7 +1113,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -1136,7 +1136,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -1159,7 +1159,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -1182,7 +1182,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -1205,7 +1205,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -1228,7 +1228,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -1274,7 +1274,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -1297,7 +1297,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -1320,7 +1320,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -1343,7 +1343,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -1366,7 +1366,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -1389,7 +1389,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -1412,7 +1412,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -1435,7 +1435,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -1458,7 +1458,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -1481,7 +1481,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -1504,7 +1504,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -1527,7 +1527,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -1550,7 +1550,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -1573,7 +1573,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -1596,7 +1596,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -1619,7 +1619,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -1642,7 +1642,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -1688,7 +1688,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -1711,7 +1711,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -1734,7 +1734,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -1757,7 +1757,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -1780,7 +1780,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -1803,7 +1803,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -1826,7 +1826,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -1849,7 +1849,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -1872,7 +1872,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -1895,7 +1895,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -1918,7 +1918,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -1941,7 +1941,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -1964,7 +1964,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -1987,7 +1987,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -2010,7 +2010,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -2033,7 +2033,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -2056,7 +2056,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -2079,7 +2079,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -2102,7 +2102,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -2125,7 +2125,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -2148,7 +2148,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -2171,7 +2171,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -2194,7 +2194,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "be"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -2493,7 +2493,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "have"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -2516,7 +2516,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "have"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -2539,7 +2539,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "have"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -2562,7 +2562,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "have"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -2585,7 +2585,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "have"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -2608,7 +2608,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "have"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -2631,7 +2631,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "have"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -2654,7 +2654,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "have"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -2677,7 +2677,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "have"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -2700,7 +2700,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "have"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -2723,7 +2723,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "have"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -2746,7 +2746,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "have"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -2769,7 +2769,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "have"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -2792,7 +2792,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "have"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -2815,7 +2815,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "have"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -2838,7 +2838,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "have"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -2861,7 +2861,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "have"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -2884,7 +2884,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "have"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -2907,7 +2907,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "have"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -2930,7 +2930,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "have"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -2953,7 +2953,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "have"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -2976,7 +2976,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "have"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -2999,7 +2999,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "have"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -3022,7 +3022,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "have"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -3045,7 +3045,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "have"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -3068,7 +3068,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "have"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -3091,7 +3091,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "have"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -3114,7 +3114,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "have"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -3137,7 +3137,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "have"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -3160,7 +3160,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "have"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -3183,7 +3183,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "have"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -3206,7 +3206,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "have"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -3229,7 +3229,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "have"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -3252,7 +3252,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "have"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -3275,7 +3275,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "have"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -3298,7 +3298,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "have"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -3321,7 +3321,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "have"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -3344,7 +3344,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "have"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -3367,7 +3367,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "have"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -3390,7 +3390,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "have"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -3413,7 +3413,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "have"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -3436,7 +3436,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "have"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -3735,7 +3735,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "do"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -3758,7 +3758,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "do"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -3781,7 +3781,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "do"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -3804,7 +3804,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "do"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -3827,7 +3827,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "do"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -3850,7 +3850,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "do"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -4977,7 +4977,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "go"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -5000,7 +5000,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "go"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -5023,7 +5023,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "go"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -5046,7 +5046,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "go"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -5069,7 +5069,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "go"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -5092,7 +5092,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "go"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -5529,7 +5529,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "go"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -5552,7 +5552,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "go"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -5575,7 +5575,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "go"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -5598,7 +5598,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "go"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -5621,7 +5621,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "go"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -5644,7 +5644,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "go"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -7461,7 +7461,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "call"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -8703,7 +8703,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "hope"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -9945,7 +9945,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "need"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -9968,7 +9968,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "need"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -9991,7 +9991,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "need"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -10014,7 +10014,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "need"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -10037,7 +10037,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "need"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -10060,7 +10060,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "need"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -11187,7 +11187,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "must"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -11210,7 +11210,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "must"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -11233,7 +11233,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "must"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -11256,7 +11256,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "must"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -11279,7 +11279,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "must"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -11302,7 +11302,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "must"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -12142,6 +12142,144 @@ export const CONJUGATIONS: Conjugation[] = [
       "spanish": "han debido", 
       "french": ".", 
       "english": "they have had to"
+    }, 
+    "subject": "they"
+  }, 
+  {
+    "level": "4", 
+    "infinitive": {
+      "spanish": "deber", 
+      "french": "devoir", 
+      "english": "must"
+    }, 
+    "tags": [
+      ""
+    ], 
+    "cue": {
+      "spanish": "", 
+      "french": "", 
+      "english": ""
+    }, 
+    "tense": "conditional (should)", 
+    "translation": {
+      "spanish": "debería deber", 
+      "french": ".", 
+      "english": "i should have to"
+    }, 
+    "subject": "i"
+  }, 
+  {
+    "level": "4", 
+    "infinitive": {
+      "spanish": "deber", 
+      "french": "devoir", 
+      "english": "must"
+    }, 
+    "tags": [
+      ""
+    ], 
+    "cue": {
+      "spanish": "", 
+      "french": "", 
+      "english": ""
+    }, 
+    "tense": "conditional (should)", 
+    "translation": {
+      "spanish": "deberías deber", 
+      "french": ".", 
+      "english": "you should have to"
+    }, 
+    "subject": "you"
+  }, 
+  {
+    "level": "4", 
+    "infinitive": {
+      "spanish": "deber", 
+      "french": "devoir", 
+      "english": "must"
+    }, 
+    "tags": [
+      ""
+    ], 
+    "cue": {
+      "spanish": "", 
+      "french": "", 
+      "english": ""
+    }, 
+    "tense": "conditional (should)", 
+    "translation": {
+      "spanish": "debería deber", 
+      "french": ".", 
+      "english": "he should have to"
+    }, 
+    "subject": "he"
+  }, 
+  {
+    "level": "4", 
+    "infinitive": {
+      "spanish": "deber", 
+      "french": "devoir", 
+      "english": "must"
+    }, 
+    "tags": [
+      ""
+    ], 
+    "cue": {
+      "spanish": "", 
+      "french": "", 
+      "english": ""
+    }, 
+    "tense": "conditional (should)", 
+    "translation": {
+      "spanish": "deberíamos deber", 
+      "french": ".", 
+      "english": "we should have to"
+    }, 
+    "subject": "we"
+  }, 
+  {
+    "level": "4", 
+    "infinitive": {
+      "spanish": "deber", 
+      "french": "devoir", 
+      "english": "must"
+    }, 
+    "tags": [
+      ""
+    ], 
+    "cue": {
+      "spanish": "", 
+      "french": "", 
+      "english": ""
+    }, 
+    "tense": "conditional (should)", 
+    "translation": {
+      "spanish": "deberíais deber", 
+      "french": ".", 
+      "english": "you all should have to"
+    }, 
+    "subject": "you all"
+  }, 
+  {
+    "level": "4", 
+    "infinitive": {
+      "spanish": "deber", 
+      "french": "devoir", 
+      "english": "must"
+    }, 
+    "tags": [
+      ""
+    ], 
+    "cue": {
+      "spanish": "", 
+      "french": "", 
+      "english": ""
+    }, 
+    "tense": "conditional (should)", 
+    "translation": {
+      "spanish": "deberían deber", 
+      "french": ".", 
+      "english": "they should have to"
     }, 
     "subject": "they"
   }, 
@@ -20985,7 +21123,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "can"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -21008,7 +21146,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "can"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -21031,7 +21169,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "can"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -21054,7 +21192,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "can"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -21077,7 +21215,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "can"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -21100,7 +21238,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "can"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -21272,7 +21410,7 @@ export const CONJUGATIONS: Conjugation[] = [
     "translation": {
       "spanish": "voy a poder", 
       "french": ".", 
-      "english": "i am going to can"
+      "english": "i am going to be able"
     }, 
     "subject": "i"
   }, 
@@ -21295,7 +21433,7 @@ export const CONJUGATIONS: Conjugation[] = [
     "translation": {
       "spanish": "vas a poder", 
       "french": ".", 
-      "english": "you are going to can"
+      "english": "you are going to be able"
     }, 
     "subject": "you"
   }, 
@@ -21318,7 +21456,7 @@ export const CONJUGATIONS: Conjugation[] = [
     "translation": {
       "spanish": "va a poder", 
       "french": ".", 
-      "english": "he is going to can"
+      "english": "he is going to be able"
     }, 
     "subject": "he"
   }, 
@@ -21341,7 +21479,7 @@ export const CONJUGATIONS: Conjugation[] = [
     "translation": {
       "spanish": "vamos a poder", 
       "french": ".", 
-      "english": "we are going to can"
+      "english": "we are going to be able"
     }, 
     "subject": "we"
   }, 
@@ -21364,7 +21502,7 @@ export const CONJUGATIONS: Conjugation[] = [
     "translation": {
       "spanish": "vais a poder", 
       "french": ".", 
-      "english": "you all are going to can"
+      "english": "you all are going to be able"
     }, 
     "subject": "you all"
   }, 
@@ -21387,7 +21525,7 @@ export const CONJUGATIONS: Conjugation[] = [
     "translation": {
       "spanish": "van a poder", 
       "french": ".", 
-      "english": "they are going to can"
+      "english": "they are going to be able"
     }, 
     "subject": "they"
   }, 
@@ -21548,7 +21686,7 @@ export const CONJUGATIONS: Conjugation[] = [
     "translation": {
       "spanish": "pude", 
       "french": ".", 
-      "english": "i could"
+      "english": "i was able"
     }, 
     "subject": "i"
   }, 
@@ -21571,7 +21709,7 @@ export const CONJUGATIONS: Conjugation[] = [
     "translation": {
       "spanish": "pudiste", 
       "french": ".", 
-      "english": "you could"
+      "english": "you were able"
     }, 
     "subject": "you"
   }, 
@@ -21594,7 +21732,7 @@ export const CONJUGATIONS: Conjugation[] = [
     "translation": {
       "spanish": "pudo", 
       "french": ".", 
-      "english": "he could"
+      "english": "he was able"
     }, 
     "subject": "he"
   }, 
@@ -21617,7 +21755,7 @@ export const CONJUGATIONS: Conjugation[] = [
     "translation": {
       "spanish": "pudimos", 
       "french": ".", 
-      "english": "we could"
+      "english": "we were able"
     }, 
     "subject": "we"
   }, 
@@ -21640,7 +21778,7 @@ export const CONJUGATIONS: Conjugation[] = [
     "translation": {
       "spanish": "pudisteis", 
       "french": ".", 
-      "english": "you all could"
+      "english": "you all were able"
     }, 
     "subject": "you all"
   }, 
@@ -21663,7 +21801,7 @@ export const CONJUGATIONS: Conjugation[] = [
     "translation": {
       "spanish": "pudieron", 
       "french": ".", 
-      "english": "they could"
+      "english": "they were able"
     }, 
     "subject": "they"
   }, 
@@ -22084,12 +22222,150 @@ export const CONJUGATIONS: Conjugation[] = [
   {
     "level": "6", 
     "infinitive": {
+      "spanish": "poder", 
+      "french": "pouvoir", 
+      "english": "can"
+    }, 
+    "tags": [
+      ""
+    ], 
+    "cue": {
+      "spanish": "", 
+      "french": "", 
+      "english": ""
+    }, 
+    "tense": "conditional (could)", 
+    "translation": {
+      "spanish": "podría poder", 
+      "french": ".", 
+      "english": "i could be able"
+    }, 
+    "subject": "i"
+  }, 
+  {
+    "level": "6", 
+    "infinitive": {
+      "spanish": "poder", 
+      "french": "pouvoir", 
+      "english": "can"
+    }, 
+    "tags": [
+      ""
+    ], 
+    "cue": {
+      "spanish": "", 
+      "french": "", 
+      "english": ""
+    }, 
+    "tense": "conditional (could)", 
+    "translation": {
+      "spanish": "podrías poder", 
+      "french": ".", 
+      "english": "you could be able"
+    }, 
+    "subject": "you"
+  }, 
+  {
+    "level": "6", 
+    "infinitive": {
+      "spanish": "poder", 
+      "french": "pouvoir", 
+      "english": "can"
+    }, 
+    "tags": [
+      ""
+    ], 
+    "cue": {
+      "spanish": "", 
+      "french": "", 
+      "english": ""
+    }, 
+    "tense": "conditional (could)", 
+    "translation": {
+      "spanish": "podría poder", 
+      "french": ".", 
+      "english": "he could be able"
+    }, 
+    "subject": "he"
+  }, 
+  {
+    "level": "6", 
+    "infinitive": {
+      "spanish": "poder", 
+      "french": "pouvoir", 
+      "english": "can"
+    }, 
+    "tags": [
+      ""
+    ], 
+    "cue": {
+      "spanish": "", 
+      "french": "", 
+      "english": ""
+    }, 
+    "tense": "conditional (could)", 
+    "translation": {
+      "spanish": "podríamos poder", 
+      "french": ".", 
+      "english": "we could be able"
+    }, 
+    "subject": "we"
+  }, 
+  {
+    "level": "6", 
+    "infinitive": {
+      "spanish": "poder", 
+      "french": "pouvoir", 
+      "english": "can"
+    }, 
+    "tags": [
+      ""
+    ], 
+    "cue": {
+      "spanish": "", 
+      "french": "", 
+      "english": ""
+    }, 
+    "tense": "conditional (could)", 
+    "translation": {
+      "spanish": "podríais poder", 
+      "french": ".", 
+      "english": "you all could be able"
+    }, 
+    "subject": "you all"
+  }, 
+  {
+    "level": "6", 
+    "infinitive": {
+      "spanish": "poder", 
+      "french": "pouvoir", 
+      "english": "can"
+    }, 
+    "tags": [
+      ""
+    ], 
+    "cue": {
+      "spanish": "", 
+      "french": "", 
+      "english": ""
+    }, 
+    "tense": "conditional (could)", 
+    "translation": {
+      "spanish": "podrían poder", 
+      "french": ".", 
+      "english": "they could be able"
+    }, 
+    "subject": "they"
+  }, 
+  {
+    "level": "6", 
+    "infinitive": {
       "spanish": "creer", 
       "french": ".", 
       "english": "believe"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -22112,7 +22388,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "believe"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -22135,7 +22411,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "believe"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -22158,7 +22434,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "believe"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -22181,7 +22457,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "believe"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -22204,7 +22480,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "believe"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -30783,7 +31059,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "put"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -30806,7 +31082,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "put"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -30829,7 +31105,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "put"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -30852,7 +31128,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "put"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -30875,7 +31151,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "put"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -30898,7 +31174,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "put"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -32025,7 +32301,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "carry"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -32048,7 +32324,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "carry"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -32071,7 +32347,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "carry"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -32094,7 +32370,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "carry"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -32117,7 +32393,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "carry"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -32140,7 +32416,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "carry"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -33267,7 +33543,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "take"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -33290,7 +33566,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "take"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -33313,7 +33589,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "take"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -33336,7 +33612,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "take"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -33359,7 +33635,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "take"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -33382,7 +33658,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "take"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -34509,7 +34785,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "bring"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -34532,7 +34808,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "bring"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -34555,7 +34831,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "bring"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -34578,7 +34854,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "bring"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -34601,7 +34877,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "bring"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -34624,7 +34900,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "bring"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -35751,7 +36027,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "find"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -35774,7 +36050,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "find"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -35797,7 +36073,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "find"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -35820,7 +36096,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "find"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -35843,7 +36119,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "find"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -35866,7 +36142,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "find"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -36993,7 +37269,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "search for"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -37016,7 +37292,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "search for"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -37039,7 +37315,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "search for"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -37062,7 +37338,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "search for"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -37085,7 +37361,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "search for"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -37108,7 +37384,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "search for"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -40719,7 +40995,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "say"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -40742,7 +41018,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "say"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -40765,7 +41041,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "say"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -40788,7 +41064,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "say"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -40811,7 +41087,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "say"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -40834,7 +41110,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "say"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -41271,7 +41547,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "say"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -41294,7 +41570,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "say"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -41317,7 +41593,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "say"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -41340,7 +41616,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "say"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -41363,7 +41639,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "say"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -41386,7 +41662,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "say"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -41961,7 +42237,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "speak"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -41984,7 +42260,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "speak"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -42007,7 +42283,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "speak"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -42030,7 +42306,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "speak"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -42053,7 +42329,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "speak"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -42076,7 +42352,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "speak"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -48171,7 +48447,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "understand"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -48194,7 +48470,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "understand"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -48217,7 +48493,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "understand"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -48240,7 +48516,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "understand"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -48263,7 +48539,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "understand"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -48286,7 +48562,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "understand"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -50655,7 +50931,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "know"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -50678,7 +50954,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "know"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -50701,7 +50977,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "know"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -50724,7 +51000,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "know"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -50747,7 +51023,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "know"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -50770,7 +51046,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "know"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -51897,7 +52173,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "know"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -51920,7 +52196,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "know"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -51943,7 +52219,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "know"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -51966,7 +52242,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "know"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -51989,7 +52265,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "know"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -52012,7 +52288,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "know"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -53139,7 +53415,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "want"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -53162,7 +53438,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "want"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -53185,7 +53461,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "want"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -53208,7 +53484,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "want"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -53231,7 +53507,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "want"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -53254,7 +53530,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "want"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -60591,7 +60867,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "see"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -60614,7 +60890,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "see"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -60637,7 +60913,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "see"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -60660,7 +60936,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "see"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -60683,7 +60959,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "see"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -60706,7 +60982,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "see"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -61833,7 +62109,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "watch"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -61856,7 +62132,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "watch"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -61879,7 +62155,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "watch"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -61902,7 +62178,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "watch"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -61925,7 +62201,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "watch"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -61948,7 +62224,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "watch"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -64317,7 +64593,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "listen"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -64340,7 +64616,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "listen"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -64363,7 +64639,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "listen"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -64386,7 +64662,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "listen"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -64409,7 +64685,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "listen"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -64432,7 +64708,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "listen"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -70527,7 +70803,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "remember"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -70550,7 +70826,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "remember"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -70573,7 +70849,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "remember"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -70596,7 +70872,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "remember"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -70619,7 +70895,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "remember"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -70642,7 +70918,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "remember"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -71769,7 +72045,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "forget"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -71792,7 +72068,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "forget"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -71815,7 +72091,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "forget"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -71838,7 +72114,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "forget"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -71861,7 +72137,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "forget"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -71884,7 +72160,7 @@ export const CONJUGATIONS: Conjugation[] = [
       "english": "forget"
     }, 
     "tags": [
-      ""
+      "common"
     ], 
     "cue": {
       "spanish": "", 
@@ -79492,7 +79768,7 @@ export const CONJUGATIONS: Conjugation[] = [
   {
     "level": "17", 
     "infinitive": {
-      "spanish": "estimar", 
+      "spanish": "estudiar", 
       "french": ".", 
       "english": "study"
     }, 
@@ -79506,7 +79782,7 @@ export const CONJUGATIONS: Conjugation[] = [
     }, 
     "tense": "informal future", 
     "translation": {
-      "spanish": "voy a estimar", 
+      "spanish": "voy a estudiar", 
       "french": ".", 
       "english": "i am going to study"
     }, 
@@ -79515,7 +79791,7 @@ export const CONJUGATIONS: Conjugation[] = [
   {
     "level": "17", 
     "infinitive": {
-      "spanish": "estimar", 
+      "spanish": "estudiar", 
       "french": ".", 
       "english": "study"
     }, 
@@ -79529,7 +79805,7 @@ export const CONJUGATIONS: Conjugation[] = [
     }, 
     "tense": "informal future", 
     "translation": {
-      "spanish": "vas a estimar", 
+      "spanish": "vas a estudiar", 
       "french": ".", 
       "english": "you are going to study"
     }, 
@@ -79538,7 +79814,7 @@ export const CONJUGATIONS: Conjugation[] = [
   {
     "level": "17", 
     "infinitive": {
-      "spanish": "estimar", 
+      "spanish": "estudiar", 
       "french": ".", 
       "english": "study"
     }, 
@@ -79552,7 +79828,7 @@ export const CONJUGATIONS: Conjugation[] = [
     }, 
     "tense": "informal future", 
     "translation": {
-      "spanish": "va a estimar", 
+      "spanish": "va a estudiar", 
       "french": ".", 
       "english": "he is going to study"
     }, 
@@ -79561,7 +79837,7 @@ export const CONJUGATIONS: Conjugation[] = [
   {
     "level": "17", 
     "infinitive": {
-      "spanish": "estimar", 
+      "spanish": "estudiar", 
       "french": ".", 
       "english": "study"
     }, 
@@ -79575,7 +79851,7 @@ export const CONJUGATIONS: Conjugation[] = [
     }, 
     "tense": "informal future", 
     "translation": {
-      "spanish": "vamos a estimar", 
+      "spanish": "vamos a estudiar", 
       "french": ".", 
       "english": "we are going to study"
     }, 
@@ -79584,7 +79860,7 @@ export const CONJUGATIONS: Conjugation[] = [
   {
     "level": "17", 
     "infinitive": {
-      "spanish": "estimar", 
+      "spanish": "estudiar", 
       "french": ".", 
       "english": "study"
     }, 
@@ -79598,7 +79874,7 @@ export const CONJUGATIONS: Conjugation[] = [
     }, 
     "tense": "informal future", 
     "translation": {
-      "spanish": "vais a estimar", 
+      "spanish": "vais a estudiar", 
       "french": ".", 
       "english": "you all are going to study"
     }, 
@@ -79607,7 +79883,7 @@ export const CONJUGATIONS: Conjugation[] = [
   {
     "level": "17", 
     "infinitive": {
-      "spanish": "estimar", 
+      "spanish": "estudiar", 
       "french": ".", 
       "english": "study"
     }, 
@@ -79621,7 +79897,7 @@ export const CONJUGATIONS: Conjugation[] = [
     }, 
     "tense": "informal future", 
     "translation": {
-      "spanish": "van a estimar", 
+      "spanish": "van a estudiar", 
       "french": ".", 
       "english": "they are going to study"
     }, 
@@ -110263,4 +110539,5 @@ export const CONJUGATIONS: Conjugation[] = [
     }, 
     "subject": "they"
   }
+
 ];
