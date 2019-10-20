@@ -1,5 +1,3 @@
-.flashcard {}
-
 .icons > div {
   position: absolute;
 }
@@ -20,11 +18,15 @@
 
 .content {
   color: #666;
+  display: flex;
+  flex-direction: column;
   font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
-  margin-top: 40%;
+  justify-content: center;
+  min-height: 100vh;
 
   .translations {
     font-size: 3rem;
+    height: 8rem;
     text-align: center;
     width: 100%;
   }
